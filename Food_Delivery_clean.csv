@@ -1,0 +1,999 @@
+Order_ID,Customer_ID,Restaurant_ID,Restaurant_Name,Cuisine_Type,Food_Item,Order_Date,Order_Time,City,Delivery_Area,Quantity,Unit_Price,Discount_Percent,Delivery_Fee_INR,Tax_INR,Order_Total,Payment_Method,Order_Status,Delivery_Status,Delivery_Time,Delivery_Partner_ID,Customer_Rating,Order_Channel,Repeat_Customer,Customer_Complaint
+1,303,2,Burger Barn,Fast Food,Combo Meal,13-01-2026,9:23:00 AM,Pune,Baner,1,149,20,0,7,127,Upi,Delivered,On Time,72,2,4,Phone,Yes,Missing item
+2,358,4,Pizza Point,Italian,Garlic Bread,10-07-2026,2:19:00 PM,Nashik,Viman Nagar,1,399,5,50,20,449,Credit Card,On The Way,On Time,63,7,5,Website,Yes,None
+3,194,7,Dosa Corner,South Indian,Masala Dosa,19-02-2026,12:15:00 PM,Thane,Viman Nagar,3,399,5,50,60,1247,Wallet,Delivered,Late,44,5,5,Mobile App,Yes,None
+4,190,4,Pizza Point,Italian,Farmhouse Pizza,29-05-2026,2:43:00 AM,Mumbai,Viman Nagar,3,129,10,25,19,393,Upi,Delivered,Failed,68,6,4,Mobile App,Yes,Late delivery
+5,398,8,Sweet Treats,Desserts,Chocolate Cake,14-07-2026,9:12:00 AM,Mumbai,Baner,5,499,20,35,125,2156,Debit Card,Delivered,Late,35,3,5,Mobile App,Yes,Missing item
+6,276,6,Taco Town,Mexican,Chicken Wrap,19-04-2026,10:22:00 PM,Aurangabad,Kharadi,1,499,10,20,25,494,Wallet,Delivered,Late,30,3,5,Mobile App,Yes,Missing item
+7,198,8,Sweet Treats,Desserts,Cheesecake,16-02-2026,1:36:00 AM,Pune,College Road,3,149,20,20,22,400,Wallet,Cancelled,Late,42,5,4,Mobile App,Yes,Missing item
+8,257,5,Dragon Wok,Chinese,Manchurian,24-06-2026,3:48:00 AM,Thane,Hinjewadi,2,149,10,0,7,142,Debit Card,Refunded,Failed,71,5,2,Phone,Yes,Late delivery
+9,186,6,Taco Town,Mexican,Chicken Wrap,24-03-2026,6:24:00 PM,Mumbai,Baner,4,349,0,35,70,1501,Credit Card,Delivered,Failed,16,1,2,Mobile App,No,None
+10,109,9,Roll Express,Street Food,Chicken Roll,03-06-2026,4:22:00 AM,Aurangabad,Viman Nagar,2,349,0,25,35,758,Cash,Delivered,Failed,53,6,4,Website,No,Missing item
+11,37,8,Sweet Treats,Desserts,Chocolate Cake,03-03-2026,8:27:00 AM,Mumbai,Hinjewadi,1,229,0,35,11,275,Upi,Delivered,Late,52,1,3,Phone,Yes,Wrong item
+12,98,8,Sweet Treats,Desserts,Chocolate Cake,20-04-2026,6:24:00 PM,Pune,Thane West,1,399,15,30,20,389,Debit Card,Delivered,Late,45,4,5,Website,Yes,None
+13,94,1,Spice Hub,Indian,Chicken Biryani,26-07-2026,11:34:00 AM,Nagpur,Wakad,3,129,0,20,19,426,Upi,Delivered,Late,43,7,3,Phone,Yes,None
+14,31,9,Roll Express,Street Food,Chicken Roll,01-08-2026,3:11:00 AM,Nagpur,Baner,4,179,0,30,36,782,Cash,Delivered,Late,28,7,5,Website,No,Cold food
+15,30,9,Roll Express,Street Food,Paneer Roll,09-07-2026,5:17:00 AM,Thane,College Road,1,179,0,35,9,223,Wallet,Cancelled,Failed,18,2,5,Mobile App,Yes,Late delivery
+16,42,2,Burger Barn,Fast Food,Combo Meal,02-04-2026,11:02:00 PM,Aurangabad,Dharampeth,3,249,0,35,37,819,Debit Card,Delivered,Late,53,2,1,Phone,No,Late delivery
+17,235,5,Dragon Wok,Chinese,Hakka Noodles,22-07-2026,4:28:00 AM,Pune,Dharampeth,2,199,10,25,20,403,Credit Card,On The Way,Failed,74,3,2,Mobile App,No,None
+18,5,4,Pizza Point,Italian,Farmhouse Pizza,07-09-2026,9:43:00 AM,Aurangabad,Hinjewadi,1,349,20,25,17,322,Credit Card,Delivered,Late,66,1,5,Mobile App,Yes,Wrong item
+19,27,5,Dragon Wok,Chinese,Hakka Noodles,18-04-2026,11:42:00 AM,Aurangabad,Thane West,1,499,25,25,25,424,Debit Card,Delivered,On Time,31,1,5,Website,Yes,Wrong item
+20,77,3,Green Bowl,Healthy,Quinoa Bowl,15-08-2026,6:49:00 PM,Nashik,Dharampeth,2,349,0,0,35,733,Credit Card,Delivered,Late,71,2,5,Mobile App,Yes,Wrong item
+21,318,1,Spice Hub,Indian,Veg Thali,07-03-2026,7:10:00 AM,Mumbai,Kothrud,2,499,0,25,50,1073,Credit Card,Cancelled,Late,71,1,5,Mobile App,No,Cold food
+22,236,4,Pizza Point,Italian,Farmhouse Pizza,17-05-2026,5:26:00 AM,Nashik,Wakad,3,129,10,50,19,418,Credit Card,Delivered,On Time,45,6,3,Mobile App,No,Wrong item
+23,15,5,Dragon Wok,Chinese,Hakka Noodles,12-04-2026,9:31:00 AM,Nashik,Kothrud,1,349,10,40,17,372,Wallet,Refunded,Late,49,1,4,Mobile App,No,Wrong item
+24,1,6,Taco Town,Mexican,Burrito Bowl,12-08-2026,8:41:00 PM,Nashik,Thane West,5,129,10,35,32,648,Upi,Delivered,Failed,17,3,5,Phone,No,None
+25,341,5,Dragon Wok,Chinese,Spring Rolls,17-09-2026,10:33:00 AM,Aurangabad,Kothrud,2,229,10,40,23,475,Wallet,Delivered,Failed,23,3,3,Website,Yes,Wrong item
+26,262,5,Dragon Wok,Chinese,Spring Rolls,18-04-2026,2:40:00 PM,Aurangabad,Kothrud,3,399,20,25,60,1042,Upi,Delivered,Late,43,5,5,Phone,No,None
+27,394,4,Pizza Point,Italian,Margherita Pizza,06-08-2026,7:40:00 AM,Pune,Thane West,3,149,0,0,22,469,Wallet,Delivered,On Time,45,6,5,Phone,No,Cold food
+28,113,7,Dosa Corner,South Indian,Idli Sambar,05-05-2026,5:02:00 AM,Aurangabad,Dharampeth,2,99,25,50,10,208,Cash,Cancelled,On Time,21,5,5,Mobile App,Yes,Cold food
+29,369,3,Green Bowl,Healthy,Smoothie Bowl,26-08-2026,10:47:00 PM,Thane,College Road,2,349,15,25,35,653,Credit Card,Refunded,Failed,72,7,4,Website,No,Wrong item
+30,172,4,Pizza Point,Italian,Farmhouse Pizza,22-05-2026,5:47:00 PM,Thane,Hinjewadi,1,179,5,30,9,209,Credit Card,Delivered,On Time,33,2,3,Website,Yes,Late delivery
+31,395,2,Burger Barn,Fast Food,Classic Burger,08-01-2026,1:54:00 PM,Thane,Thane West,1,299,10,0,15,284,Cash,Delivered,Late,41,3,4,Website,No,Cold food
+32,343,9,Roll Express,Street Food,Schezwan Roll,10-07-2026,8:35:00 PM,Aurangabad,Kothrud,3,299,0,25,45,967,Cash,Delivered,On Time,16,5,4,Phone,Yes,Cold food
+33,109,10,Cafe Aroma,Cafe,Pasta,14-01-2026,2:51:00 AM,Nashik,Andheri,2,149,25,30,15,268,Cash,Delivered,Late,31,7,4,Website,Yes,None
+34,16,8,Sweet Treats,Desserts,Brownie,01-10-2026,6:24:00 PM,Mumbai,Baner,1,229,0,40,11,280,Wallet,Delivered,On Time,56,2,2,Mobile App,No,None
+35,399,10,Cafe Aroma,Cafe,Cold Coffee,22-04-2026,3:52:00 PM,Nashik,Hinjewadi,2,229,0,35,23,516,Cash,Delivered,On Time,62,3,5,Phone,No,Cold food
+36,308,4,Pizza Point,Italian,Margherita Pizza,02-08-2026,8:12:00 PM,Thane,Baner,2,499,0,0,50,1048,Debit Card,Delivered,Failed,34,4,5,Phone,No,None
+37,236,9,Roll Express,Street Food,Chicken Roll,24-06-2026,12:25:00 AM,Nagpur,Kothrud,3,299,0,30,45,972,Wallet,Refunded,Failed,55,3,5,Phone,No,Cold food
+38,343,7,Dosa Corner,South Indian,Vada,18-05-2026,11:00:00 AM,Nashik,Baner,3,129,5,30,19,417,Cash,Delivered,Late,44,2,4,Website,Yes,Wrong item
+39,369,5,Dragon Wok,Chinese,Spring Rolls,24-06-2026,9:32:00 AM,Nagpur,Dharampeth,3,199,15,0,30,537,Credit Card,Delivered,Failed,27,4,2,Phone,No,Cold food
+40,177,1,Spice Hub,Indian,Butter Chicken,17-02-2026,10:02:00 AM,Aurangabad,Dharampeth,1,179,5,40,9,219,Debit Card,Delivered,Late,45,6,4,Website,No,Wrong item
+41,99,5,Dragon Wok,Chinese,Manchurian,29-04-2026,4:07:00 AM,Pune,College Road,2,229,0,40,23,521,Debit Card,Delivered,Failed,63,5,5,Phone,No,None
+42,28,4,Pizza Point,Italian,Farmhouse Pizza,06-01-2026,7:45:00 AM,Aurangabad,Kothrud,1,199,0,40,10,249,Cash,Delivered,On Time,32,7,2,Mobile App,No,Cold food
+43,252,8,Sweet Treats,Desserts,Chocolate Cake,14-08-2026,11:37:00 AM,Thane,Baner,1,99,5,50,5,149,Credit Card,Delivered,On Time,67,7,2,Phone,No,None
+44,231,4,Pizza Point,Italian,Garlic Bread,03-02-2026,7:02:00 PM,Pune,Thane West,2,399,15,50,40,768,Debit Card,Delivered,Failed,64,5,4,Mobile App,Yes,Late delivery
+45,353,4,Pizza Point,Italian,Garlic Bread,16-05-2026,10:32:00 PM,Nashik,Baner,1,179,0,35,9,223,Credit Card,Delivered,Late,15,6,4,Website,No,None
+46,137,4,Pizza Point,Italian,Pasta Alfredo,16-05-2026,9:20:00 PM,Pune,Baner,2,179,10,0,18,340,Credit Card,Delivered,Late,56,5,0,Phone,No,Cold food
+47,21,2,Burger Barn,Fast Food,Combo Meal,28-08-2026,11:30:00 PM,Aurangabad,Andheri,1,249,5,35,12,284,Wallet,Delivered,Late,43,1,2,Mobile App,Yes,Missing item
+48,227,10,Cafe Aroma,Cafe,Sandwich,01-11-2026,10:56:00 PM,Mumbai,Thane West,3,399,0,50,60,1307,Cash,Cancelled,On Time,45,4,4,Website,No,Wrong item
+49,19,6,Taco Town,Mexican,Nachos,23-02-2026,5:29:00 AM,Pune,Andheri,1,299,5,40,15,339,Debit Card,On The Way,Late,67,1,5,Website,Yes,Missing item
+50,105,8,Sweet Treats,Desserts,Ice Cream,31-07-2026,1:51:00 AM,Thane,Kothrud,1,229,15,50,11,256,Debit Card,Delivered,Late,43,6,5,Website,Yes,None
+51,237,10,Cafe Aroma,Cafe,Cappuccino,05-03-2026,5:24:00 AM,Aurangabad,Kothrud,1,99,15,30,5,119,Cash,Delivered,Failed,68,3,5,Phone,No,Cold food
+52,70,8,Sweet Treats,Desserts,Chocolate Cake,30-08-2026,8:19:00 AM,Nashik,Thane West,1,149,10,20,7,162,Debit Card,On The Way,Failed,47,3,5,Mobile App,No,Wrong item
+53,165,10,Cafe Aroma,Cafe,Cold Coffee,09-08-2026,5:04:00 AM,Aurangabad,Wakad,1,299,5,25,15,324,Wallet,Delivered,Late,49,2,4,Website,Yes,Wrong item
+54,303,8,Sweet Treats,Desserts,Ice Cream,15-07-2026,1:10:00 PM,Pune,College Road,5,499,0,30,125,2650,Upi,Refunded,Failed,23,4,4,Mobile App,Yes,Cold food
+55,169,3,Green Bowl,Healthy,Smoothie Bowl,02-08-2026,4:01:00 PM,Nashik,College Road,3,199,5,35,30,632,Wallet,Delivered,On Time,56,5,2,Mobile App,Yes,Wrong item
+56,15,4,Pizza Point,Italian,Margherita Pizza,16-02-2026,2:48:00 PM,Nashik,Baner,4,499,20,50,100,100,Debit Card,Delivered,Late,25,3,5,Website,Yes,Late delivery
+57,350,9,Roll Express,Street Food,Chicken Roll,30-07-2026,7:19:00 PM,Nagpur,Kothrud,2,149,0,20,15,333,Credit Card,Delivered,Late,70,6,4,Website,No,Wrong item
+58,218,1,Spice Hub,Indian,Chicken Biryani,27-08-2026,9:49:00 AM,Nagpur,Viman Nagar,2,149,0,30,15,343,Credit Card,On The Way,Late,52,7,4,Website,Yes,Late delivery
+59,352,7,Dosa Corner,South Indian,Masala Dosa,07-03-2026,7:37:00 PM,Thane,College Road,1,199,0,50,10,259,Debit Card,Delivered,On Time,32,5,1,Website,No,Late delivery
+60,190,10,Cafe Aroma,Cafe,Cappuccino,05-09-2026,11:08:00 PM,Nashik,College Road,2,499,20,50,50,898,Upi,Delivered,Failed,21,3,5,Phone,Yes,None
+61,140,5,Dragon Wok,Chinese,Manchurian,17-06-2026,2:10:00 PM,Nashik,College Road,1,149,25,35,7,154,Debit Card,On The Way,Failed,38,7,5,Website,Yes,Cold food
+62,203,2,Burger Barn,Fast Food,Classic Burger,14-03-2026,7:42:00 AM,Nashik,Dharampeth,3,499,10,50,75,1472,Upi,Preparing,Late,38,3,2,Phone,No,Missing item
+63,313,7,Dosa Corner,South Indian,Idli Sambar,07-10-2026,3:41:00 AM,Aurangabad,Hinjewadi,2,299,10,35,30,663,Cash,On The Way,Failed,50,3,4,Phone,No,None
+64,233,3,Green Bowl,Healthy,Protein Bowl,24-01-2026,1:16:00 AM,Aurangabad,Dharampeth,1,299,0,0,15,314,Cash,Delivered,Failed,49,6,3,Phone,Yes,Cold food
+65,121,2,Burger Barn,Fast Food,Chicken Burger,09-08-2026,9:00:00 PM,Pune,Andheri,1,199,0,40,10,249,Wallet,Delivered,Failed,43,3,2,Mobile App,No,Wrong item
+66,171,4,Pizza Point,Italian,Pasta Alfredo,03-04-2026,3:31:00 PM,Mumbai,Wakad,1,179,20,40,9,192,Upi,Delivered,Failed,16,2,2,Phone,Yes,Late delivery
+67,14,6,Taco Town,Mexican,Burrito Bowl,17-03-2026,8:20:00 PM,Pune,Andheri,1,99,0,35,7,191,Credit Card,Delivered,Failed,26,3,3,Mobile App,Yes,Wrong item
+68,232,1,Spice Hub,Indian,Veg Thali,03-06-2026,2:22:00 PM,Thane,Baner,2,129,10,30,13,275,Wallet,Cancelled,Late,47,4,4,Phone,Yes,None
+69,76,8,Sweet Treats,Desserts,Chocolate Cake,25-07-2026,2:33:00 PM,Mumbai,Viman Nagar,2,299,20,30,30,538,Wallet,Delivered,Failed,20,5,4,Phone,No,Cold food
+70,334,10,Cafe Aroma,Cafe,Cold Coffee,29-09-2026,10:03:00 AM,Nagpur,College Road,1,399,10,0,20,379,Credit Card,Cancelled,Late,22,3,5,Website,No,Cold food
+71,44,2,Burger Barn,Fast Food,Classic Burger,06-10-2026,2:34:00 PM,Nagpur,Kharadi,1,199,5,20,10,219,Debit Card,Delivered,On Time,45,5,2,Mobile App,No,None
+72,181,7,Dosa Corner,South Indian,Masala Dosa,07-01-2026,10:42:00 PM,Thane,Dharampeth,4,249,25,40,50,837,Credit Card,Delivered,On Time,33,9,5,Website,Yes,None
+73,319,6,Taco Town,Mexican,Veg Tacos,07-08-2026,3:55:00 AM,Thane,Viman Nagar,2,399,0,50,40,888,Upi,Delivered,On Time,50,3,5,Phone,No,Wrong item
+74,16,6,Taco Town,Mexican,Veg Tacos,01-04-2026,6:11:00 AM,Aurangabad,Dharampeth,3,399,20,30,60,1047,Credit Card,Delivered,Late,62,4,5,Website,No,Late delivery
+75,317,6,Taco Town,Mexican,Veg Tacos,06-09-2026,11:04:00 AM,Pune,Hinjewadi,2,399,15,0,40,718,Debit Card,On The Way,Late,24,6,3,Website,No,Missing item
+76,304,8,Sweet Treats,Desserts,Cheesecake,08-01-2026,9:19:00 AM,Thane,Viman Nagar,1,349,0,25,17,391,Upi,Delivered,On Time,33,4,5,Phone,Yes,None
+77,90,4,Pizza Point,Italian,Pasta Alfredo,06-04-2026,7:12:00 AM,Nagpur,Dharampeth,2,199,5,25,20,423,Credit Card,Delivered,Failed,46,5,5,Phone,No,None
+78,328,7,Dosa Corner,South Indian,Vada,22-01-2026,2:53:00 PM,Nashik,Hinjewadi,1,129,25,25,6,128,Cash,Delivered,On Time,51,3,4,Mobile App,No,Wrong item
+79,174,2,Burger Barn,Fast Food,French Fries,08-12-2026,3:36:00 AM,Nashik,Kothrud,1,399,10,35,20,414,Upi,Delivered,Failed,70,6,4,Mobile App,Yes,Wrong item
+80,39,6,Taco Town,Mexican,Burrito Bowl,17-03-2026,8:03:00 AM,Aurangabad,College Road,1,199,0,20,10,229,Cash,Delivered,Failed,63,7,5,Phone,No,Missing item
+81,303,10,Cafe Aroma,Cafe,Cappuccino,15-06-2026,9:24:00 PM,Nashik,Dharampeth,1,299,0,30,15,344,Upi,Delivered,Late,34,4,5,Website,Yes,None
+82,379,6,Taco Town,Mexican,Veg Tacos,27-05-2026,2:37:00 AM,Nagpur,Wakad,2,129,15,35,13,267,Debit Card,Delivered,Failed,44,4,4,Phone,Yes,None
+83,225,8,Sweet Treats,Desserts,Brownie,22-02-2026,11:43:00 AM,Nashik,Andheri,5,129,15,40,32,620,Debit Card,Delivered,Late,30,4,5,Website,Yes,Wrong item
+84,309,2,Burger Barn,Fast Food,French Fries,18-06-2026,3:13:00 AM,Nashik,Hinjewadi,2,249,5,25,25,523,Wallet,Cancelled,Failed,57,2,5,Website,No,Cold food
+85,379,3,Green Bowl,Healthy,Quinoa Bowl,10-06-2026,10:34:00 AM,Aurangabad,Thane West,2,499,25,25,50,823,Wallet,Preparing,Late,57,1,5,Website,No,Late delivery
+86,395,4,Pizza Point,Italian,Margherita Pizza,24-06-2026,4:35:00 PM,Aurangabad,Andheri,1,149,0,0,7,156,Wallet,Delivered,On Time,65,5,3,Website,Yes,Late delivery
+87,386,3,Green Bowl,Healthy,Smoothie Bowl,26-03-2026,2:56:00 PM,Mumbai,Dharampeth,1,229,20,40,11,235,Credit Card,Delivered,Late,43,7,5,Website,Yes,Wrong item
+88,310,10,Cafe Aroma,Cafe,Cold Coffee,14-08-2026,3:45:00 PM,Nashik,Baner,2,249,15,35,25,483,Cash,Delivered,Late,25,5,5,Mobile App,Yes,Wrong item
+89,231,2,Burger Barn,Fast Food,Chicken Burger,24-03-2026,9:18:00 AM,Pune,Thane West,1,349,0,50,17,416,Upi,Delivered,Late,75,5,5,Website,Yes,Cold food
+90,20,2,Burger Barn,Fast Food,Chicken Burger,07-11-2026,7:39:00 AM,Nagpur,Kothrud,1,129,25,40,6,143,Cash,Delivered,Late,65,5,3,Mobile App,Yes,None
+91,63,5,Dragon Wok,Chinese,Hakka Noodles,21-04-2026,5:06:00 AM,Mumbai,Thane West,2,399,15,30,40,748,Wallet,Delivered,Late,33,1,3,Mobile App,No,Missing item
+92,124,9,Roll Express,Street Food,Schezwan Roll,01-09-2026,9:34:00 PM,Mumbai,Hinjewadi,2,179,20,20,18,324,Wallet,Delivered,Late,15,1,5,Phone,Yes,Cold food
+93,124,8,Sweet Treats,Desserts,Chocolate Cake,10-10-2026,9:41:00 PM,Thane,Andheri,1,229,5,40,11,269,Credit Card,Delivered,On Time,180,3,2,Phone,No,Late delivery
+94,104,8,Sweet Treats,Desserts,Chocolate Cake,09-03-2026,9:33:00 PM,Mumbai,Baner,1,149,0,40,7,196,Debit Card,Cancelled,Late,44,5,1,Website,No,Wrong item
+95,224,1,Spice Hub,Indian,Butter Chicken,04-08-2026,9:45:00 AM,Aurangabad,College Road,1,99,25,40,5,119,Cash,Delivered,Late,22,2,2,Website,No,Wrong item
+96,165,9,Roll Express,Street Food,Paneer Roll,17-05-2026,2:49:00 AM,Pune,Andheri,2,129,10,35,13,280,Debit Card,Refunded,Late,26,4,4,Phone,No,Late delivery
+97,39,8,Sweet Treats,Desserts,Cheesecake,29-06-2026,3:15:00 PM,Nashik,Dharampeth,1,229,15,30,11,236,Credit Card,Delivered,On Time,65,2,5,Phone,No,None
+98,348,3,Green Bowl,Healthy,Smoothie Bowl,02-04-2026,8:03:00 AM,Nashik,Andheri,2,229,5,30,23,488,Cash,On The Way,On Time,17,5,5,Mobile App,No,Cold food
+99,61,6,Taco Town,Mexican,Chicken Wrap,23-05-2026,8:31:00 AM,Nashik,College Road,4,99,20,20,20,357,Credit Card,Delivered,Failed,39,3,5,Phone,No,Late delivery
+100,342,2,Burger Barn,Fast Food,Chicken Burger,03-11-2026,2:31:00 AM,Aurangabad,Hinjewadi,1,299,0,50,15,364,Wallet,Delivered,Failed,69,3,5,Website,Yes,Late delivery
+101,284,6,Taco Town,Mexican,Chicken Wrap,18-09-2026,7:39:00 AM,Nagpur,Dharampeth,1,179,25,20,9,163,Credit Card,Delivered,Failed,46,1,1,Mobile App,No,Cold food
+102,239,8,Sweet Treats,Desserts,Ice Cream,27-09-2026,2:01:00 PM,Mumbai,Dharampeth,2,399,0,20,40,858,Wallet,Refunded,On Time,56,7,2,Mobile App,No,Missing item
+103,266,1,Spice Hub,Indian,Chicken Biryani,05-03-2026,5:41:00 PM,Pune,Viman Nagar,1,149,0,25,7,181,Cash,On The Way,Failed,29,5,4,Website,Yes,Wrong item
+104,310,10,Cafe Aroma,Cafe,Sandwich,10-01-2026,3:11:00 AM,Thane,Baner,2,149,15,35,15,303,Upi,Delivered,On Time,57,1,5,Phone,No,Late delivery
+105,351,10,Cafe Aroma,Cafe,Pasta,08-02-2026,9:05:00 PM,Nashik,College Road,2,299,20,35,30,543,Upi,Delivered,Failed,34,1,4,Mobile App,No,Cold food
+106,177,8,Sweet Treats,Desserts,Cheesecake,26-08-2026,6:57:00 AM,Mumbai,Andheri,1,149,5,50,7,199,Wallet,Cancelled,Failed,61,1,5,Website,Yes,Cold food
+107,128,2,Burger Barn,Fast Food,French Fries,10-10-2026,3:20:00 PM,Nashik,Andheri,1,129,0,25,6,160,Credit Card,On The Way,On Time,70,4,5,Phone,No,Cold food
+108,25,5,Dragon Wok,Chinese,Hakka Noodles,09-12-2026,12:47:00 AM,Nashik,College Road,1,249,15,30,12,254,Wallet,Refunded,Failed,28,6,4,Website,No,Missing item
+109,27,1,Spice Hub,Indian,Veg Thali,25-02-2026,2:42:00 PM,Nashik,Dharampeth,1,199,20,25,10,194,Debit Card,Cancelled,On Time,38,9,2,Phone,No,Missing item
+110,387,5,Dragon Wok,Chinese,Manchurian,03-02-2026,4:23:00 AM,Mumbai,Dharampeth,4,249,5,50,50,1046,Cash,Refunded,Failed,50,1,5,Mobile App,Yes,Late delivery
+111,202,6,Taco Town,Mexican,Chicken Wrap,31-08-2026,5:43:00 PM,Thane,Andheri,1,399,6,20,20,379,Wallet,Delivered,Failed,54,5,4,Website,No,Cold food
+112,323,1,Spice Hub,Indian,Paneer Tikka,07-08-2026,11:18:00 AM,Thane,College Road,2,249,15,25,25,473,Debit Card,Cancelled,Failed,61,7,5,Phone,Yes,None
+113,17,10,Cafe Aroma,Cafe,Cappuccino,09-03-2026,5:49:00 AM,Mumbai,Baner,2,399,25,50,40,688,Cash,Delivered,Late,67,4,5,Mobile App,No,Late delivery
+114,340,7,Dosa Corner,South Indian,Vada,14-09-2026,8:52:00 PM,Thane,Thane West,4,99,20,20,20,357,Debit Card,Delivered,On Time,50,4,6,Phone,No,Missing item
+115,153,6,Taco Town,Mexican,Chicken Wrap,16-05-2026,8:49:00 PM,Aurangabad,Wakad,1,179,5,35,9,214,Cash,Delivered,Late,75,4,5,Website,No,Wrong item
+116,22,2,Burger Barn,Fast Food,Chicken Burger,10-06-2026,12:57:00 PM,Aurangabad,Hinjewadi,3,249,25,25,37,623,Debit Card,Refunded,Late,66,6,3,Website,No,Late delivery
+117,26,4,Pizza Point,Italian,Pasta Alfredo,10-03-2026,9:15:00 AM,Aurangabad,Wakad,4,199,0,0,40,836,Upi,Delivered,On Time,52,4,3,Website,No,None
+118,334,3,Green Bowl,Healthy,Grilled Salad,01-03-2026,6:47:00 PM,Nashik,Andheri,4,149,10,40,30,606,Debit Card,On The Way,Failed,71,1,4,Mobile App,Yes,Missing item
+119,384,1,Spice Hub,Indian,Chicken Biryani,31-03-2026,2:15:00 PM,Pune,Kharadi,3,149,0,50,22,519,Debit Card,Delivered,Failed,46,5,3,Mobile App,No,Wrong item
+120,170,8,Sweet Treats,Desserts,Brownie,10-06-2026,5:53:00 PM,Aurangabad,College Road,1,149,25,35,7,154,Debit Card,Delivered,Failed,27,2,5,Mobile App,No,Wrong item
+121,343,10,Cafe Aroma,Cafe,Cappuccino,04-09-2026,5:59:00 AM,Mumbai,Kothrud,2,499,10,50,50,998,Cash,Delivered,Late,35,2,2,Mobile App,No,Cold food
+122,355,4,Pizza Point,Italian,Pasta Alfredo,10-06-2026,9:06:00 AM,Pune,Hinjewadi,4,199,15,40,40,756,Cash,Delivered,Late,31,2,5,Website,No,None
+123,360,5,Dragon Wok,Chinese,Spring Rolls,07-08-2026,8:58:00 PM,Thane,Wakad,1,149,10,20,7,162,Credit Card,Delivered,Failed,53,7,4,Phone,Yes,Missing item
+124,294,8,Sweet Treats,Desserts,Brownie,28-09-2026,12:20:00 PM,Mumbai,Andheri,1,399,0,0,20,419,Wallet,Preparing,Failed,72,1,4,Phone,Yes,Missing item
+125,287,8,Sweet Treats,Desserts,Cheesecake,16-02-2026,5:25:00 PM,Aurangabad,Viman Nagar,1,99,10,20,5,114,Upi,Delivered,Late,44,3,4,Mobile App,Yes,Missing item
+126,242,2,Burger Barn,Fast Food,Classic Burger,24-01-2026,2:27:00 PM,Nashik,Thane West,1,129,15,0,6,116,Credit Card,On The Way,On Time,19,7,5,Phone,No,Wrong item
+127,61,7,Dosa Corner,South Indian,Idli Sambar,18-08-2026,12:53:00 PM,Thane,Thane West,1,499,20,50,25,474,Wallet,Delivered,On Time,56,6,5,Mobile App,Yes,None
+128,80,5,Dragon Wok,Chinese,Fried Rice,26-08-2026,10:59:00 PM,Mumbai,Hinjewadi,2,249,15,30,25,478,Upi,Preparing,Failed,30,4,4,Phone,Yes,Late delivery
+129,23,4,Pizza Point,Italian,Garlic Bread,02-04-2026,3:26:00 AM,Nagpur,Wakad,2,299,15,40,30,578,Wallet,Cancelled,On Time,18,7,3,Mobile App,Yes,Missing item
+130,74,5,Dragon Wok,Chinese,Manchurian,12-04-2026,7:39:00 PM,Nagpur,Viman Nagar,1,399,25,40,20,359,Debit Card,Preparing,On Time,30,5,2,Phone,Yes,Cold food
+131,210,9,Roll Express,Street Food,Chicken Roll,09-11-2026,1:36:00 AM,Nashik,Thane West,4,499,20,30,100,1727,Credit Card,Cancelled,Failed,35,4,5,Mobile App,Yes,Wrong item
+132,170,3,Green Bowl,Healthy,Quinoa Bowl,10-06-2026,1:58:00 AM,Nagpur,Andheri,2,249,15,35,25,483,Upi,Delivered,Failed,30,6,4,Mobile App,Yes,Wrong item
+133,190,7,Dosa Corner,South Indian,Uttapam,21-01-2026,2:29:00 AM,Pune,Wakad,1,399,20,40,20,379,Credit Card,Delivered,Late,45,1,3,Phone,No,Late delivery
+134,184,10,Cafe Aroma,Cafe,Sandwich,12-04-2026,1:32:00 PM,Nashik,Andheri,4,349,5,50,70,1446,Wallet,Delivered,Late,44,4,4,Mobile App,No,Wrong item
+135,300,4,Pizza Point,Italian,Garlic Bread,07-09-2026,10:40:00 AM,Nashik,Kharadi,1,399,25,20,20,339,Credit Card,Cancelled,Late,16,2,4,Website,Yes,Cold food
+136,181,9,Roll Express,Street Food,Chicken Roll,22-06-2026,8:47:00 AM,Mumbai,Dharampeth,2,299,20,40,30,548,Cash,Cancelled,On Time,44,5,3,Phone,Yes,Missing item
+137,78,1,Spice Hub,Indian,Paneer Tikka,02-08-2026,10:48:00 PM,Mumbai,Dharampeth,1,99,10,20,5,114,Cash,Preparing,Late,29,9,2,Phone,No,Cold food
+138,9,1,Spice Hub,Indian,Butter Chicken,01-04-2026,6:09:00 PM,Mumbai,Hinjewadi,2,99,0,35,10,243,Upi,Cancelled,Failed,49,2,5,Mobile App,Yes,Missing item
+139,357,9,Roll Express,Street Food,Chicken Roll,05-10-2026,12:05:00 PM,Nashik,Hinjewadi,1,249,0,25,12,286,Upi,Refunded,On Time,44,4,4,Website,No,Missing item
+140,290,8,Sweet Treats,Desserts,Chocolate Cake,29-01-2026,9:44:00 PM,Pune,Baner,1,149,0,30,7,186,Credit Card,Preparing,On Time,56,7,5,Phone,No,Wrong item
+141,190,1,Spice Hub,Indian,Veg Thali,02-08-2026,11:21:00 PM,Thane,Kothrud,4,349,15,40,70,1296,Cash,Delivered,On Time,74,3,5,Mobile App,Yes,Missing item
+142,178,7,Dosa Corner,Indian,Masala Dosa,10-04-2026,11:19:00 AM,Pune,Thane West,1,149,25,40,7,159,Credit Card,Cancelled,On Time,47,3,5,Phone,Yes,Wrong item
+143,195,1,Spice Hub,Indian,Paneer Tikka,20-05-2026,3:22:00 PM,Thane,Viman Nagar,1,229,15,30,11,236,Credit Card,Delivered,Failed,58,1,4,Mobile App,No,Late delivery
+144,139,7,Dosa Corner,South Indian,Masala Dosa,10-10-2026,1:17:00 PM,Mumbai,Hinjewadi,1,129,0,0,6,135,Credit Card,On The Way,Late,43,4,4,Phone,No,None
+145,212,1,Spice Hub,Indian,Butter Chicken,15-02-2026,12:04:00 PM,Pune,Dharampeth,2,399,15,50,40,768,Credit Card,Delivered,Failed,39,5,1,Mobile App,No,Late delivery
+146,40,3,Green Bowl,Healthy,Protein Bowl,18-05-2026,10:16:00 AM,Nashik,Wakad,1,149,0,20,7,176,Cash,Delivered,Failed,41,5,4,Mobile App,No,None
+147,172,3,Green Bowl,Healthy,Smoothie Bowl,06-05-2026,12:13:00 AM,Aurangabad,Kothrud,4,229,25,35,46,768,Debit Card,Delivered,Late,70,5,2,Phone,Yes,Cold food
+148,167,6,Taco Town,Mexican,Nachos,04-01-2026,1:35:00 PM,Nashik,Thane West,4,199,20,40,40,717,Debit Card,On The Way,On Time,51,5,5,Mobile App,Yes,Missing item
+149,210,1,Spice Hub,Indian,Butter Chicken,25-08-2026,7:09:00 AM,Mumbai,Viman Nagar,1,199,25,40,10,199,Credit Card,Delivered,Late,69,6,5,Mobile App,No,Cold food
+150,279,2,Burger Barn,Fast Food,Classic Burger,18-08-2026,8:24:00 PM,Nashik,Dharampeth,1,249,15,35,12,259,Wallet,On The Way,Failed,70,1,5,Mobile App,Yes,Wrong item
+151,221,3,Green Bowl,Healthy,Quinoa Bowl,23-01-2026,7:13:00 PM,Pune,Hinjewadi,5,499,20,30,125,2151,Debit Card,Refunded,On Time,36,5,5,Phone,Yes,Cold food
+152,152,6,Taco Town,Mexican,Nachos,20-07-2026,3:48:00 PM,Pune,Hinjewadi,2,399,20,35,40,713,Credit Card,Delivered,Late,16,3,4,Website,No,Late delivery
+153,364,9,Roll Express,Street Food,Paneer Roll,09-05-2026,11:53:00 AM,Pune,Andheri,1,299,20,40,15,294,Upi,Delivered,Failed,19,7,4,Mobile App,Yes,Missing item
+154,337,3,Green Bowl,Healthy,Smoothie Bowl,10-10-2026,11:17:00 AM,Nagpur,Baner,2,299,0,50,30,678,Wallet,Delivered,Late,26,4,3,Phone,No,Cold food
+155,167,1,Spice Hub,Indian,Veg Thali,20-04-2026,7:01:00 AM,Nagpur,Hinjewadi,1,129,15,0,6,116,Debit Card,Cancelled,Failed,49,7,3,Website,No,Missing item
+156,153,7,Dosa Corner,South Indian,Masala Dosa,20-07-2026,8:02:00 PM,Aurangabad,Kothrud,1,229,25,30,11,213,Debit Card,Delivered,On Time,67,2,5,Website,Yes,Late delivery
+157,276,6,Taco Town,Mexican,Burrito Bowl,14-03-2026,5:26:00 PM,Thane,Kothrud,1,399,0,35,20,454,Cash,Delivered,Late,26,2,4,Mobile App,No,Cold food
+158,254,10,Cafe Aroma,Cafe,Pasta,28-01-2026,12:15:00 PM,Aurangabad,College Road,4,299,0,20,60,1276,Cash,Preparing,Failed,50,7,4,Website,No,Late delivery
+159,381,2,Burger Barn,Fast Food,Combo Meal,16-01-2026,7:31:00 AM,Thane,Dharampeth,1,199,0,35,10,244,Upi,Delivered,Failed,64,1,4,Website,No,Missing item
+160,17,1,Spice Hub,Indian,Butter Chicken,14-08-2026,6:38:00 PM,Pune,Andheri,1,249,0,40,12,301,Upi,Preparing,Late,63,7,3,Mobile App,Yes,Late delivery
+161,31,10,Cafe Aroma,Cafe,Sandwich,29-06-2026,8:49:00 PM,Thane,Viman Nagar,2,149,15,20,15,288,Wallet,Cancelled,Failed,67,2,3,Website,No,Wrong item
+162,31,10,Cafe Aroma,Cafe,Sandwich,17-05-2026,5:33:00 PM,Aurangabad,Kothrud,5,499,25,0,125,1996,Credit Card,Delivered,On Time,63,2,5,Phone,No,Late delivery
+163,394,7,Dosa Corner,South Indian,Masala Dosa,09-08-2026,4:51:00 AM,Nagpur,Dharampeth,1,199,20,30,20,368,Debit Card,Delivered,Failed,19,3,5,Website,No,Wrong item
+164,274,10,Cafe Aroma,Cafe,Pasta,01-02-2026,3:10:00 AM,Mumbai,Thane West,2,299,20,40,30,548,Credit Card,Delivered,Late,69,3,2,Website,No,Wrong item
+165,236,9,Roll Express,Street Food,Paneer Roll,03-08-2026,7:19:00 PM,Pune,Kothrud,3,229,20,50,34,634,Cash,Delivered,Late,21,1,5,Website,Yes,Late delivery
+166,27,5,Dragon Wok,Chinese,Spring Rolls,23-03-2026,9:21:00 AM,Aurangabad,Viman Nagar,1,229,5,0,11,229,Credit Card,Delivered,Late,5,6,5,Mobile App,Yes,None
+167,190,4,Pizza Point,Italian,Garlic Bread,09-02-2026,2:39:00 AM,Aurangabad,Kothrud,1,179,15,40,9,201,Cash,Delivered,On Time,15,2,5,Website,Yes,None
+168,347,2,Burger Barn,Fast Food,French Fries,06-10-2026,12:32:00 PM,Pune,Dharampeth,3,149,10,50,22,475,Wallet,Preparing,On Time,70,5,3,Phone,Yes,Cold food
+169,52,6,Taco Town,Mexican,Burrito Bowl,20-04-2026,9:26:00 PM,Pune,Thane West,2,249,15,40,25,488,Debit Card,Delivered,Late,28,3,2,Mobile App,Yes,Wrong item
+170,338,2,Burger Barn,Fast Food,Chicken Burger,05-08-2026,6:53:00 PM,Mumbai,Dharampeth,2,399,5,50,40,848,Wallet,On The Way,Failed,16,2,5,Phone,No,Wrong item
+171,7,1,Spice Hub,Indian,Chicken Biryani,05-03-2026,4:53:00 PM,Nashik,Kothrud,1,179,10,40,9,210,Cash,Delivered,Failed,48,4,5,Website,Yes,Cold food
+172,260,2,Burger Barn,Indian,Chicken Burger,01-09-2026,8:02:00 PM,Aurangabad,Dharampeth,1,199,0,0,10,209,Cash,On The Way,Late,75,9,5,Website,Yes,Missing item
+173,201,9,Roll Express,Street Food,Paneer Roll,20-03-2026,9:28:00 AM,Nashik,Thane West,1,129,15,20,6,136,Credit Card,Refunded,On Time,24,2,4,Mobile App,No,None
+174,6,8,Sweet Treats,Desserts,Brownie,29-01-2026,10:33:00 AM,Nagpur,Andheri,2,499,20,20,50,868,Wallet,Delivered,Failed,60,7,3,Phone,No,Late delivery
+175,33,6,Taco Town,Mexican,Chicken Wrap,03-06-2026,9:10:00 AM,Aurangabad,Hinjewadi,2,129,25,0,13,206,Cash,Delivered,Late,42,5,4,Website,Yes,Cold food
+176,2,10,Cafe Aroma,Cafe,Cappuccino,27-03-2026,12:33:00 PM,Pune,Wakad,1,129,15,40,6,156,Upi,Cancelled,Late,29,3,5,Website,Yes,Late delivery
+177,62,1,Spice Hub,Indian,Paneer Tikka,08-03-2026,7:39:00 AM,Mumbai,Wakad,1,249,20,25,12,237,Wallet,Delivered,On Time,19,4,4,Mobile App,No,Wrong item
+178,319,5,Dragon Wok,Chinese,Manchurian,17-06-2026,2:56:00 AM,Nagpur,Andheri,2,99,5,20,10,218,Wallet,Delivered,Late,65,9,4,Mobile App,Yes,Late delivery
+179,1,1,Spice Hub,Indian,Butter Chicken,29-07-2026,12:48:00 AM,Aurangabad,Viman Nagar,1,229,20,50,11,245,Upi,Delivered,On Time,15,5,5,Mobile App,No,Cold food
+180,383,1,Spice Hub,Indian,Paneer Tikka,14-03-2026,9:33:00 AM,Thane,Hinjewadi,1,179,25,35,9,178,Wallet,Delivered,On Time,72,6,4,Website,Yes,Missing item
+181,202,10,Cafe Aroma,Cafe,Sandwich,01-02-2026,2:50:00 PM,Nashik,College Road,2,149,0,25,15,338,Debit Card,Delivered,On Time,35,1,5,Mobile App,Yes,Missing item
+182,107,2,Burger Barn,Fast Food,Combo Meal,21-03-2026,3:36:00 AM,Nashik,College Road,1,299,5,30,15,329,Debit Card,Delivered,On Time,37,1,5,Mobile App,No,Missing item
+183,90,1,Spice Hub,Indian,Vada,21-04-2026,11:11:00 AM,Nagpur,College Road,1,179,5,30,9,209,Wallet,Delivered,Failed,58,5,4,Mobile App,Yes,Cold food
+184,331,2,Burger Barn,Fast Food,Classic Burger,13-03-2026,4:08:00 AM,Thane,Viman Nagar,1,179,0,20,9,208,Upi,Preparing,On Time,38,1,5,Mobile App,No,Late delivery
+185,203,2,Burger Barn,Fast Food,Combo Meal,19-06-2026,4:10:00 AM,Pune,Thane West,1,299,0,20,15,334,Cash,On The Way,On Time,42,3,5,Mobile App,Yes,Wrong item
+186,282,5,Dragon Wok,Chinese,Spring Rolls,17-08-2026,5:04:00 AM,Pune,Hinjewadi,1,399,15,20,20,379,Debit Card,Delivered,Late,46,2,4,Website,Yes,Missing item
+187,258,4,Pizza Point,Italian,Farmhouse Pizza,10-06-2026,12:39:00 AM,Nagpur,Viman Nagar,5,229,10,35,57,1123,Cash,Cancelled,On Time,37,3,5,Phone,Yes,None
+188,274,5,Dragon Wok,Chinese,Hakka Noodles,30-01-2026,4:06:00 PM,Mumbai,Thane West,2,399,0,20,40,858,Debit Card,Delivered,On Time,57,2,3,Mobile App,No,Wrong item
+189,253,10,Cafe Aroma,Cafe,Sandwich,15-01-2026,11:54:00 PM,Mumbai,College Road,1,399,15,20,20,379,Upi,Delivered,On Time,27,1,5,Mobile App,Yes,None
+190,166,9,Roll Express,Street Food,Paneer Roll,09-02-2026,12:01:00 AM,Pune,Kothrud,1,399,0,50,20,469,Wallet,Delivered,Failed,60,2,3,Mobile App,No,None
+191,328,6,Taco Town,Mexican,Nachos,22-07-2026,8:00:00 PM,Aurangabad,Andheri,1,199,5,20,10,219,Credit Card,Refunded,Failed,61,5,5,Phone,No,Late delivery
+192,294,10,Cafe Aroma,Cafe,Pasta,31-03-2026,12:54:00 PM,Thane,Baner,1,199,0,20,10,229,Credit Card,Cancelled,Failed,75,3,5,Phone,Yes,Missing item
+193,46,2,Burger Barn,Fast Food,Chicken Burger,09-12-2026,4:48:00 AM,Nagpur,Baner,1,129,0,25,6,160,Debit Card,Refunded,On Time,25,2,5,Phone,Yes,Wrong item
+194,194,5,Dragon Wok,Chinese,Fried Rice,25-02-2026,12:02:00 AM,Thane,Thane West,1,299,20,30,15,284,Upi,Refunded,Late,71,7,4,Phone,Yes,Late delivery
+195,83,8,Sweet Treats,Desserts,Chocolate Cake,02-07-2026,1:08:00 AM,Thane,Hinjewadi,1,229,5,0,11,229,Debit Card,Delivered,Failed,25,9,5,Website,Yes,Cold food
+196,374,3,Green Bowl,Healthy,Protein Bowl,08-11-2026,5:21:00 AM,Aurangabad,Viman Nagar,1,229,0,20,11,260,Debit Card,Delivered,On Time,50,1,5,Mobile App,No,Missing item
+197,246,9,Roll Express,Street Food,Chicken Roll,09-09-2026,5:14:00 AM,Pune,Baner,1,99,10,0,5,94,Credit Card,Delivered,On Time,57,6,5,Website,Yes,Cold food
+198,196,2,Burger Barn,Fast Food,Chicken Burger,07-06-2026,1:34:00 PM,Mumbai,College Road,1,499,5,0,25,499,Upi,Delivered,Late,39,4,3,Website,No,Late delivery
+199,388,5,Dragon Wok,Chinese,Manchurian,02-01-2026,5:09:00 AM,Thane,Baner,2,499,0,0,50,1048,Cash,Delivered,Failed,66,4,4,Phone,No,Missing item
+200,318,4,Pizza Point,Italian,Pasta Alfredo,09-01-2026,10:12:00 AM,Pune,College Road,1,99,15,35,5,124,Credit Card,On The Way,On Time,66,2,4,Mobile App,Yes,None
+201,35,7,Dosa Corner,South Indian,Masala Dosa,02-10-2026,11:19:00 PM,Nagpur,Dharampeth,1,499,0,50,25,574,Cash,Delivered,Failed,35,3,5,Website,No,None
+202,52,10,Cafe Aroma,Cafe,Cappuccino,25-09-2026,2:19:00 PM,Thane,Hinjewadi,1,149,0,35,7,191,Debit Card,Delivered,Failed,63,3,5,Website,No,Cold food
+203,203,8,Sweet Treats,Desserts,Ice Cream,31-08-2026,1:16:00 AM,Aurangabad,Wakad,1,249,0,35,12,296,Upi,Delivered,Failed,59,4,4,Website,No,None
+204,154,6,Taco Town,Mexican,Nachos,06-05-2026,10:36:00 AM,Nashik,Viman Nagar,1,299,25,40,15,279,Cash,Delivered,Failed,70,6,3,Mobile App,Yes,Cold food
+205,364,4,Pizza Point,Italian,Garlic Bread,28-07-2026,4:32:00 PM,Mumbai,Dharampeth,2,229,25,0,23,366,Wallet,Delivered,On Time,25,2,2,Mobile App,Yes,None
+206,204,4,Pizza Point,Italian,Margherita Pizza,17-01-2026,3:34:00 PM,Aurangabad,Baner,1,229,20,20,11,215,Credit Card,Delivered,Late,67,4,4,Phone,No,Late delivery
+207,26,8,Sweet Treats,Desserts,Brownie,29-06-2026,11:45:00 AM,Thane,Wakad,1,199,20,50,10,219,Credit Card,Delivered,Failed,33,2,1,Phone,Yes,Wrong item
+208,5,7,Dosa Corner,South Indian,Idli Sambar,20-09-2026,12:41:00 AM,Nashik,Viman Nagar,3,499,0,30,75,1602,Debit Card,On The Way,Late,56,4,3,Website,No,Wrong item
+209,192,4,Pizza Point,Italian,Farmhouse Pizza,27-08-2026,10:18:00 AM,Nashik,Hinjewadi,2,399,10,35,40,793,Cash,Delivered,On Time,47,3,5,Website,No,Wrong item
+210,339,5,Dragon Wok,Chinese,Fried Rice,06-02-2026,6:25:00 AM,Aurangabad,Kothrud,1,179,0,50,9,238,Upi,On The Way,On-Time,66,4,5,Website,No,Cold food
+211,274,7,Dosa Corner,South Indian,Vada,18-07-2026,1:12:00 AM,Aurangabad,Andheri,2,399,25,20,40,658,Wallet,Delivered,Late,60,7,3,Mobile App,Yes,Wrong item
+212,46,2,Burger Barn,Fast Food,French Fries,30-08-2026,4:22:00 AM,Nashik,Wakad,2,349,25,20,35,578,Debit Card,On The Way,Late,72,7,4,Website,No,Wrong item
+213,37,10,Cafe Aroma,Cafe,Pasta,31-05-2026,3:49:00 PM,Mumbai,Dharampeth,3,299,0,50,45,992,Upi,Delivered,Failed,52,4,5,Phone,No,Cold food
+214,367,1,Spice Hub,Indian,Veg Thali,10-10-2026,4:41:00 AM,Pune,Kharadi,5,229,10,35,57,1123,Debit Card,On The Way,Failed,44,2,3,Website,Yes,None
+215,46,8,Sweet Treats,Desserts,Brownie,21-05-2026,7:08:00 AM,Thane,Thane West,2,149,15,50,15,318,Cash,Delivered,Late,65,9,5,Website,No,None
+216,3,1,Spice Hub,Indian,Veg Thali,10-01-2026,6:48:00 AM,Mumbai,Andheri,2,99,5,50,10,248,Debit Card,Preparing,On Time,27,1,1,Website,No,Late delivery
+217,352,2,Burger Barn,Fast Food,French Fries,24-01-2026,10:10:00 AM,Nashik,College Road,4,299,20,35,60,1052,Debit Card,Delivered,On Time,36,2,4,Website,Yes,Late delivery
+218,20,4,Pizza Point,Italian,Garlic Bread,03-09-2026,7:12:00 AM,Aurangabad,Viman Nagar,2,399,15,20,40,738,Wallet,Delivered,Failed,60,1,5,Phone,Yes,None
+219,106,1,Spice Hub,Indian,Paneer Tikka,25-01-2026,11:32:00 PM,Nashik,Thane West,1,299,10,0,15,284,Upi,Delivered,Failed,45,5,5,Website,Yes,Cold food
+220,135,2,Burger Barn,Fast Food,French Fries,10-10-2026,9:05:00 PM,Nashik,Thane West,1,129,25,0,6,103,Debit Card,Delivered,On Time,53,1,3,Phone,No,Late delivery
+221,47,8,Sweet Treats,Desserts,Chocolate Cake,19-06-2026,8:00:00 AM,Aurangabad,Hinjewadi,1,499,0,0,25,524,Debit Card,Preparing,Failed,57,2,4,Website,No,Wrong item
+222,379,8,Sweet Treats,Desserts,Chocolate Cake,26-01-2026,3:24:00 AM,Pune,Baner,3,99,25,25,15,263,Upi,Delivered,On Time,58,6,4,Phone,Yes,Wrong item
+223,234,6,Taco Town,Mexican,Chicken Wrap,13-08-2026,9:13:00 PM,Nagpur,College Road,1,129,5,50,6,179,Cash,Delivered,Failed,22,7,4,Mobile App,Yes,Late delivery
+224,195,1,Spice Hub,Indian,Chicken Biryani,23-03-2026,3:32:00 AM,Thane,Baner,1,399,10,50,20,429,Credit Card,Delivered,Late,43,9,3,Mobile App,No,Cold food
+225,371,1,Spice Hub,Indian,Veg Thali,02-02-2026,8:55:00 AM,Aurangabad,Andheri,2,99,20,50,10,218,Wallet,Delivered,Failed,64,6,5,Phone,Yes,Cold food
+226,314,4,Pizza Point,Italian,Margherita Pizza,09-04-2026,11:48:00 AM,Pune,Kothrud,2,499,10,20,50,968,Wallet,Preparing,Late,50,7,5,Website,Yes,None
+227,121,8,Sweet Treats,Desserts,Chocolate Cake,14-06-2026,8:13:00 AM,Nagpur,College Road,1,199,0,35,10,244,Wallet,Delivered,Late,56,1,4,Website,No,Wrong item
+228,310,2,Burger Barn,Fast Food,Chicken Burger,09-12-2026,10:18:00 PM,Thane,Dharampeth,2,249,10,0,12,237,Credit Card,Delivered,Late,15,6,5,Website,No,Wrong item
+229,59,1,Spice Hub,Indian,Paneer Tikka,25-04-2026,3:30:00 PM,Aurangabad,Wakad,1,399,15,30,20,389,Upi,Cancelled,Late,38,3,5,Phone,No,Missing item
+230,55,9,Roll Express,Street Food,Frankie,07-11-2026,11:57:00 PM,Thane,Wakad,1,149,10,20,7,162,Credit Card,Preparing,On Time,62,7,5,Website,Yes,Cold food
+231,231,4,Pizza Point,Italian,Garlic Bread,23-06-2026,3:40:00 AM,Aurangabad,Dharampeth,2,99,20,50,10,218,Credit Card,Delivered,Late,22,1,5,Phone,Yes,Missing item
+232,199,7,Dosa Corner,South Indian,Uttapam,09-05-2026,5:21:00 PM,Thane,Thane West,3,149,20,35,22,415,Cash,Delivered,Failed,67,6,3,Mobile App,No,Cold food
+233,360,6,Taco Town,Mexican,Chicken Wrap,31-05-2026,3:27:00 PM,Aurangabad,Dharampeth,3,149,10,35,22,460,Credit Card,Cancelled,On Time,62,2,4,Phone,No,Wrong item
+234,299,3,Green Bowl,Healthy,Smoothie Bowl,12-04-2026,5:11:00 PM,Aurangabad,Dharampeth,2,499,5,40,50,1038,Debit Card,Delivered,Late,37,7,4,Mobile App,Yes,None
+235,75,7,Dosa Corner,South Indian,Masala Dosa,16-03-2026,1:48:00 AM,Aurangabad,Viman Nagar,2,179,5,50,18,0,Credit Card,Cancelled,Failed,33,1,5,Website,No,None
+236,341,10,Cafe Aroma,Cafe,Cappuccino,25-04-2026,10:05:00 PM,Pune,Thane West,2,179,15,50,18,372,Cash,Cancelled,Failed,59,3,4,Phone,Yes,None
+237,189,5,Dragon Wok,Chinese,Manchurian,14-04-2026,9:10:00 PM,Aurangabad,Wakad,3,299,25,20,45,738,Debit Card,On The Way,Late,60,2,5,Phone,Yes,Late delivery
+238,131,3,Green Bowl,Healthy,Quinoa Bowl,21-09-2026,4:04:00 AM,Pune,College Road,1,249,5,35,12,284,Credit Card,Delivered,On Time,25,2,4,Website,Yes,Missing item
+239,267,5,Dragon Wok,Chinese,Hakka Noodles,09-09-2026,7:32:00 PM,Thane,Kothrud,2,129,25,40,13,246,Cash,Delivered,Failed,29,5,5,Website,Yes,Wrong item
+240,288,4,Pizza Point,Italian,Margherita Pizza,20-04-2026,10:38:00 PM,Pune,Andheri,1,229,5,20,11,249,Cash,Refunded,On Time,54,6,4,Phone,Yes,None
+241,190,6,Taco Town,Mexican,Nachos,15-07-2026,3:52:00 AM,Nagpur,Baner,1,349,20,25,17,322,Debit Card,Delivered,Failed,48,2,5,Website,Yes,None
+242,218,3,Green Bowl,Healthy,Quinoa Bowl,10-03-2026,6:12:00 PM,Mumbai,Dharampeth,1,129,0,40,6,175,Cash,Delivered,Failed,28,7,5,Mobile App,Yes,None
+243,117,8,Sweet Treats,Desserts,Ice Cream,19-06-2026,1:17:00 AM,Nagpur,Kharadi,1,99,0,50,5,154,Cash,Delivered,Failed,19,4,4,Website,No,None
+244,38,7,Dosa Corner,South Indian,Uttapam,03-02-2026,6:15:00 PM,Thane,Hinjewadi,1,399,0,50,20,469,Debit Card,Cancelled,Failed,17,3,5,Phone,Yes,Wrong item
+245,280,8,Sweet Treats,Desserts,Ice Cream,15-07-2026,1:29:00 PM,Aurangabad,Kothrud,3,99,10,20,15,302,Debit Card,Delivered,Failed,23,7,5,Phone,No,None
+246,108,9,Roll Express,Street Food,Frankie,14-03-2026,4:12:00 AM,Mumbai,Thane West,1,399,15,30,20,389,Wallet,Delivered,On Time,75,2,2,Mobile App,Yes,Missing item
+247,282,5,Dragon Wok,Chinese,Spring Rolls,04-10-2026,3:54:00 AM,Aurangabad,Dharampeth,1,399,25,0,20,319,Upi,On The Way,Late,74,6,5,Mobile App,No,None
+248,100,4,Pizza Point,Italian,Farmhouse Pizza,09-07-2026,11:17:00 AM,Nagpur,College Road,1,499,20,20,25,444,Debit Card,Delivered,Failed,54,6,2,Website,Yes,Missing item
+249,329,10,Cafe Aroma,Cafe,Pasta,07-06-2026,10:47:00 AM,Nashik,Andheri,4,149,0,25,30,651,Credit Card,Delivered,Failed,29,6,5,Website,No,Cold food
+250,72,8,Sweet Treats,Desserts,Brownie,07-03-2026,10:25:00 AM,Nashik,Hinjewadi,1,129,0,40,6,175,Upi,Delivered,On Time,68,7,4,Phone,Yes,Missing item
+251,397,10,Cafe Aroma,Cafe,Cold Coffee,27-07-2026,8:08:00 PM,Nashik,Thane West,1,99,15,25,5,114,Credit Card,Delivered,Failed,49,6,2,Website,Yes,Cold food
+252,351,9,Roll Express,Street Food,Chicken Roll,19-09-2026,3:05:00 AM,Thane,Kothrud,1,349,0,40,17,406,Cash,Delivered,On Time,66,2,5,Phone,Yes,Cold food
+253,266,6,Taco Town,Mexican,Chicken Wrap,21-01-2026,7:28:00 AM,Nagpur,College Road,2,179,0,25,18,401,Cash,Delivered,On Time,17,1,5,Phone,No,None
+254,40,9,Roll Express,Street Food,Frankie,21-05-2026,8:59:00 AM,Nagpur,Wakad,2,399,0,30,40,868,Wallet,Delivered,Late,38,3,4,Website,No,Cold food
+255,77,10,Cafe Aroma,Cafe,Cold Coffee,01-04-2026,5:07:00 PM,Mumbai,Andheri,3,299,0,20,45,962,Wallet,Delivered,Failed,56,7,4,Mobile App,Yes,Cold food
+256,125,6,Taco Town,Mexican,Veg Tacos,28-02-2026,4:26:00 PM,Mumbai,Kothrud,2,299,0,35,30,663,Credit Card,Delivered,Failed,68,5,4,Mobile App,Yes,None
+257,339,3,Green Bowl,Healthy,Protein Bowl,13-05-2026,6:08:00 AM,Pune,Wakad,2,249,15,35,25,483,Cash,Delivered,Failed,71,4,5,Website,Yes,Late delivery
+258,176,7,Dosa Corner,South Indian,Vada,15-03-2026,7:53:00 PM,Thane,Hinjewadi,3,149,15,40,22,442,Credit Card,Delivered,Late,25,4,0,Mobile App,Yes,None
+259,20,4,Pizza Point,Italian,Margherita Pizza,25-09-2026,5:12:00 PM,Pune,College Road,2,149,15,0,15,268,Credit Card,Delivered,Failed,72,5,5,Mobile App,No,Missing item
+260,302,7,Dosa Corner,South Indian,Masala Dosa,07-09-2026,1:28:00 AM,Nagpur,Kothrud,2,249,0,50,25,573,Debit Card,Delivered,On Time,64,7,4,Mobile App,Yes,Wrong item
+261,267,10,Cafe Aroma,Cafe,Cappuccino,10-06-2026,1:56:00 PM,Nagpur,Wakad,1,99,20,40,5,124,Debit Card,Cancelled,Late,51,3,4,Mobile App,Yes,Cold food
+262,105,10,Cafe Aroma,Cafe,Pasta,05-10-2026,8:55:00 AM,Thane,Dharampeth,3,249,15,25,37,697,Cash,Delivered,On Time,58,3,4,Phone,No,Wrong item
+263,83,5,Dragon Wok,Chinese,Hakka Noodles,26-06-2026,1:35:00 PM,Mumbai,Dharampeth,2,499,0,40,50,1088,Cash,Delivered,Late,65,7,5,Phone,Yes,Late delivery
+264,41,7,Dosa Corner,South Indian,Masala Dosa,01-03-2026,3:06:00 AM,Aurangabad,Thane West,3,299,15,30,45,837,Cash,Delivered,Failed,31,6,3,Phone,No,Missing item
+265,100,1,Spice Hub,Indian,Paneer Tikka,31-03-2026,9:51:00 PM,Thane,Dharampeth,1,99,0,50,5,154,Wallet,Delivered,Failed,66,2,4,Phone,Yes,None
+266,208,6,Taco Town,Mexican,Burrito Bowl,05-03-2026,10:21:00 PM,Thane,Baner,1,149,0,25,7,181,Upi,Cancelled,On Time,37,5,5,Website,No,Wrong item
+267,55,5,Dragon Wok,Chinese,Hakka Noodles,26-04-2026,8:41:00 PM,Thane,Viman Nagar,4,299,10,35,60,1171,Debit Card,Delivered,On Time,26,7,4,Phone,No,Missing item
+268,398,10,Cafe Aroma,Cafe,Pasta,05-09-2026,11:41:00 PM,Aurangabad,College Road,1,249,15,30,12,254,Wallet,Cancelled,On Time,63,4,4,Mobile App,No,None
+269,135,7,Dosa Corner,South Indian,Idli Sambar,23-04-2026,11:06:00 PM,Nashik,Hinjewadi,2,229,10,25,23,460,Cash,Delivered,Failed,15,6,2,Website,Yes,Missing item
+270,98,3,Green Bowl,Healthy,Smoothie Bowl,09-01-2026,10:42:00 AM,Aurangabad,Wakad,1,399,5,20,20,419,Credit Card,On The Way,Failed,58,2,5,Website,Yes,Late delivery
+271,4,4,Pizza Point,Italian,Margherita Pizza,05-08-2026,9:06:00 PM,Nagpur,Andheri,1,129,0,0,6,135,Wallet,Delivered,Late,57,4,4,Phone,No,Cold food
+272,277,3,Green Bowl,Healthy,Quinoa Bowl,19-09-2026,9:33:00 AM,Thane,Andheri,1,399,0,0,20,419,Cash,Delivered,Failed,42,7,4,Mobile App,No,None
+273,314,9,Roll Express,Street Food,Frankie,24-08-2026,10:46:00 AM,Mumbai,Dharampeth,2,99,20,20,10,188,Debit Card,Delivered,On Time,21,3,4,Website,No,Wrong item
+274,68,3,Green Bowl,Healthy,Grilled Salad,13-09-2026,2:28:00 PM,Pune,Viman Nagar,1,229,5,50,11,279,Credit Card,Delivered,Failed,43,4,3,Website,Yes,Late delivery
+275,250,3,Green Bowl,Healthy,Protein Bowl,31-08-2026,12:19:00 AM,Nashik,Dharampeth,1,299,0,50,15,364,Wallet,Delivered,On Time,49,4,5,Mobile App,Yes,None
+276,286,4,Pizza Point,Italian,Farmhouse Pizza,05-11-2026,4:15:00 PM,Nashik,Baner,3,129,10,40,19,408,Cash,Delivered,On Time,38,3,4,Phone,Yes,Missing item
+277,229,10,Cafe Aroma,Cafe,Cappuccino,10-03-2026,5:57:00 AM,Nagpur,Viman Nagar,4,199,5,25,40,821,Cash,Delivered,Failed,46,2,5,Mobile App,No,Cold food
+278,310,10,Cafe Aroma,Cafe,Pasta,27-07-2026,2:26:00 AM,Nashik,College Road,1,229,0,25,11,265,Debit Card,Delivered,Failed,33,5,5,Phone,No,Cold food
+279,190,3,Green Bowl,Healthy,Grilled Salad,04-05-2026,12:47:00 AM,Nagpur,Hinjewadi,1,179,20,25,9,177,Upi,On The Way,On Time,59,4,5,Phone,Yes,None
+280,118,7,Dosa Corner,South Indian,Idli Sambar,26-09-2026,2:50:00 AM,Aurangabad,Viman Nagar,1,399,0,0,20,419,Cash,Delivered,Failed,71,2,4,Mobile App,Yes,None
+281,358,1,Spice Hub,Indian,Veg Thali,07-02-2026,11:06:00 AM,Thane,College Road,3,299,25,35,45,753,Wallet,On The Way,Late,50,5,4,Phone,No,Wrong item
+282,1,8,Sweet Treats,Desserts,Brownie,10-04-2026,7:45:00 AM,Nashik,Viman Nagar,3,299,5,25,45,922,Cash,Delivered,Failed,24,1,4,Phone,No,Cold food
+283,288,5,Dragon Wok,Chinese,Spring Rolls,01-05-2026,2:41:00 PM,Nagpur,Wakad,3,399,0,50,60,1307,Credit Card,Delivered,Failed,5,6,3,Phone,No,Cold food
+284,351,4,Pizza Point,Italian,Farmhouse Pizza,15-05-2026,2:42:00 AM,Nashik,Dharampeth,1,179,15,50,9,211,Debit Card,Cancelled,Late,54,2,5,Mobile App,Yes,Late delivery
+285,78,5,Dragon Wok,Chinese,Hakka Noodles,26-02-2026,9:44:00 PM,Thane,Baner,1,299,5,40,15,339,Credit Card,Delivered,On Time,27,3,4,Website,Yes,Cold food
+286,191,1,Spice Hub,Indian,Butter Chicken,30-04-2026,3:04:00 AM,Aurangabad,Baner,1,299,0,25,15,339,Debit Card,Delivered,On Time,65,7,5,Mobile App,Yes,Wrong item
+287,394,7,Pizza Point,Indian,Idli Sambar,02-06-2026,6:32:00 PM,Nagpur,College Road,1,179,25,25,9,168,Credit Card,Preparing,Failed,68,1,1,Mobile App,No,None
+288,282,9,Roll Express,Street Food,Paneer Roll,17-04-2026,4:08:00 PM,Nashik,College Road,1,199,5,20,10,219,Debit Card,Delivered,On Time,17,3,5,Mobile App,Yes,None
+289,22,4,Pizza Point,Italian,Garlic Bread,08-11-2026,11:04:00 AM,Aurangabad,Kothrud,1,199,15,0,10,179,Debit Card,Delivered,On Time,30,2,1,Mobile App,No,None
+290,250,10,Cafe Aroma,Cafe,Cold Coffee,23-06-2026,9:20:00 PM,Nashik,Dharampeth,1,229,20,20,11,215,Debit Card,Cancelled,Late,65,6,3,Mobile App,Yes,Cold food
+291,98,6,Taco Town,Mexican,Burrito Bowl,03-10-2026,8:33:00 AM,Thane,Andheri,3,299,20,30,45,792,Cash,Delivered,Failed,49,4,5,Website,Yes,None
+292,195,9,Roll Express,Street Food,Chicken Roll,21-03-2026,3:20:00 PM,Pune,Andheri,1,199,15,25,10,204,Cash,Delivered,On Time,64,3,5,Phone,Yes,Missing item
+293,57,7,Dosa Corner,South Indian,Masala Dosa,04-08-2026,5:53:00 PM,Thane,Hinjewadi,2,349,0,35,35,768,Upi,Delivered,On Time,41,2,5,Mobile App,Yes,None
+294,303,8,Sweet Treats,Desserts,Ice Cream,04-09-2026,3:22:00 AM,Pune,Andheri,1,499,25,30,25,429,Credit Card,Delivered,Failed,48,6,5,Mobile App,Yes,Late delivery
+295,189,8,Sweet Treats,Desserts,Vada,02-10-2026,3:58:00 PM,Thane,Viman Nagar,3,99,5,35,15,332,Wallet,Cancelled,On Time,71,9,4,Mobile App,No,None
+296,292,4,Pizza Point,Italian,Pasta Alfredo,23-09-2026,3:18:00 AM,Thane,Dharampeth,1,179,15,30,9,191,Cash,Delivered,Failed,48,1,5,Phone,No,Cold food
+297,308,7,Dosa Corner,South Indian,Vada,23-02-2026,5:41:00 AM,Nashik,Andheri,3,349,10,35,52,1030,Wallet,Delivered,Late,25,7,4,Website,No,Cold food
+298,232,6,Taco Town,Mexican,Nachos,05-04-2026,7:13:00 PM,Nagpur,Baner,2,249,25,35,25,433,Upi,On The Way,Late,31,5,4,Mobile App,Yes,Wrong item
+299,284,1,Spice Hub,Indian,Veg Thali,06-03-2026,7:34:00 AM,Pune,Baner,1,229,0,50,11,290,Cash,Preparing,Late,59,2,5,Mobile App,No,Wrong item
+300,40,10,Cafe Aroma,Cafe,Sandwich,05-08-2026,7:57:00 AM,Nagpur,Kothrud,1,199,0,35,10,244,Cash,Delivered,Late,73,6,3,Phone,Yes,Missing item
+301,62,5,Dragon Wok,Chinese,Manchurian,20-01-2026,7:40:00 PM,Aurangabad,Baner,1,99,25,25,5,104,Cash,Delivered,On Time,67,3,4,Phone,Yes,Wrong item
+302,386,9,Roll Express,Street Food,Paneer Roll,18-03-2026,11:09:00 AM,Mumbai,Thane West,2,179,0,0,18,376,Debit Card,Delivered,Late,40,2,5,Mobile App,No,None
+303,70,8,Sweet Treats,Desserts,Cheesecake,26-01-2026,6:42:00 PM,Thane,Wakad,1,129,10,35,6,158,Cash,Delivered,Late,59,6,3,Phone,Yes,Missing item
+304,58,10,Cafe Aroma,Cafe,Pasta,26-09-2026,8:24:00 AM,Nagpur,Andheri,1,199,25,30,10,189,Debit Card,Delivered,On Time,74,3,4,Website,Yes,Wrong item
+305,103,3,Green Bowl,Healthy,Protein Bowl,29-06-2026,9:02:00 PM,Mumbai,Hinjewadi,3,299,15,20,45,827,Upi,Delivered,Failed,74,1,5,Mobile App,Yes,Wrong item
+306,109,1,Spice Hub,Indian,Veg Thali,25-06-2026,11:40:00 PM,Thane,Dharampeth,3,199,10,30,30,597,Debit Card,Delivered,Failed,28,4,5,Phone,Yes,None
+307,239,7,Dosa Corner,South Indian,Masala Dosa,27-09-2026,1:29:00 AM,Pune,Thane West,1,99,5,20,5,119,Debit Card,Cancelled,Failed,54,7,4,Phone,No,None
+308,306,1,Spice Hub,Indian,Paneer Tikka,30-05-2026,10:09:00 PM,Mumbai,Wakad,1,249,15,40,12,264,Wallet,Delivered,Late,35,5,4,Phone,Yes,None
+309,321,4,Pizza Point,Italian,Farmhouse Pizza,29-09-2026,10:24:00 AM,Mumbai,Dharampeth,1,249,20,20,12,232,Debit Card,Delivered,On Time,58,6,4,Website,No,None
+310,348,9,Roll Express,Street Food,Chicken Roll,24-05-2026,7:41:00 AM,Nagpur,Wakad,1,249,20,20,12,232,Wallet,Delivered,On Time,39,4,4,Website,No,Cold food
+311,353,9,Roll Express,Street Food,Chicken Roll,03-09-2026,7:03:00 AM,Nagpur,Kothrud,2,399,15,40,40,758,Cash,Preparing,On Time,70,3,3,Mobile App,Yes,Late delivery
+312,327,6,Taco Town,Mexican,Chicken Wrap,10-06-2026,1:00:00 AM,Mumbai,Wakad,2,249,10,25,25,498,Upi,Delivered,On Time,74,2,5,Mobile App,No,Missing item
+313,258,10,Cafe Aroma,Cafe,Pasta,29-04-2026,8:21:00 PM,Aurangabad,Andheri,1,499,0,25,25,549,Credit Card,Delivered,Late,64,4,2,Website,Yes,Late delivery
+314,388,4,Pizza Point,Italian,Pasta Alfredo,26-04-2026,1:06:00 AM,Pune,Kothrud,1,99,5,30,5,129,Cash,Delivered,Failed,57,4,5,Phone,No,Cold food
+315,381,4,Pizza Point,Italian,Margherita Pizza,08-07-2026,1:49:00 PM,Pune,Hinjewadi,2,399,20,50,40,728,Cash,Delivered,Late,35,7,4,Mobile App,Yes,Missing item
+316,204,9,Roll Express,Street Food,Frankie,22-07-2026,1:20:00 AM,Nashik,College Road,2,0,25,40,35,598,Credit Card,Refunded,Late,27,3,4,Phone,Yes,Missing item
+317,280,3,Green Bowl,Healthy,Grilled Salad,26-08-2026,10:03:00 PM,Nagpur,Thane West,1,349,0,20,17,386,Debit Card,Cancelled,Late,75,1,5,Mobile App,No,Missing item
+318,59,4,Pizza Point,Italian,Garlic Bread,21-08-2026,3:04:00 AM,Aurangabad,Andheri,1,499,20,50,25,474,Upi,Delivered,Failed,61,6,3,Website,Yes,Cold food
+319,75,9,Roll Express,Street Food,Chicken Roll,14-07-2026,1:29:00 AM,Aurangabad,Baner,2,229,15,50,23,462,Cash,Delivered,Late,24,3,3,Phone,No,Wrong item
+320,256,3,Green Bowl,Healthy,Quinoa Bowl,03-02-2026,4:29:00 AM,Thane,College Road,4,99,15,50,20,406,Credit Card,Delivered,On Time,44,5,4,Phone,No,Cold food
+321,107,7,Dosa Corner,South Indian,Masala Dosa,15-08-2026,2:42:00 AM,Mumbai,Kothrud,2,99,0,35,10,243,Upi,Delivered,Failed,55,3,4,Mobile App,Yes,None
+322,313,10,Cafe Aroma,Cafe,Cold Coffee,06-02-2026,11:18:00 AM,Nagpur,Andheri,4,99,0,30,20,446,Upi,Refunded,On Time,25,7,5,Website,No,Wrong item
+323,169,7,Dosa Corner,South Indian,Vada,02-04-2026,2:35:00 PM,Thane,Wakad,3,129,5,30,19,417,Credit Card,Delivered,Failed,59,1,5,Mobile App,Yes,Cold food
+324,67,10,Cafe Aroma,Cafe,Pasta,28-05-2026,2:34:00 PM,Thane,College Road,2,229,5,35,23,493,Cash,Delivered,On Time,54,5,4,Mobile App,No,Late delivery
+325,212,1,Spice Hub,Indian,Vada,03-02-2026,12:49:00 AM,Nashik,Kharadi,1,129,20,50,6,160,Wallet,Delivered,Failed,54,2,5,Mobile App,Yes,Wrong item
+326,203,5,Dragon Wok,Chinese,Hakka Noodles,02-04-2026,10:30:00 AM,Mumbai,Wakad,1,349,5,50,17,399,Debit Card,Delivered,Late,58,6,4,Website,No,None
+327,29,3,Green Bowl,Healthy,Protein Bowl,09-04-2026,5:18:00 AM,Thane,Andheri,2,349,5,30,35,728,Wallet,Cancelled,Failed,41,1,5,Mobile App,No,Wrong item
+328,200,2,Burger Barn,Fast Food,French Fries,18-03-2026,9:34:00 AM,Thane,Hinjewadi,3,229,10,40,34,693,Debit Card,Delivered,Failed,25,7,4,Website,Yes,Wrong item
+329,90,7,Dosa Corner,South Indian,Masala Dosa,14-02-2026,4:57:00 PM,Nashik,Baner,3,229,10,50,34,703,Credit Card,Refunded,On Time,28,4,4,Phone,Yes,Cold food
+330,394,9,Roll Express,Street Food,Paneer Roll,20-03-2026,6:29:00 AM,Thane,Kothrud,1,299,20,50,15,304,Credit Card,Delivered,Failed,64,1,4,Website,No,Missing item
+331,24,2,Burger Barn,Fast Food,Classic Burger,01-03-2026,10:36:00 AM,Thane,Viman Nagar,4,499,25,35,100,1632,Upi,On The Way,Failed,36,7,4,Website,Yes,Wrong item
+332,141,4,Pizza Point,Italian,Margherita Pizza,04-09-2026,9:46:00 AM,Pune,Kharadi,1,229,25,30,11,213,Wallet,Delivered,On Time,32,2,3,Phone,No,Missing item
+333,174,6,Pizza Point,Mexican,Nachos,19-05-2026,4:49:00 AM,Pune,Kothrud,4,199,15,20,40,736,Upi,Delivered,Late,34,6,5,Mobile App,Yes,Cold food
+334,183,1,Spice Hub,Indian,Chicken Biryani,14-02-2026,2:33:00 PM,Nashik,Kharadi,1,399,15,40,20,399,Wallet,Preparing,On Time,59,7,4,Website,Yes,None
+335,74,8,Sweet Treats,Desserts,Ice Cream,19-02-2026,3:33:00 PM,Nashik,Thane West,1,499,20,50,25,474,Credit Card,Delivered,Failed,29,6,5,Website,No,Cold food
+336,310,8,Sweet Treats,Desserts,Brownie,16-01-2026,2:13:00 AM,Thane,Hinjewadi,1,229,10,30,11,248,Cash,Preparing,Failed,33,7,5,Mobile App,No,Missing item
+337,247,2,Burger Barn,Fast Food,Combo Meal,06-04-2026,6:11:00 PM,Pune,Andheri,1,399,10,20,20,399,Credit Card,Delivered,Failed,50,5,3,Website,No,Missing item
+338,250,6,Taco Town,Mexican,Veg Tacos,10-06-2026,11:41:00 PM,Thane,College Road,1,499,20,0,25,424,Debit Card,Cancelled,Failed,60,1,4,Website,Yes,Wrong item
+339,190,7,Dosa Corner,South Indian,Masala Dosa,02-05-2026,8:25:00 PM,Mumbai,Kothrud,1,399,25,50,20,369,Wallet,Delivered,Failed,46,7,5,Mobile App,Yes,Late delivery
+340,292,8,Sweet Treats,Desserts,Ice Cream,30-09-2026,9:56:00 AM,Nagpur,Andheri,1,399,10,20,20,399,Upi,Delivered,Failed,71,1,4,Phone,No,Late delivery
+341,145,5,Dragon Wok,Chinese,Hakka Noodles,10-06-2026,12:36:00 PM,Mumbai,Thane West,3,99,0,40,15,10,Wallet,Delivered,Late,37,6,3,Website,No,Cold food
+342,185,7,Dosa Corner,South Indian,Vada,08-11-2026,6:36:00 PM,Mumbai,Viman Nagar,1,149,10,20,7,162,Credit Card,Delivered,On Time,39,1,5,Mobile App,Yes,Late delivery
+343,310,8,Sweet Treats,Desserts,Cheesecake,08-12-2026,4:38:00 AM,Thane,Kothrud,1,499,25,30,25,429,Cash,On The Way,Failed,72,4,5,Phone,No,Cold food
+344,138,6,Taco Town,Mexican,Nachos,26-04-2026,6:20:00 AM,Thane,Andheri,1,99,15,30,5,119,Upi,Preparing,On Time,30,5,5,Website,No,None
+345,268,10,Cafe Aroma,Cafe,Cappuccino,09-04-2026,11:34:00 PM,Mumbai,College Road,1,349,25,50,17,329,Upi,Cancelled,Failed,44,6,4,Phone,No,Missing item
+346,216,1,Spice Hub,Indian,Chicken Biryani,25-06-2026,6:15:00 PM,Nashik,Viman Nagar,2,299,10,35,30,603,Credit Card,On The Way,On Time,51,6,5,Phone,No,Missing item
+347,320,5,Dragon Wok,Chinese,Hakka Noodles,02-01-2026,9:28:00 PM,Nashik,College Road,1,149,15,0,7,134,Upi,Delivered,On Time,33,5,5,Mobile App,No,Wrong item
+348,78,3,Green Bowl,Healthy,Vada,24-05-2026,9:23:00 AM,Nashik,Kothrud,3,99,20,0,15,252,Debit Card,Delivered,Failed,73,2,4,Website,Yes,Missing item
+349,395,1,Spice Hub,Indian,Butter Chicken,25-06-2026,2:52:00 AM,Mumbai,Kharadi,4,399,25,20,80,1297,Credit Card,Preparing,On Time,63,5,5,Phone,No,None
+350,273,5,Dragon Wok,Chinese,Manchurian,03-01-2026,1:47:00 AM,Nagpur,Thane West,1,249,10,25,12,262,Cash,Delivered,Late,75,2,5,Phone,No,None
+351,222,5,Dragon Wok,Chinese,Fried Rice,18-08-2026,1:02:00 PM,Nashik,Viman Nagar,2,349,110,0,35,593,Debit Card,Delivered,On Time,49,3,5,Phone,No,Cold food
+352,7,4,Pizza Point,Italian,Garlic Bread,04-10-2026,5:44:00 PM,Pune,Dharampeth,1,149,5,35,7,184,Upi,Delivered,Failed,15,4,5,Website,Yes,Wrong item
+353,307,5,Dragon Wok,Chinese,Hakka Noodles,04-09-2026,1:09:00 AM,Aurangabad,Hinjewadi,1,129,0,35,6,170,Upi,Delivered,Failed,68,2,3,Website,Yes,None
+354,355,3,Green Bowl,Healthy,Protein Bowl,05-10-2026,10:03:00 AM,Nashik,Kothrud,1,129,20,30,6,140,Upi,On The Way,Late,32,7,5,Mobile App,No,Cold food
+355,202,6,Taco Town,Mexican,Burrito Bowl,31-01-2026,8:48:00 AM,Aurangabad,College Road,4,199,0,30,40,866,Upi,Delivered,On Time,74,5,3,Website,Yes,Missing item
+356,255,2,Burger Barn,Fast Food,French Fries,15-08-2026,8:50:00 AM,Aurangabad,Baner,1,129,0,35,6,170,Upi,Cancelled,Failed,64,4,4,Website,Yes,Wrong item
+357,190,7,Dosa Corner,South Indian,Idli Sambar,01-02-2026,5:35:00 PM,Pune,Thane West,2,299,10,30,30,598,Cash,Delivered,On Time,61,5,5,Phone,No,Wrong item
+358,236,5,Dragon Wok,Chinese,Fried Rice,25-07-2026,1:53:00 AM,Aurangabad,Wakad,2,499,0,25,50,1073,Credit Card,Delivered,Failed,36,1,2,Website,Yes,Wrong item
+359,99,7,Dosa Corner,South Indian,Masala Dosa,24-02-2026,9:31:00 PM,Aurangabad,Wakad,2,299,0,40,30,668,Cash,Delivered,Late,27,1,3,Phone,No,Cold food
+360,335,9,Roll Express,Street Food,Schezwan Roll,19-08-2026,12:33:00 AM,Aurangabad,Dharampeth,1,99,5,50,5,149,Credit Card,Cancelled,Failed,40,5,3,Mobile App,Yes,None
+361,324,3,Green Bowl,Healthy,Quinoa Bowl,09-08-2026,10:19:00 PM,Nashik,Hinjewadi,1,399,0,20,20,439,Cash,Cancelled,Failed,23,2,1,Phone,Yes,None
+362,378,2,Burger Barn,Fast Food,Combo Meal,09-12-2026,8:18:00 PM,Nashik,Hinjewadi,3,179,0,50,27,614,Wallet,Delivered,Failed,36,2,5,Website,Yes,None
+363,85,10,Cafe Aroma,Cafe,Pasta,30-03-2026,11:27:00 AM,Mumbai,Baner,1,199,0,50,10,259,Credit Card,Delivered,On Time,59,7,4,Phone,No,Late delivery
+364,356,1,Spice Hub,Indian,Butter Chicken,09-07-2026,2:45:00 AM,Aurangabad,Kothrud,1,149,0,40,7,196,Credit Card,Delivered,Late,71,6,4,Website,No,Cold food
+365,155,4,Pizza Point,Italian,Farmhouse Pizza,31-03-2026,8:50:00 PM,Nagpur,Baner,2,399,0,40,40,878,Wallet,Delivered,On Time,75,2,2,Mobile App,Yes,Missing item
+366,77,6,Taco Town,Mexican,Nachos,10-04-2026,5:19:00 PM,Nagpur,Kothrud,1,499,20,20,25,444,Credit Card,Delivered,Failed,27,1,3,Mobile App,No,Wrong item
+367,81,4,Pizza Point,Italian,Margherita Pizza,08-11-2026,8:34:00 AM,Nagpur,Dharampeth,1,299,0,0,15,314,Upi,Cancelled,On Time,74,2,4,Phone,No,Missing item
+368,122,10,Cafe Aroma,Cafe,Pasta,16-06-2026,2:18:00 PM,Mumbai,Thane West,1,499,5,20,25,519,Credit Card,Cancelled,On Time,35,4,3,Phone,No,None
+369,324,7,Dosa Corner,South Indian,Uttapam,16-03-2026,7:22:00 AM,Nashik,Wakad,4,299,0,30,60,1286,Debit Card,Delivered,On Time,44,1,5,Phone,Yes,Wrong item
+370,190,3,Green Bowl,Healthy,Grilled Salad,26-02-2026,3:53:00 PM,Thane,Dharampeth,1,149,25,25,7,144,Credit Card,Delivered,On Time,33,4,5,Phone,No,Late delivery
+371,114,10,Cafe Aroma,Cafe,Cold Coffee,31-08-2026,3:47:00 PM,Thane,Baner,1,249,20,50,12,262,Cash,Delivered,On Time,35,1,4,Website,Yes,Cold food
+372,355,9,Roll Express,Street Food,Schezwan Roll,21-07-2026,4:21:00 PM,Mumbai,Kothrud,3,129,10,30,19,398,Debit Card,Delivered,Late,50,2,5,Phone,Yes,None
+373,71,8,Sweet Treats,Desserts,Vada,06-06-2026,5:31:00 AM,Mumbai,Andheri,2,399,20,35,40,713,Cash,Delivered,Failed,44,6,4,Mobile App,Yes,Cold food
+374,351,6,Taco Town,Mexican,Veg Tacos,29-09-2026,1:06:00 AM,Thane,Andheri,1,199,20,35,10,204,Upi,Delivered,Failed,65,6,3,Website,Yes,None
+375,364,7,Dosa Corner,South Indian,Idli Sambar,07-07-2026,3:53:00 PM,Mumbai,Andheri,2,229,5,20,23,478,Credit Card,Delivered,Failed,60,1,2,Phone,No,Missing item
+376,177,4,Pizza Point,Italian,Garlic Bread,26-04-2026,10:56:00 AM,Nagpur,Dharampeth,1,199,15,40,10,219,Wallet,Delivered,Late,18,4,2,Phone,No,Cold food
+377,148,10,Cafe Aroma,Cafe,Cappuccino,07-08-2026,10:58:00 PM,Pune,Kothrud,4,129,0,30,26,572,Debit Card,Delivered,On Time,40,6,5,Mobile App,No,Late delivery
+378,228,4,Pizza Point,Italian,Margherita Pizza,24-09-2026,9:24:00 PM,Nashik,Wakad,1,249,20,35,12,247,Upi,On The Way,On Time,45,9,4,Mobile App,No,Cold food
+379,228,10,Cafe Aroma,Cafe,Pasta,25-06-2026,10:22:00 PM,Nashik,Kothrud,2,229,10,35,23,470,Debit Card,Delivered,On Time,48,7,5,Website,Yes,Cold food
+380,147,6,Taco Town,Mexican,Burrito Bowl,28-05-2026,1:36:00 AM,Mumbai,Kothrud,1,99,10,20,10,209,Credit Card,Delivered,On Time,25,1,5,Mobile App,No,Missing item
+381,76,3,Green Bowl,Healthy,Protein Bowl,14-08-2026,8:53:00 AM,Nagpur,Dharampeth,1,179,15,40,9,201,Credit Card,Delivered,Failed,35,3,5,Mobile App,Yes,Cold food
+382,362,8,Sweet Treats,Desserts,Ice Cream,16-03-2026,3:38:00 PM,Pune,Viman Nagar,4,149,0,40,30,666,Wallet,Delivered,Failed,47,2,4,Phone,No,Wrong item
+383,229,2,Burger Barn,Fast Food,Chicken Burger,09-03-2026,1:22:00 AM,Pune,Andheri,1,349,0,25,17,391,Upi,Delivered,Failed,54,6,5,Mobile App,Yes,Wrong item
+384,252,4,Pizza Point,Italian,Farmhouse Pizza,01-12-2026,2:51:00 AM,Thane,Dharampeth,2,299,20,40,30,548,Upi,Refunded,Failed,47,3,4,Website,Yes,Cold food
+385,111,6,Taco Town,Mexican,Nachos,17-07-2026,12:43:00 PM,Aurangabad,Thane West,1,229,5,25,11,254,Cash,Refunded,Late,70,2,4,Phone,No,Cold food
+386,303,3,Green Bowl,Healthy,Smoothie Bowl,14-02-2026,4:54:00 AM,Pune,Baner,1,299,25,35,15,274,Cash,Refunded,Failed,19,3,5,Website,Yes,Missing item
+387,300,8,Sweet Treats,Desserts,Ice Cream,03-12-2026,6:48:00 AM,Nagpur,Dharampeth,1,249,5,35,12,284,Cash,Delivered,On Time,67,1,2,Mobile App,Yes,Wrong item
+388,15,5,Dragon Wok,Chinese,Hakka Noodles,30-08-2026,4:14:00 AM,Nashik,College Road,2,199,10,20,20,398,Upi,Delivered,Failed,59,6,5,Website,No,Missing item
+389,84,7,Dosa Corner,South Indian,Masala Dosa,13-05-2026,9:26:00 PM,Mumbai,Andheri,2,129,5,35,13,293,Cash,Cancelled,Failed,16,2,5,Website,Yes,None
+390,264,5,Dragon Wok,Chinese,Manchurian,04-07-2026,2:19:00 PM,Aurangabad,Kothrud,2,229,0,25,23,506,Upi,Delivered,Failed,55,7,5,Mobile App,No,Wrong item
+391,71,5,Dragon Wok,Chinese,Fried Rice,19-05-2026,11:23:00 PM,Nashik,College Road,2,229,0,35,23,516,Cash,Delivered,Late,67,2,3,Mobile App,Yes,Late delivery
+392,365,9,Roll Express,Street Food,Paneer Roll,24-04-2026,6:25:00 AM,Nagpur,College Road,3,349,15,40,52,982,Upi,Preparing,On Time,48,7,5,Mobile App,Yes,Cold food
+393,156,6,Taco Town,Mexican,Veg Tacos,06-09-2026,11:35:00 PM,Aurangabad,Hinjewadi,1,299,15,35,15,304,Credit Card,On The Way,On Time,36,7,3,Phone,Yes,Late delivery
+394,397,5,Dragon Wok,Chinese,Spring Rolls,03-06-2026,7:09:00 AM,Nagpur,Baner,1,129,10,40,6,163,Credit Card,Cancelled,On Time,22,1,2,Phone,Yes,Cold food
+395,106,2,Burger Barn,Fast Food,French Fries,05-10-2026,1:28:00 AM,Mumbai,Andheri,1,499,0,50,25,574,Upi,Delivered,On Time,22,2,5,Phone,No,Missing item
+396,391,6,Taco Town,Mexican,Veg Tacos,30-06-2026,5:28:00 AM,Thane,Wakad,3,399,0,35,60,1292,Credit Card,On The Way,Late,21,2,5,Phone,Yes,None
+397,182,4,Pizza Point,Italian,Garlic Bread,16-09-2026,4:12:00 PM,Nagpur,Wakad,1,399,0,30,20,449,Wallet,Delivered,On Time,21,4,3,Mobile App,No,None
+398,253,8,Sweet Treats,Desserts,Chocolate Cake,26-02-2026,5:44:00 PM,Nagpur,Viman Nagar,1,229,20,25,11,220,Cash,Delivered,Failed,17,6,2,Website,No,Late delivery
+399,348,9,Roll Express,Street Food,Frankie,28-07-2026,9:55:00 AM,Mumbai,Baner,5,249,0,50,62,1357,Cash,Delivered,Failed,68,1,5,Website,No,Missing item
+400,102,2,Burger Barn,Fast Food,Chicken Burger,03-03-2026,4:53:00 AM,Mumbai,Thane West,1,399,0,40,20,459,Upi,On The Way,On Time,25,7,2,Website,No,Wrong item
+401,262,10,Cafe Aroma,Cafe,Sandwich,20-05-2026,9:58:00 PM,Mumbai,College Road,4,229,10,40,46,910,Upi,Delivered,On Time,40,3,5,Website,No,Late delivery
+402,348,3,Green Bowl,Healthy,Protein Bowl,16-01-2026,3:23:00 AM,Mumbai,Viman Nagar,2,129,10,40,13,285,Wallet,Delivered,Failed,26,1,4,Mobile App,No,Cold food
+403,10,4,Pizza Point,Italian,Margherita Pizza,31-05-2026,10:35:00 PM,Nagpur,Hinjewadi,1,349,5,35,17,384,Cash,Delivered,Late,70,3,4,Website,No,Cold food
+404,200,1,Spice Hub,Indian,Butter Chicken,17-01-2026,6:02:00 AM,Pune,College Road,2,199,20,20,20,358,Wallet,Delivered,Failed,23,5,4,Phone,No,Cold food
+405,393,9,Roll Express,Street Food,Frankie,22-03-2026,5:17:00 PM,Nashik,Baner,1,199,10,35,10,224,Upi,Refunded,Failed,54,1,5,Mobile App,No,Wrong item
+406,339,10,Cafe Aroma,Cafe,Cold Coffee,14-01-2026,9:20:00 PM,Mumbai,Wakad,1,129,10,25,6,148,Debit Card,Refunded,Failed,41,1,4,Phone,Yes,Wrong item
+407,216,2,Burger Barn,Fast Food,Chicken Burger,22-06-2026,5:47:00 AM,Pune,College Road,1,229,0,30,11,270,Wallet,Delivered,On Time,42,3,4,Website,No,Wrong item
+408,174,10,Cafe Aroma,Cafe,Cold Coffee,20-02-2026,4:40:00 PM,Thane,Viman Nagar,1,499,0,25,25,549,Debit Card,Delivered,Late,66,2,5,Website,Yes,Missing item
+409,368,4,Pizza Point,Italian,Margherita Pizza,28-05-2026,9:03:00 AM,Thane,Andheri,1,399,10,50,20,429,Debit Card,Delivered,On Time,62,5,5,Phone,No,Cold food
+410,103,4,Pizza Point,Italian,Garlic Bread,27-06-2026,2:37:00 AM,Nagpur,Viman Nagar,2,199,15,50,20,408,Wallet,Delivered,Failed,57,4,4,Phone,Yes,None
+411,273,9,Roll Express,Street Food,Schezwan Roll,04-06-2026,7:41:00 PM,Thane,Baner,1,499,25,40,25,439,Wallet,On The Way,On Time,32,3,5,Website,Yes,Late delivery
+412,190,3,Green Bowl,Healthy,Grilled Salad,06-03-2026,2:51:00 PM,Nashik,Wakad,1,129,20,20,6,130,Cash,Preparing,On Time,32,1,5,Mobile App,Yes,None
+413,70,4,Pizza Point,Italian,Margherita Pizza,06-08-2026,3:50:00 PM,Nashik,Viman Nagar,1,249,10,40,12,277,Wallet,On The Way,On Time,27,6,3,Mobile App,No,None
+414,371,1,Spice Hub,Indian,Veg Thali,02-12-2026,10:42:00 AM,Mumbai,Hinjewadi,2,129,10,25,13,270,Wallet,Delivered,Failed,71,5,2,Mobile App,No,Cold food
+415,381,2,Burger Barn,Fast Food,French Fries,05-02-2026,8:28:00 PM,Nagpur,Wakad,1,229,5,50,11,279,Credit Card,Delivered,On Time,39,2,5,Mobile App,No,Cold food
+416,244,7,Dosa Corner,South Indian,Idli Sambar,05-11-2026,8:07:00 PM,Nashik,Kothrud,1,349,5,40,17,389,Debit Card,On The Way,Late,35,6,4,Website,No,None
+417,159,10,Cafe Aroma,Cafe,Sandwich,18-01-2026,10:36:00 PM,Aurangabad,Hinjewadi,3,99,20,50,15,302,Wallet,Delivered,On Time,31,7,4,Website,No,None
+418,324,7,Dosa Corner,South Indian,Uttapam,05-11-2026,10:16:00 AM,Aurangabad,Thane West,1,179,5,20,9,199,Upi,On The Way,Late,25,7,5,Mobile App,No,Cold food
+419,216,7,Dosa Corner,South Indian,Uttapam,20-06-2026,2:25:00 PM,Nagpur,Baner,3,129,25,20,19,330,Upi,Delivered,Failed,47,6,2,Mobile App,No,Late delivery
+420,394,1,Spice Hub,Indian,Veg Thali,25-07-2026,6:49:00 AM,Thane,Thane West,2,229,15,0,23,412,Debit Card,Delivered,Late,30,4,4,Phone,Yes,Wrong item
+421,293,3,Green Bowl,Healthy,Grilled Salad,17-06-2026,9:37:00 AM,Pune,Baner,1,249,5,20,12,269,Wallet,Delivered,Failed,39,5,5,Phone,Yes,None
+422,46,8,Sweet Treats,Desserts,Ice Cream,04-12-2026,8:56:00 AM,Mumbai,Hinjewadi,2,149,0,30,15,343,Upi,Delivered,Failed,53,5,4,Website,No,Cold food
+423,106,2,Burger Barn,Fast Food,French Fries,10-10-2026,6:56:00 AM,Nashik,Wakad,1,199,5,40,10,239,Cash,Delivered,On Time,23,4,4,Mobile App,Yes,Wrong item
+424,241,5,Dragon Wok,Chinese,Manchurian,05-01-2026,9:05:00 PM,Nashik,Thane West,1,179,5,35,9,214,Credit Card,Delivered,Late,44,4,2,Phone,No,Missing item
+425,344,5,Dragon Wok,Chinese,Hakka Noodles,02-07-2026,3:15:00 AM,Pune,Viman Nagar,2,99,5,20,10,218,Wallet,Delivered,Failed,37,4,5,Website,No,Wrong item
+426,46,3,Pizza Point,Healthy,Protein Bowl,22-01-2026,7:48:00 PM,Aurangabad,Dharampeth,1,149,15,30,7,164,Cash,On The Way,On Time,71,3,2,Mobile App,No,None
+427,190,3,Green Bowl,Healthy,Protein Bowl,13-09-2026,9:35:00 AM,Nagpur,Kothrud,2,249,5,25,25,523,Debit Card,Delivered,Failed,63,4,5,Mobile App,No,None
+428,254,4,Pizza Point,Italian,Margherita Pizza,18-03-2026,1:51:00 AM,Nagpur,Andheri,1,99,10,25,5,119,Wallet,Delivered,Late,44,4,4,Website,Yes,Late delivery
+429,289,2,Burger Barn,Fast Food,French Fries,28-06-2026,3:11:00 AM,Thane,Baner,1,199,0,50,10,259,Wallet,Delivered,Failed,47,2,5,Website,Yes,Late delivery
+430,55,8,Sweet Treats,Desserts,Ice Cream,18-02-2026,11:13:00 AM,Mumbai,Baner,1,499,20,0,25,424,Upi,Delivered,Late,52,7,5,Phone,No,Cold food
+431,292,5,Dragon Wok,Chinese,Manchurian,01-03-2026,11:14:00 AM,Mumbai,Baner,4,499,15,30,100,1826,Debit Card,Delivered,Late,61,7,5,Mobile App,Yes,Missing item
+432,107,10,Cafe Aroma,Cafe,Cold Coffee,15-07-2026,3:09:00 AM,Nagpur,Thane West,1,149,0,50,7,206,Debit Card,On The Way,Failed,20,7,1,Phone,Yes,None
+433,189,5,Dragon Wok,Chinese,Vada,09-09-2026,2:45:00 PM,Nagpur,College Road,2,199,20,35,20,373,Cash,Delivered,Late,57,3,2,Phone,No,None
+434,347,7,Dosa Corner,South Indian,Idli Sambar,07-08-2026,8:57:00 PM,Aurangabad,Kothrud,1,499,10,0,25,474,Cash,Delivered,Late,0,6,5,Phone,Yes,Wrong item
+435,128,8,Sweet Treats,Desserts,Cheesecake,08-12-2026,2:42:00 AM,Nashik,Baner,3,299,5,20,45,917,Wallet,Refunded,On Time,58,1,5,Phone,Yes,Missing item
+436,258,7,Dosa Corner,South Indian,Masala Dosa,31-07-2026,3:13:00 AM,Pune,College Road,1,399,25,25,20,344,Cash,Delivered,On Time,52,7,2,Website,Yes,None
+437,96,7,Dosa Corner,South Indian,Idli Sambar,06-02-2026,10:42:00 AM,Mumbai,Hinjewadi,2,299,25,40,30,518,Wallet,Delivered,Late,66,7,4,Phone,Yes,Cold food
+438,337,9,Roll Express,Street Food,Schezwan Roll,01-10-2026,12:11:00 AM,Nashik,Andheri,1,99,0,40,5,144,Cash,Delivered,Late,59,1,4,Mobile App,Yes,None
+439,190,4,Pizza Point,Italian,Garlic Bread,10-06-2026,12:32:00 AM,Aurangabad,Dharampeth,2,179,25,0,18,286,Credit Card,Delivered,On Time,56,3,3,Website,Yes,Cold food
+440,231,7,Dosa Corner,South Indian,Idli Sambar,01-12-2026,3:58:00 AM,Mumbai,Viman Nagar,1,149,20,40,7,167,Wallet,Delivered,Failed,46,1,4,Website,Yes,None
+441,249,7,Dosa Corner,South Indian,Vada,08-01-2026,4:55:00 PM,Mumbai,Baner,2,399,20,35,40,713,Wallet,Refunded,On Time,17,4,4,Phone,No,Missing item
+442,358,2,Burger Barn,Fast Food,Combo Meal,10-10-2026,10:07:00 PM,Pune,Kothrud,1,299,0,30,15,344,Debit Card,Delivered,Failed,56,2,4,Website,No,Cold food
+443,68,4,Pizza Point,Italian,Farmhouse Pizza,17-09-2026,7:29:00 AM,Aurangabad,Thane West,2,499,5,35,50,1033,Cash,On The Way,Failed,60,6,5,Phone,No,Cold food
+444,252,3,Green Bowl,Healthy,Quinoa Bowl,17-04-2026,9:38:00 AM,Nagpur,College Road,2,129,20,30,13,249,Debit Card,Delivered,On Time,27,2,3,Phone,Yes,None
+445,173,6,Taco Town,Mexican,Nachos,14-05-2026,12:11:00 PM,Pune,Wakad,2,149,25,50,15,288,Upi,On The Way,Failed,17,2,0,Website,No,Wrong item
+446,362,6,Taco Town,Mexican,Veg Tacos,24-01-2026,7:00:00 PM,Nagpur,College Road,1,149,25,40,7,159,Upi,On The Way,On Time,53,7,5,Phone,Yes,Missing item
+447,363,1,Spice Hub,Indian,Butter Chicken,17-09-2026,3:35:00 AM,Thane,College Road,1,129,25,20,6,123,Upi,On The Way,On Time,25,6,5,Website,No,Late delivery
+448,88,2,Burger Barn,Fast Food,Classic Burger,14-04-2026,2:59:00 PM,Nashik,Andheri,4,99,0,50,20,466,Cash,Preparing,Late,36,6,4,Phone,Yes,Late delivery
+449,350,9,Roll Express,Street Food,Frankie,04-08-2026,7:47:00 AM,Pune,College Road,1,249,10,30,12,267,Credit Card,On The Way,On Time,75,6,5,Phone,Yes,None
+450,329,6,Taco Town,Mexican,Burrito Bowl,06-11-2026,1:42:00 PM,Thane,Baner,5,149,10,0,37,708,Wallet,Delivered,Late,17,4,5,Website,No,Wrong item
+451,279,6,Taco Town,Mexican,Nachos,01-05-2026,9:32:00 AM,Aurangabad,Andheri,3,399,0,40,60,1297,Cash,Delivered,On Time,56,3,3,Mobile App,Yes,Missing item
+452,175,6,Taco Town,Mexican,Burrito Bowl,19-07-2026,4:18:00 AM,Pune,Baner,2,349,5,20,35,718,Wallet,Delivered,Late,50,3,4,Mobile App,No,Cold food
+453,64,9,Pizza Point,Street Food,Schezwan Roll,26-02-2026,2:02:00 AM,Nashik,Baner,3,199,20,35,30,542,Cash,Delivered,Late,18,2,5,Phone,Yes,Wrong item
+454,54,5,Dragon Wok,Chinese,Fried Rice,26-05-2026,10:45:00 PM,Thane,Wakad,3,0,20,20,60,1037,Debit Card,Cancelled,Late,48,1,5,Mobile App,No,Cold food
+455,207,2,Burger Barn,Fast Food,Combo Meal,17-02-2026,2:07:00 AM,Nashik,College Road,1,149,10,20,7,162,Cash,Delivered,Late,38,6,5,Website,No,Late delivery
+456,109,3,Green Bowl,Healthy,Smoothie Bowl,16-09-2026,4:20:00 AM,Nagpur,Baner,1,299,0,40,15,354,Credit Card,Delivered,Failed,48,3,3,Mobile App,No,None
+457,249,2,Burger Barn,Fast Food,Classic Burger,07-09-2026,7:30:00 PM,Mumbai,Kothrud,1,349,0,0,17,366,Wallet,Delivered,Late,38,1,4,Website,No,Late delivery
+458,290,3,Green Bowl,Healthy,Smoothie Bowl,09-08-2026,12:04:00 AM,Nashik,Thane West,1,229,0,50,11,290,Cash,Delivered,On Time,45,7,4,Phone,Yes,Late delivery
+459,320,9,Roll Express,Street Food,Schezwan Roll,24-08-2026,3:21:00 PM,Nagpur,Wakad,2,149,25,40,15,278,Cash,Delivered,Late,66,5,5,Mobile App,No,Wrong item
+460,317,2,Burger Barn,Fast Food,Classic Burger,26-03-2026,12:50:00 AM,Thane,Dharampeth,2,199,15,40,20,398,Credit Card,Delivered,Late,50,5,2,Mobile App,Yes,Missing item
+461,274,3,Pizza Point,Healthy,Protein Bowl,01-10-2026,9:23:00 AM,Nagpur,Baner,3,179,25,40,27,470,Cash,Preparing,On Time,52,3,4,Website,Yes,Cold food
+462,131,1,Spice Hub,Indian,Paneer Tikka,28-09-2026,10:49:00 AM,Mumbai,Viman Nagar,1,129,0,0,6,135,Cash,Delivered,Failed,33,2,3,Mobile App,No,Late delivery
+463,62,1,Spice Hub,Indian,Paneer Tikka,30-01-2026,10:10:00 AM,Mumbai,Wakad,1,229,0,30,11,270,Wallet,On The Way,Failed,31,2,4,Website,No,None
+464,10,5,Dragon Wok,Chinese,Fried Rice,02-01-2026,10:51:00 AM,Thane,Hinjewadi,1,249,0,30,12,291,Credit Card,Delivered,Failed,55,6,3,Mobile App,No,Missing item
+465,87,7,Dosa Corner,South Indian,Idli Sambar,17-08-2026,2:51:00 AM,Thane,Thane West,3,349,0,50,52,1149,Wallet,Refunded,Late,38,1,4,Mobile App,No,Missing item
+466,180,5,Dragon Wok,Chinese,Manchurian,27-03-2026,12:01:00 AM,Thane,Dharampeth,1,299,5,35,15,334,Debit Card,Delivered,On Time,58,2,4,Phone,Yes,Wrong item
+467,313,2,Burger Barn,Fast Food,Chicken Burger,22-07-2026,11:50:00 PM,Aurangabad,Andheri,1,149,20,35,7,162,Debit Card,Refunded,Failed,71,4,4,Website,Yes,Wrong item
+468,244,6,Taco Town,Mexican,Veg Tacos,18-04-2026,3:41:00 PM,Pune,Kothrud,4,229,0,40,46,1002,Cash,Delivered,Failed,74,6,1,Phone,No,Cold food
+469,181,9,Roll Express,Street Food,Schezwan Roll,02-11-2026,10:09:00 PM,Thane,Andheri,2,349,0,50,35,783,Cash,Preparing,On Time,43,7,5,Phone,Yes,None
+470,184,8,Sweet Treats,Desserts,Brownie,07-09-2026,6:35:00 AM,Pune,Viman Nagar,1,179,20,0,9,152,Credit Card,Cancelled,On Time,58,4,5,Website,Yes,Wrong item
+471,88,8,Sweet Treats,Desserts,Brownie,18-04-2026,12:14:00 AM,Aurangabad,Kothrud,1,499,10,0,25,474,Upi,On The Way,Failed,51,2,4,Phone,Yes,Late delivery
+472,315,5,Dragon Wok,Chinese,Fried Rice,27-04-2026,5:51:00 PM,Aurangabad,Dharampeth,2,199,0,50,20,468,Cash,Delivered,On Time,59,4,5,Phone,Yes,Wrong item
+473,370,7,Dosa Corner,South Indian,Idli Sambar,28-07-2026,9:21:00 AM,Pune,Viman Nagar,1,349,10,30,17,362,Cash,Delivered,Failed,63,4,6,Website,Yes,Cold food
+474,128,4,Pizza Point,Italian,Pasta Alfredo,21-06-2026,2:47:00 AM,Mumbai,Andheri,3,99,20,20,15,100,Debit Card,Refunded,On Time,42,6,5,Phone,Yes,None
+475,175,8,Sweet Treats,Desserts,Chocolate Cake,08-10-2026,12:49:00 AM,Nashik,Dharampeth,2,499,10,50,50,1048,Credit Card,Delivered,On Time,21,7,4,Phone,No,None
+476,66,8,Sweet Treats,Desserts,Chocolate Cake,03-05-2026,2:55:00 AM,Nagpur,Baner,4,99,10,25,20,401,Debit Card,On The Way,Failed,59,6,2,Website,Yes,None
+477,338,1,Spice Hub,Indian,Paneer Tikka,27-01-2026,10:03:00 AM,Nagpur,Thane West,3,249,0,35,37,819,Cash,Cancelled,Late,29,5,5,Phone,Yes,Wrong item
+478,100,1,Spice Hub,Indian,Veg Thali,21-08-2026,5:39:00 PM,Aurangabad,Dharampeth,1,179,0,0,9,188,Debit Card,Delivered,Late,60,4,2,Website,No,Late delivery
+479,160,4,Pizza Point,Italian,Pasta Alfredo,03-12-2026,1:30:00 AM,Mumbai,College Road,1,199,15,30,10,209,Debit Card,Delivered,Failed,56,3,5,Website,No,None
+480,328,9,Roll Express,Street Food,Chicken Roll,16-03-2026,1:57:00 AM,Pune,Andheri,1,349,25,0,17,279,Credit Card,Delivered,Failed,27,4,5,Phone,No,Missing item
+481,254,6,Taco Town,Mexican,Burrito Bowl,21-06-2026,9:01:00 PM,Pune,Wakad,1,229,0,0,11,240,Credit Card,Delivered,Late,65,5,5,Mobile App,Yes,Cold food
+482,73,6,Taco Town,Mexican,Chicken Wrap,07-12-2026,7:00:00 AM,Nagpur,Wakad,1,99,5,0,5,99,Wallet,Delivered,Late,16,1,4,Mobile App,Yes,Late delivery
+483,91,5,Dragon Wok,Chinese,Fried Rice,31-03-2026,7:28:00 AM,Pune,Baner,3,149,5,50,22,497,Credit Card,Delivered,Late,26,6,3,Mobile App,No,Late delivery
+484,223,5,Dragon Wok,Chinese,Hakka Noodles,22-08-2026,8:11:00 AM,Pune,Kothrud,1,229,20,20,11,215,Credit Card,On The Way,On Time,66,2,5,Phone,No,Wrong item
+485,77,6,Taco Town,Mexican,Chicken Wrap,08-08-2026,9:42:00 PM,Mumbai,Baner,1,99,25,35,5,114,Debit Card,Delivered,On Time,69,7,4,Phone,No,Late delivery
+486,192,2,Burger Barn,Fast Food,Combo Meal,29-08-2026,10:38:00 PM,Thane,College Road,2,149,15,30,15,298,Credit Card,Cancelled,Late,56,6,5,Website,No,Cold food
+487,121,8,Sweet Treats,Desserts,Cheesecake,18-05-2026,7:50:00 PM,Mumbai,Viman Nagar,1,399,20,0,20,339,Cash,Delivered,Late,72,5,3,Mobile App,Yes,Wrong item
+488,263,9,Roll Express,Street Food,Frankie,13-02-2026,4:35:00 AM,Nagpur,College Road,2,199,10,35,20,413,Cash,Delivered,Late,52,4,2,Website,No,Wrong item
+489,257,5,Dragon Wok,Chinese,Hakka Noodles,15-07-2026,12:50:00 AM,Nashik,Wakad,1,179,5,40,9,219,Upi,Delivered,On Time,72,1,2,Website,Yes,Missing item
+490,98,4,Pizza Point,Italian,Pasta Alfredo,20-06-2026,6:42:00 AM,Aurangabad,Dharampeth,2,199,5,40,20,438,Debit Card,Preparing,On Time,58,7,5,Website,No,Wrong item
+491,204,7,Dosa Corner,South Indian,Idli Sambar,27-07-2026,7:47:00 PM,Mumbai,Wakad,2,99,10,40,10,228,Cash,Delivered,On Time,63,5,5,Phone,No,Cold food
+492,286,6,Taco Town,Mexican,Veg Tacos,13-02-2026,10:41:00 AM,Nashik,Kothrud,3,249,25,40,37,638,Wallet,Delivered,On Time,43,3,4,Phone,Yes,Cold food
+493,167,6,Taco Town,Mexican,Veg Tacos,23-06-2026,7:41:00 AM,Thane,Kharadi,1,499,25,30,25,429,Credit Card,Cancelled,On Time,59,3,4,Phone,No,Cold food
+494,156,4,Pizza Point,Italian,Margherita Pizza,20-07-2026,2:10:00 AM,Mumbai,Hinjewadi,2,179,10,0,18,340,Wallet,Delivered,On Time,43,1,5,Phone,No,None
+495,233,3,Green Bowl,Healthy,Quinoa Bowl,04-12-2026,2:22:00 AM,Nashik,Dharampeth,4,249,5,20,50,1016,Upi,Delivered,On Time,57,3,4,Website,No,Late delivery
+496,222,2,Burger Barn,Fast Food,Combo Meal,03-08-2026,6:18:00 PM,Mumbai,Viman Nagar,1,129,10,50,6,173,Wallet,Delivered,On Time,70,5,3,Phone,No,Wrong item
+497,252,4,Pizza Point,Italian,Garlic Bread,01-04-2026,4:52:00 AM,Nagpur,Baner,1,249,15,50,12,274,Upi,Delivered,Late,36,6,5,Website,No,Wrong item
+498,358,7,Dosa Corner,South Indian,Masala Dosa,31-03-2026,2:10:00 PM,Nagpur,Baner,1,399,20,30,20,369,Credit Card,Delivered,On Time,73,3,5,Phone,No,None
+499,400,4,Pizza Point,Italian,Farmhouse Pizza,09-10-2026,2:02:00 PM,Nagpur,College Road,5,349,0,25,87,1857,Credit Card,Delivered,Late,21,2,4,Phone,Yes,Cold food
+500,20,1,Spice Hub,Indian,Paneer Tikka,02-07-2026,9:48:00 PM,Nashik,Hinjewadi,2,299,10,25,30,593,Credit Card,Cancelled,Late,69,6,3,Phone,No,Cold food
+501,83,8,Sweet Treats,Desserts,Brownie,02-04-2026,2:49:00 AM,Pune,Hinjewadi,2,179,20,30,18,334,Credit Card,Delivered,Late,4,1,4,Phone,No,Late delivery
+502,273,2,Burger Barn,Fast Food,French Fries,01-06-2026,11:07:00 PM,Nagpur,Baner,1,299,5,20,15,319,Wallet,Delivered,Failed,17,6,2,Phone,Yes,Cold food
+503,123,5,Dragon Wok,Chinese,Manchurian,16-08-2026,1:47:00 AM,Pune,Baner,2,99,25,30,10,188,Cash,On The Way,On Time,74,1,3,Website,Yes,None
+504,288,4,Pizza Point,Italian,Pasta Alfredo,19-02-2026,10:40:00 PM,Thane,Wakad,1,149,0,30,7,186,Wallet,Delivered,Late,67,4,4,Mobile App,Yes,Late delivery
+505,34,2,Burger Barn,Indian,Chicken Burger,07-02-2026,11:02:00 AM,Aurangabad,Andheri,1,249,20,25,12,237,Upi,Delivered,On Time,28,2,4,Website,No,Missing item
+506,324,8,Sweet Treats,Desserts,Cheesecake,22-02-2026,6:18:00 PM,Aurangabad,Kothrud,3,399,0,25,60,1282,Debit Card,Refunded,On Time,53,6,4,Phone,No,Cold food
+507,301,2,Burger Barn,Fast Food,Classic Burger,21-06-2026,12:36:00 AM,Mumbai,Baner,2,399,10,30,40,788,Wallet,Delivered,On Time,62,3,3,Mobile App,No,Late delivery
+508,122,10,Cafe Aroma,Cafe,Pasta,02-10-2026,2:02:00 AM,Aurangabad,Andheri,1,299,5,20,15,319,Credit Card,Delivered,Late,28,3,5,Phone,Yes,Missing item
+509,341,7,Dosa Corner,South Indian,Idli Sambar,28-05-2026,12:48:00 AM,Aurangabad,Wakad,1,229,5,20,11,249,Wallet,Delivered,On Time,18,5,5,Website,Yes,Cold food
+510,47,1,Spice Hub,Indian,Veg Thali,02-03-2026,4:46:00 PM,Thane,Dharampeth,1,179,0,40,9,228,Credit Card,Refunded,On Time,75,5,3,Mobile App,No,Cold food
+511,326,5,Dragon Wok,Chinese,Manchurian,26-03-2026,6:44:00 AM,Nashik,College Road,1,149,15,20,7,154,Upi,Delivered,Late,51,4,4,Website,Yes,Cold food
+512,391,8,Sweet Treats,Desserts,Cheesecake,08-05-2026,5:14:00 PM,Nagpur,Hinjewadi,2,249,25,20,25,418,Debit Card,On The Way,Failed,65,5,4,Mobile App,Yes,Wrong item
+513,241,7,Dosa Corner,South Indian,Idli Sambar,26-08-2026,10:26:00 AM,Mumbai,Wakad,1,249,15,35,12,259,Upi,Delivered,On Time,36,7,3,Phone,No,Cold food
+514,20,7,Dosa Corner,South Indian,Masala Dosa,08-01-2026,1:28:00 PM,Nagpur,Kothrud,4,229,10,30,46,900,Credit Card,Delivered,Late,52,3,2,Phone,No,Missing item
+515,186,8,Sweet Treats,Desserts,Vada,07-08-2026,11:46:00 PM,Aurangabad,Kothrud,1,249,10,40,12,277,Debit Card,Delivered,Failed,45,4,1,Phone,Yes,Wrong item
+516,42,4,Pizza Point,Italian,Pasta Alfredo,24-03-2026,12:25:00 AM,Nagpur,Kothrud,1,129,20,40,6,150,Cash,On The Way,Late,40,6,5,Website,No,Missing item
+517,108,5,Dragon Wok,Chinese,Spring Rolls,30-07-2026,3:02:00 AM,Aurangabad,Viman Nagar,1,399,25,50,20,369,Upi,Delivered,On Time,24,7,4,Website,Yes,None
+518,69,2,Burger Barn,Fast Food,French Fries,08-02-2026,5:55:00 PM,Nagpur,Kothrud,1,199,20,30,10,199,Wallet,Delivered,On Time,38,4,3,Phone,Yes,Late delivery
+519,56,4,Pizza Point,Italian,Pasta Alfredo,31-01-2026,6:14:00 AM,Pune,Viman Nagar,3,179,5,50,27,587,Upi,Delivered,Late,55,1,5,Website,Yes,Wrong item
+520,22,1,Spice Hub,Indian,Paneer Tikka,05-01-2026,4:18:00 PM,Mumbai,Dharampeth,1,129,0,0,6,135,Upi,Delivered,Late,15,5,5,Phone,No,Cold food
+521,185,8,Sweet Treats,Desserts,Cheesecake,22-06-2026,8:37:00 PM,Nagpur,Baner,1,229,20,25,11,220,Debit Card,Refunded,Late,67,7,3,Mobile App,Yes,Cold food
+522,317,7,Dosa Corner,South Indian,Vada,13-03-2026,12:52:00 AM,Thane,Thane West,2,349,5,40,35,738,Credit Card,Cancelled,On Time,30,6,4,Website,Yes,Wrong item
+523,220,1,Spice Hub,Indian,Butter Chicken,16-06-2026,11:08:00 PM,Aurangabad,Hinjewadi,1,399,10,30,20,409,Cash,Cancelled,Late,65,5,2,Mobile App,Yes,Missing item
+524,240,10,Cafe Aroma,Cafe,Cold Coffee,16-09-2026,1:05:00 AM,Nagpur,Hinjewadi,1,129,5,50,6,179,Cash,Delivered,Failed,50,5,5,Mobile App,Yes,Late delivery
+525,369,3,Green Bowl,Healthy,Protein Bowl,15-02-2026,3:36:00 AM,Aurangabad,College Road,1,99,0,25,5,129,Upi,On The Way,Failed,64,2,4,Phone,No,None
+526,377,6,Taco Town,Mexican,Nachos,25-04-2026,7:39:00 PM,Aurangabad,Dharampeth,2,399,0,40,40,878,Cash,Delivered,On Time,73,2,5,Website,Yes,Wrong item
+527,190,2,Burger Barn,Fast Food,Combo Meal,27-02-2026,3:02:00 AM,Thane,Baner,1,399,0,40,20,459,Debit Card,On The Way,On Time,51,5,4,Phone,Yes,Cold food
+528,5,7,Dosa Corner,South Indian,Vada,13-06-2026,12:27:00 PM,Nashik,Kothrud,3,149,15,40,22,442,Debit Card,Delivered,On Time,29,9,3,Phone,No,Late delivery
+529,362,10,Cafe Aroma,Cafe,Pasta,26-05-2026,4:58:00 AM,Aurangabad,Wakad,2,99,15,25,10,203,Cash,Delivered,Late,5,6,3,Website,Yes,Wrong item
+530,154,3,Green Bowl,Healthy,Grilled Salad,18-04-2026,7:40:00 AM,Pune,Dharampeth,2,99,25,50,10,208,Cash,Delivered,Late,46,4,5,Phone,No,Wrong item
+531,202,7,Dosa Corner,South Indian,Masala Dosa,20-07-2026,2:27:00 AM,Mumbai,Andheri,2,199,5,40,20,438,Wallet,On The Way,On Time,59,7,5,Phone,No,Cold food
+532,334,3,Green Bowl,Healthy,Quinoa Bowl,03-12-2026,3:04:00 PM,Nashik,Hinjewadi,2,199,0,20,20,438,Credit Card,Delivered,Late,62,4,3,Phone,Yes,None
+533,77,2,Burger Barn,Fast Food,Combo Meal,07-02-2026,4:10:00 PM,Mumbai,Baner,1,99,0,35,5,139,Cash,Delivered,On Time,52,4,2,Website,No,Missing item
+534,196,3,Green Bowl,Healthy,Protein Bowl,12-07-2026,11:36:00 PM,Aurangabad,College Road,5,499,20,0,125,2121,Debit Card,Cancelled,On Time,70,1,5,Mobile App,Yes,None
+535,304,8,Sweet Treats,Desserts,Brownie,18-09-2026,7:40:00 AM,Nagpur,College Road,1,399,15,30,20,389,Cash,Delivered,Late,62,5,2,Mobile App,Yes,Wrong item
+536,251,2,Burger Barn,Fast Food,Classic Burger,10-03-2026,6:18:00 AM,Thane,Dharampeth,1,99,10,35,5,129,Upi,Preparing,On Time,65,6,5,Mobile App,Yes,Missing item
+537,45,3,Green Bowl,Healthy,Protein Bowl,01-03-2026,6:56:00 PM,Pune,Hinjewadi,1,229,0,0,11,240,Upi,Delivered,Failed,28,3,5,Website,Yes,Cold food
+538,252,1,Spice Hub,Indian,Chicken Biryani,05-08-2026,10:15:00 AM,Thane,Andheri,1,349,25,25,17,304,Wallet,On The Way,Failed,43,5,3,Mobile App,No,None
+539,66,4,Pizza Point,Italian,Garlic Bread,19-01-2026,6:25:00 AM,Pune,Dharampeth,1,179,0,35,9,223,Debit Card,Delivered,Late,52,9,4,Phone,Yes,Cold food
+540,190,8,Sweet Treats,Desserts,Brownie,02-12-2026,8:40:00 AM,Aurangabad,Andheri,2,149,15,20,15,288,Wallet,Delivered,Failed,61,6,4,Phone,Yes,Cold food
+541,281,3,Green Bowl,Healthy,Smoothie Bowl,06-11-2026,2:48:00 PM,Pune,Andheri,1,399,0,0,20,419,Upi,Delivered,Failed,49,3,3,Website,Yes,Late delivery
+542,373,5,Dragon Wok,Chinese,Fried Rice,01-06-2026,3:20:00 AM,Thane,College Road,1,179,10,0,9,170,Upi,Cancelled,Failed,22,3,3,Phone,No,Missing item
+543,273,5,Dragon Wok,Chinese,Spring Rolls,20-02-2026,1:38:00 AM,Nagpur,Kothrud,1,249,0,25,12,286,Debit Card,Preparing,On Time,58,6,5,Phone,Yes,Late delivery
+544,348,3,Green Bowl,Healthy,Smoothie Bowl,13-07-2026,7:22:00 PM,Aurangabad,College Road,2,99,20,40,10,208,Credit Card,Refunded,Late,60,3,5,Website,No,Wrong item
+545,41,7,Dosa Corner,South Indian,Masala Dosa,24-09-2026,7:48:00 AM,Aurangabad,Wakad,1,129,5,30,6,159,Upi,Cancelled,On Time,69,5,2,Mobile App,Yes,Wrong item
+546,264,9,Roll Express,Street Food,Paneer Roll,09-10-2026,12:21:00 AM,Nagpur,Baner,4,249,20,35,50,882,Wallet,On The Way,On Time,23,7,4,Phone,Yes,Cold food
+547,87,9,Roll Express,Street Food,Chicken Roll,26-06-2026,8:20:00 AM,Mumbai,Hinjewadi,5,499,25,35,125,2031,Debit Card,Delivered,On Time,17,5,5,Website,Yes,Cold food
+548,61,8,Sweet Treats,Desserts,Ice Cream,14-07-2026,5:49:00 AM,Nashik,College Road,1,129,5,40,6,169,Debit Card,Delivered,Late,49,2,5,Mobile App,No,Late delivery
+549,169,5,Dragon Wok,Chinese,Fried Rice,21-09-2026,1:12:00 AM,Nashik,Hinjewadi,4,399,25,30,80,1307,Upi,Delivered,Late,15,6,5,Mobile App,No,Wrong item
+550,250,1,Spice Hub,Indian,Paneer Tikka,10-10-2026,2:42:00 PM,Mumbai,Viman Nagar,1,129,15,35,6,151,Credit Card,On The Way,Late,41,4,3,Website,No,Wrong item
+551,383,7,Dosa Corner,South Indian,Vada,04-04-2026,6:18:00 PM,Pune,Andheri,3,129,10,40,19,408,Credit Card,Preparing,On Time,25,2,3,Website,Yes,Late delivery
+552,61,7,Pizza Point,South Indian,Vada,08-04-2026,11:18:00 AM,Nagpur,Dharampeth,3,149,20,20,22,400,Cash,On The Way,Failed,57,6,5,Mobile App,No,Cold food
+553,393,9,Roll Express,Street Food,Chicken Roll,19-07-2026,4:29:00 AM,Pune,Andheri,1,129,25,0,6,103,Cash,Delivered,Failed,37,6,4,Mobile App,No,Cold food
+554,144,5,Dragon Wok,Chinese,Hakka Noodles,25-05-2026,4:35:00 PM,Nashik,Wakad,1,249,0,35,12,296,Cash,Delivered,On Time,47,4,3,Phone,Yes,Missing item
+555,20,10,Cafe Aroma,Cafe,Vada,04-03-2026,6:26:00 AM,Mumbai,Kothrud,5,399,20,40,100,1736,Cash,Delivered,On Time,22,5,3,Mobile App,Yes,None
+556,219,7,Dosa Corner,South Indian,Masala Dosa,28-07-2026,5:55:00 PM,Nashik,Hinjewadi,1,499,0,20,25,544,Debit Card,Delivered,Late,45,3,2,Website,No,Late delivery
+557,311,6,Taco Town,Mexican,Veg Tacos,25-01-2026,6:12:00 AM,Nagpur,Kothrud,1,99,20,40,5,124,Debit Card,Delivered,Late,33,9,4,Website,No,None
+558,302,2,Burger Barn,Fast Food,Chicken Burger,01-07-2026,11:18:00 PM,Mumbai,Viman Nagar,2,149,5,25,15,323,Credit Card,Cancelled,Failed,38,4,5,Mobile App,Yes,Late delivery
+559,39,10,Cafe Aroma,Cafe,Sandwich,03-03-2026,1:24:00 AM,Nashik,College Road,2,499,25,20,50,818,Credit Card,Delivered,Failed,43,6,5,Mobile App,Yes,Late delivery
+560,224,4,Pizza Point,Italian,Margherita Pizza,08-03-2026,6:47:00 PM,Nagpur,Thane West,2,349,5,25,35,723,Wallet,Delivered,Failed,60,7,3,Mobile App,Yes,Missing item
+561,204,5,Dragon Wok,Chinese,Spring Rolls,03-08-2026,9:53:00 AM,Aurangabad,Dharampeth,1,399,0,50,20,469,Wallet,Refunded,On Time,27,2,5,Website,No,Missing item
+562,263,7,Dosa Corner,South Indian,Vada,25-07-2026,8:43:00 PM,Thane,Dharampeth,1,149,0,20,7,176,Debit Card,Delivered,Late,52,7,5,Mobile App,No,Wrong item
+563,143,9,Roll Express,Street Food,Chicken Roll,03-02-2026,5:50:00 AM,Nashik,Baner,1,349,0,25,17,391,Credit Card,Delivered,On Time,24,5,5,Mobile App,Yes,Wrong item
+564,167,10,Cafe Aroma,Cafe,Cappuccino,07-08-2026,11:04:00 AM,Aurangabad,Baner,1,349,5,40,17,389,Debit Card,Delivered,On Time,72,6,5,Website,Yes,Wrong item
+565,132,1,Spice Hub,Indian,Veg Thali,10-03-2026,10:26:00 PM,Nagpur,Wakad,4,399,0,40,80,1716,Debit Card,Cancelled,Late,39,2,5,Phone,No,Late delivery
+566,91,8,Sweet Treats,Desserts,Brownie,29-04-2026,2:48:00 PM,Thane,College Road,1,299,0,30,15,344,Credit Card,Delivered,Failed,26,3,5,Mobile App,No,Late delivery
+567,207,3,Green Bowl,Healthy,Quinoa Bowl,21-07-2026,11:27:00 PM,Aurangabad,Dharampeth,2,129,0,0,13,271,Credit Card,Delivered,Failed,44,7,5,Mobile App,Yes,Cold food
+568,322,7,Dosa Corner,South Indian,Masala Dosa,01-11-2026,3:45:00 AM,Pune,Hinjewadi,3,499,0,20,75,1592,Wallet,Delivered,Failed,20,7,4,Website,Yes,Late delivery
+569,355,3,Green Bowl,Healthy,Protein Bowl,09-03-2026,7:12:00 PM,Aurangabad,Dharampeth,3,149,5,25,22,472,Cash,Delivered,On Time,30,7,5,Mobile App,Yes,Missing item
+570,198,5,Dragon Wok,Chinese,Manchurian,22-02-2026,5:27:00 PM,Nashik,Viman Nagar,3,249,0,0,37,784,Credit Card,On The Way,Failed,16,4,3,Phone,Yes,Cold food
+571,190,3,Green Bowl,Healthy,Quinoa Bowl,26-02-2026,7:39:00 AM,Thane,Kothrud,1,199,5,0,10,199,Credit Card,Delivered,Late,22,5,4,Website,Yes,Cold food
+572,190,3,Green Bowl,Healthy,Quinoa Bowl,04-06-2026,9:19:00 PM,Pune,Kothrud,3,229,0,25,34,746,Credit Card,On The Way,Late,57,2,4,Website,No,Cold food
+573,198,2,Burger Barn,Fast Food,Chicken Burger,27-02-2026,7:43:00 PM,Nashik,College Road,1,199,0,0,10,209,Cash,Delivered,Late,23,6,3,Website,No,Late delivery
+574,43,4,Pizza Point,Italian,Garlic Bread,16-07-2026,2:17:00 PM,Thane,Wakad,2,349,15,30,35,658,Upi,Delivered,On Time,67,3,3,Mobile App,Yes,None
+575,72,6,Taco Town,Mexican,Chicken Wrap,31-08-2026,4:33:00 AM,Nagpur,Kothrud,4,99,5,25,20,421,Wallet,Preparing,On-Time,70,2,5,Mobile App,Yes,None
+576,360,3,Green Bowl,Healthy,Quinoa Bowl,03-02-2026,11:44:00 PM,Aurangabad,Hinjewadi,2,249,20,0,25,423,Cash,Delivered,Failed,42,7,4,Mobile App,Yes,Late delivery
+577,241,6,Taco Town,Mexican,Burrito Bowl,14-03-2026,2:41:00 AM,Aurangabad,Dharampeth,1,99,15,50,5,139,Debit Card,Preparing,Late,24,4,5,Phone,No,Cold food
+578,203,1,Spice Hub,Indian,Butter Chicken,27-05-2026,3:47:00 AM,Aurangabad,College Road,1,499,0,35,25,559,Wallet,Cancelled,Failed,47,7,3,Website,No,Late delivery
+579,113,7,Dosa Corner,South Indian,Vada,22-03-2026,9:16:00 AM,Mumbai,Dharampeth,4,349,10,20,70,1346,Wallet,Cancelled,On Time,40,7,5,Phone,No,Cold food
+580,186,6,Taco Town,Mexican,Chicken Wrap,27-07-2026,12:59:00 PM,Pune,Wakad,1,229,20,30,11,225,Debit Card,Delivered,On Time,21,5,3,Mobile App,Yes,Late delivery
+581,290,10,Cafe Aroma,Cafe,Cappuccino,01-06-2026,10:33:00 AM,Thane,College Road,1,179,20,0,9,152,Upi,Delivered,On Time,20,3,5,Mobile App,No,None
+582,50,6,Taco Town,Mexican,Chicken Wrap,25-05-2026,1:35:00 PM,Nagpur,Dharampeth,2,229,25,30,23,396,Upi,Cancelled,Failed,23,7,5,Mobile App,Yes,Missing item
+583,321,7,Dosa Corner,South Indian,Masala Dosa,09-02-2026,8:00:00 PM,Aurangabad,Wakad,3,99,5,20,15,317,Credit Card,Delivered,Failed,44,6,2,Mobile App,Yes,Missing item
+584,21,9,Roll Express,Street Food,Schezwan Roll,25-09-2026,11:39:00 AM,Mumbai,Wakad,1,149,5,25,7,174,Wallet,Delivered,Failed,69,1,5,Mobile App,No,None
+585,83,1,Spice Hub,Indian,Paneer Tikka,15-03-2026,10:33:00 AM,Nashik,Andheri,2,129,10,0,13,245,Debit Card,Delivered,On Time,25,1,5,Mobile App,No,Wrong item
+586,206,8,Sweet Treats,Desserts,Cheesecake,05-12-2026,3:05:00 PM,Thane,Kothrud,2,149,0,35,15,348,Cash,Delivered,Late,38,5,5,Phone,No,Wrong item
+587,126,2,Burger Barn,Fast Food,Classic Burger,31-07-2026,5:16:00 PM,Mumbai,Hinjewadi,1,499,0,35,25,559,Debit Card,Refunded,Late,18,2,5,Phone,No,None
+588,56,4,Pizza Point,Italian,Margherita Pizza,18-07-2026,3:46:00 PM,Mumbai,Hinjewadi,2,229,10,30,23,465,Cash,Delivered,Late,72,2,5,Website,No,None
+589,241,6,Taco Town,Mexican,Burrito Bowl,25-06-2026,8:37:00 PM,Aurangabad,Wakad,1,299,0,25,15,339,Debit Card,Delivered,Failed,49,1,3,Phone,No,None
+590,130,6,Taco Town,Mexican,Burrito Bowl,08-09-2026,4:09:00 PM,Pune,Kothrud,1,179,25,0,9,143,Upi,Refunded,Late,58,4,4,Mobile App,No,Cold food
+591,176,7,Dosa Corner,South Indian,Uttapam,10-10-2026,7:18:00 AM,Mumbai,Wakad,2,199,0,50,20,468,Debit Card,Delivered,Late,72,4,5,Website,Yes,Cold food
+592,166,6,Taco Town,Mexican,Chicken Wrap,19-07-2026,12:20:00 AM,Pune,Kothrud,2,399,0,0,40,838,Cash,Cancelled,On Time,52,4,5,Website,Yes,Cold food
+593,112,5,Dragon Wok,Chinese,Manchurian,24-09-2026,12:07:00 AM,Nagpur,Dharampeth,5,149,20,30,37,663,Credit Card,Delivered,Failed,52,4,2,Mobile App,No,Late delivery
+594,256,4,Pizza Point,Italian,Garlic Bread,01-08-2026,12:38:00 PM,Nagpur,Thane West,3,99,5,25,15,322,Debit Card,Delivered,Late,70,7,3,Phone,No,Missing item
+595,146,6,Taco Town,Mexican,Nachos,28-02-2026,6:00:00 AM,Aurangabad,Viman Nagar,1,229,0,35,11,275,Wallet,Delivered,On Time,49,1,4,Mobile App,Yes,None
+596,17,10,Cafe Aroma,Cafe,Sandwich,30-07-2026,3:32:00 AM,Nagpur,Wakad,1,399,15,0,20,359,Credit Card,Delivered,Late,47,5,4,Website,Yes,Late delivery
+597,4,8,Sweet Treats,Desserts,Ice Cream,03-05-2026,11:58:00 AM,Mumbai,Dharampeth,4,299,10,50,60,1186,Debit Card,Delivered,Late,65,6,5,Website,No,Cold food
+598,380,4,Pizza Point,Italian,Farmhouse Pizza,01-03-2026,2:09:00 PM,Nashik,Kothrud,1,99,0,50,5,154,Wallet,Delivered,Late,67,2,4,Phone,No,Late delivery
+599,89,10,Cafe Aroma,Cafe,Pasta,21-07-2026,1:45:00 AM,Nashik,Dharampeth,3,399,10,20,60,1157,Credit Card,On The Way,Late,39,2,5,Mobile App,Yes,Missing item
+600,6,2,Burger Barn,Fast Food,French Fries,20-07-2026,9:24:00 PM,Pune,Dharampeth,4,349,0,25,70,1491,Upi,Delivered,Failed,20,4,1,Mobile App,Yes,Cold food
+601,194,6,Taco Town,Mexican,Chicken Wrap,04-06-2026,8:10:00 AM,Pune,Baner,2,179,5,20,18,378,Debit Card,On The Way,On Time,30,2,5,Phone,Yes,Missing item
+602,40,2,Burger Barn,Fast Food,Combo Meal,26-02-2026,3:40:00 PM,Nashik,Wakad,4,129,0,20,26,562,Cash,Delivered,On Time,72,4,3,Mobile App,No,None
+603,153,8,Sweet Treats,Desserts,Vada,02-09-2026,7:10:00 AM,Mumbai,Baner,2,249,5,40,25,538,Upi,On The Way,Late,66,3,3,Website,Yes,Late delivery
+604,187,9,Roll Express,Street Food,Paneer Roll,05-11-2026,4:09:00 AM,Mumbai,Baner,1,99,15,0,5,89,Debit Card,Delivered,On Time,63,2,3,Mobile App,Yes,Wrong item
+605,254,5,Dragon Wok,Chinese,Spring Rolls,09-04-2026,6:48:00 AM,Thane,Thane West,4,0,20,35,46,814,Credit Card,Delivered,Late,44,2,5,Mobile App,No,Cold food
+606,164,2,Burger Barn,Fast Food,Classic Burger,06-09-2026,5:39:00 AM,Thane,Thane West,3,299,10,30,45,882,Cash,Delivered,On Time,62,5,4,Website,No,None
+607,272,8,Sweet Treats,Desserts,Ice Cream,27-03-2026,1:09:00 AM,Nagpur,Baner,4,199,15,30,40,746,Upi,Delivered,On Time,67,7,5,Website,No,Late delivery
+608,353,6,Taco Town,Mexican,Veg Tacos,05-06-2026,2:28:00 AM,Aurangabad,Andheri,1,229,5,20,11,249,Credit Card,Cancelled,Late,22,5,1,Website,Yes,Missing item
+609,344,2,Burger Barn,Fast Food,Classic Burger,17-07-2026,9:40:00 AM,Thane,Thane West,2,349,0,0,35,733,Cash,Delivered,Late,60,7,5,Website,Yes,Late delivery
+610,303,1,Spice Hub,Indian,Butter Chicken,09-10-2026,5:01:00 PM,Mumbai,Baner,1,199,10,0,10,189,Debit Card,Delivered,On Time,25,6,5,Phone,Yes,Cold food
+611,49,5,Dragon Wok,Chinese,Spring Rolls,09-03-2026,1:44:00 PM,Aurangabad,Viman Nagar,1,349,15,0,17,314,Debit Card,Delivered,On Time,16,7,2,Website,No,None
+612,63,9,Roll Express,Street Food,Frankie,06-10-2026,4:51:00 PM,Thane,Hinjewadi,2,249,5,40,25,538,Upi,Refunded,On Time,46,1,5,Mobile App,Yes,None
+613,3,6,Taco Town,Mexican,Veg Tacos,08-12-2026,7:43:00 AM,Nashik,Baner,1,179,20,50,9,202,Upi,Delivered,On Time,72,3,4,Mobile App,No,Wrong item
+614,386,10,Cafe Aroma,Cafe,Pasta,14-07-2026,9:12:00 AM,Aurangabad,College Road,2,149,15,30,15,298,Upi,Delivered,Failed,35,5,5,Mobile App,No,Cold food
+615,125,5,Dragon Wok,Chinese,Manchurian,14-06-2026,4:28:00 PM,Aurangabad,Hinjewadi,1,199,25,25,10,184,Upi,Cancelled,Late,37,1,4,Mobile App,Yes,Late delivery
+616,161,8,Sweet Treats,Desserts,Ice Cream,17-07-2026,6:24:00 AM,Aurangabad,College Road,1,229,0,50,11,290,Credit Card,Delivered,Failed,48,1,4,Mobile App,Yes,Wrong item
+617,296,7,Dosa Corner,South Indian,Masala Dosa,20-08-2026,9:10:00 PM,Mumbai,College Road,2,249,0,0,25,523,Upi,Delivered,Failed,25,1,5,Mobile App,Yes,Cold food
+618,182,3,Green Bowl,Healthy,Smoothie Bowl,17-05-2026,12:58:00 AM,Mumbai,Kothrud,1,349,10,25,17,357,Cash,Delivered,Failed,74,4,4,Phone,No,None
+619,207,8,Sweet Treats,Desserts,Brownie,20-05-2026,12:37:00 PM,Thane,Viman Nagar,1,499,10,40,25,514,Wallet,On The Way,Failed,27,4,4,Phone,No,None
+620,142,1,Spice Hub,Indian,Veg Thali,05-08-2026,3:47:00 AM,Thane,Thane West,1,99,0,35,5,139,Cash,Delivered,Late,19,1,4,Mobile App,No,Cold food
+621,258,4,Pizza Point,Italian,Garlic Bread,29-03-2026,6:56:00 AM,Aurangabad,Viman Nagar,1,199,20,35,10,204,Credit Card,Delivered,On Time,15,3,2,Phone,Yes,Late delivery
+622,136,3,Green Bowl,Healthy,Quinoa Bowl,20-06-2026,3:32:00 PM,Mumbai,Baner,1,99,20,30,5,114,Wallet,Delivered,Late,16,4,2,Phone,Yes,Cold food
+623,258,4,Pizza Point,Italian,Pasta Alfredo,30-08-2026,3:44:00 AM,Mumbai,Hinjewadi,1,99,15,40,5,129,Upi,Refunded,Late,68,7,3,Phone,No,Cold food
+624,364,8,Sweet Treats,Desserts,Ice Cream,29-06-2026,6:37:00 PM,Thane,College Road,1,299,5,25,15,324,Upi,Delivered,Late,67,6,4,Phone,Yes,Late delivery
+625,221,7,Dosa Corner,South Indian,Uttapam,23-04-2026,10:30:00 PM,Mumbai,Hinjewadi,5,229,10,0,57,1088,Credit Card,Delivered,Late,62,6,5,Mobile App,No,Missing item
+626,142,8,Sweet Treats,Desserts,Ice Cream,27-09-2026,5:58:00 AM,Mumbai,Baner,1,499,5,25,25,524,Wallet,Delivered,Failed,41,6,5,Website,Yes,Cold food
+627,149,8,Sweet Treats,Desserts,Brownie,27-06-2026,9:50:00 AM,Nashik,College Road,1,99,10,40,5,134,Debit Card,Delivered,On Time,58,7,3,Website,Yes,Cold food
+628,1,1,Spice Hub,Indian,Paneer Tikka,22-04-2026,9:39:00 AM,Nashik,Kothrud,3,129,0,30,19,436,Debit Card,Delivered,Late,42,7,4,Phone,Yes,None
+629,348,5,Dragon Wok,Chinese,Vada,15-03-2026,6:42:00 AM,Nagpur,Thane West,1,129,5,20,6,149,Upi,Delivered,Late,74,3,4,Phone,No,Late delivery
+630,284,10,Cafe Aroma,Cafe,Cold Coffee,10-06-2026,11:10:00 PM,Nashik,Viman Nagar,3,399,0,40,60,1297,Upi,Cancelled,Late,31,5,3,Phone,No,Missing item
+631,184,3,Green Bowl,Healthy,Smoothie Bowl,07-12-2026,2:54:00 PM,Nashik,Thane West,1,349,10,40,17,372,Cash,Delivered,Late,74,4,5,Website,Yes,Missing item
+632,318,1,Spice Hub,Indian,Chicken Biryani,08-04-2026,3:01:00 AM,Pune,Thane West,2,399,5,50,40,848,Credit Card,On The Way,Late,47,6,4,Mobile App,No,Missing item
+633,247,8,Sweet Treats,Desserts,Ice Cream,28-01-2026,2:53:00 AM,Pune,Hinjewadi,1,499,0,25,25,549,Wallet,Delivered,Failed,67,5,4,Phone,Yes,Late delivery
+634,155,9,Roll Express,Street Food,Frankie,15-03-2026,7:11:00 PM,Aurangabad,Baner,2,299,0,20,30,648,Cash,On The Way,Failed,55,6,5,Mobile App,Yes,None
+635,259,1,Spice Hub,Indian,Butter Chicken,20-03-2026,8:36:00 PM,Nagpur,Baner,3,349,0,20,52,1119,Upi,On The Way,Late,45,4,1,Website,Yes,Late delivery
+636,73,9,Roll Express,Street Food,Chicken Roll,14-05-2026,8:54:00 PM,Mumbai,Dharampeth,2,499,15,0,50,898,Wallet,Delivered,On Time,55,4,1,Website,No,Wrong item
+637,218,2,Burger Barn,Fast Food,French Fries,09-10-2026,12:32:00 PM,Pune,Viman Nagar,2,249,10,40,25,513,Cash,Cancelled,On Time,44,5,4,Website,Yes,Missing item
+638,72,5,Dragon Wok,Chinese,Spring Rolls,18-01-2026,10:01:00 PM,Aurangabad,College Road,2,0,15,30,50,928,Debit Card,Delivered,On Time,73,2,4,Website,Yes,Wrong item
+639,367,9,Roll Express,Street Food,Chicken Roll,19-07-2026,5:30:00 PM,Nashik,Viman Nagar,1,499,0,25,25,549,Cash,Delivered,On Time,51,7,4,Phone,No,Cold food
+640,302,8,Sweet Treats,Desserts,Ice Cream,04-03-2026,7:39:00 PM,Thane,Thane West,2,349,25,40,35,598,Upi,Delivered,On Time,23,1,2,Phone,Yes,Late delivery
+641,376,2,Burger Barn,Fast Food,French Fries,10-10-2026,5:02:00 PM,Pune,Kothrud,4,299,5,50,60,1246,Cash,Delivered,Late,64,1,5,Mobile App,No,None
+642,358,1,Spice Hub,Indian,Butter Chicken,02-07-2026,3:04:00 PM,Nagpur,Kothrud,2,399,20,50,40,728,Wallet,Delivered,Failed,26,2,2,Mobile App,No,Cold food
+643,299,8,Sweet Treats,Desserts,Chocolate Cake,27-05-2026,7:41:00 AM,Aurangabad,Hinjewadi,1,149,10,50,7,192,Credit Card,Delivered,On Time,65,7,3,Mobile App,Yes,Wrong item
+644,107,7,Dosa Corner,South Indian,Vada,10-07-2026,2:27:00 AM,Thane,Andheri,1,499,20,40,25,464,Debit Card,Delivered,Failed,46,5,3,Mobile App,Yes,Cold food
+645,27,7,Dosa Corner,South Indian,Uttapam,07-12-2026,2:25:00 AM,Pune,Wakad,2,149,25,35,15,273,Debit Card,Delivered,Late,22,4,4,Phone,No,None
+646,317,3,Green Bowl,Healthy,Quinoa Bowl,28-05-2026,2:33:00 AM,Thane,Hinjewadi,2,179,25,35,18,321,Wallet,On The Way,Late,47,3,4,Phone,Yes,None
+647,388,6,Taco Town,Mexican,Veg Tacos,08-04-2026,8:54:00 AM,Mumbai,College Road,2,99,0,20,5,124,Upi,Delivered,Failed,61,5,4,Phone,Yes,Wrong item
+648,54,2,Burger Barn,Fast Food,Vada,08-02-2026,8:25:00 PM,Nagpur,Dharampeth,2,129,15,30,13,262,Credit Card,On The Way,Failed,32,3,5,Website,No,Wrong item
+649,10,4,Pizza Point,Italian,Garlic Bread,01-11-2026,1:53:00 AM,Pune,Thane West,1,179,15,35,9,196,Cash,On The Way,Failed,58,2,5,Website,No,Missing item
+650,122,3,Green Bowl,Healthy,Grilled Salad,03-01-2026,2:56:00 PM,Pune,Baner,1,399,5,25,20,424,Credit Card,Delivered,Late,42,6,5,Phone,Yes,None
+651,126,4,Pizza Point,Italian,Farmhouse Pizza,30-01-2026,2:36:00 AM,Mumbai,Thane West,1,299,0,25,15,339,Cash,Delivered,Failed,37,1,5,Phone,Yes,None
+652,400,5,Dragon Wok,Chinese,Fried Rice,10-06-2026,7:01:00 AM,Aurangabad,Wakad,1,229,25,20,11,203,Wallet,Delivered,Late,34,3,5,Phone,Yes,None
+653,380,6,Taco Town,Mexican,Burrito Bowl,30-07-2026,9:13:00 PM,Pune,Andheri,1,129,0,20,6,155,Credit Card,Preparing,Late,48,2,3,Phone,No,Cold food
+654,31,2,Burger Barn,Fast Food,Chicken Burger,01-11-2026,5:01:00 PM,Thane,Thane West,3,199,5,35,30,632,Cash,Delivered,On Time,67,7,5,Website,No,Cold food
+655,391,1,Spice Hub,Indian,Chicken Biryani,25-04-2026,7:01:00 AM,Pune,Andheri,1,499,10,35,25,509,Debit Card,Delivered,Failed,34,2,1,Mobile App,No,Missing item
+656,274,7,Dosa Corner,South Indian,Vada,08-07-2026,1:56:00 AM,Nagpur,Dharampeth,3,349,10,40,52,1035,Debit Card,On The Way,On Time,33,4,5,Website,Yes,Late delivery
+657,20,1,Spice Hub,Indian,Chicken Biryani,24-05-2026,11:17:00 PM,Nashik,Viman Nagar,4,129,0,50,26,592,Debit Card,Delivered,Failed,36,7,4,Phone,Yes,None
+658,184,5,Dragon Wok,Chinese,Spring Rolls,14-06-2026,9:01:00 AM,Aurangabad,Dharampeth,2,299,10,0,45,852,Credit Card,Delivered,Late,44,1,1,Phone,Yes,Wrong item
+659,117,10,Cafe Aroma,Cafe,Cold Coffee,06-10-2026,2:11:00 AM,Mumbai,Kharadi,1,199,25,50,10,209,Credit Card,Delivered,Late,70,6,4,Mobile App,Yes,Missing item
+660,181,8,Sweet Treats,Desserts,Chocolate Cake,06-12-2026,1:25:00 AM,Thane,Wakad,2,179,0,40,18,416,Debit Card,Refunded,On Time,31,1,1,Phone,No,None
+661,219,9,Roll Express,Street Food,Frankie,02-09-2026,8:05:00 AM,Mumbai,Baner,1,399,5,50,20,449,Debit Card,Preparing,Failed,41,7,2,Website,No,Cold food
+662,14,6,Taco Town,Mexican,Veg Tacos,29-08-2026,10:02:00 AM,Thane,Wakad,2,149,5,0,15,298,Debit Card,Delivered,Failed,24,6,5,Phone,No,Late delivery
+663,115,7,Dosa Corner,South Indian,Vada,17-01-2026,10:25:00 PM,Pune,Hinjewadi,2,249,25,40,25,438,Wallet,Delivered,On Time,19,5,5,Website,No,Wrong item
+664,162,5,Dragon Wok,Chinese,Hakka Noodles,04-10-2026,7:38:00 PM,Aurangabad,Wakad,1,179,5,20,9,199,Cash,Cancelled,Failed,38,4,3,Website,Yes,Wrong item
+665,292,9,Roll Express,Street Food,Chicken Roll,16-09-2026,2:36:00 AM,Thane,Wakad,4,499,10,35,100,1931,Cash,Delivered,Failed,65,5,4,Phone,Yes,Missing item
+666,324,5,Dragon Wok,Chinese,Manchurian,27-05-2026,11:39:00 AM,Mumbai,College Road,1,129,10,30,6,153,Upi,Delivered,On Time,24,1,4,Website,No,Missing item
+667,272,8,Sweet Treats,Desserts,Cheesecake,21-02-2026,4:18:00 AM,Nagpur,Andheri,3,249,0,40,37,824,Credit Card,Delivered,Late,19,6,3,Phone,Yes,Wrong item
+668,230,2,Burger Barn,Fast Food,Combo Meal,22-06-2026,11:29:00 AM,Aurangabad,College Road,2,399,0,40,40,878,Cash,Delivered,Late,62,7,5,Website,Yes,Late delivery
+669,165,10,Cafe Aroma,Cafe,Pasta,18-09-2026,2:51:00 AM,Mumbai,Dharampeth,1,99,15,35,5,124,Wallet,Delivered,Late,56,7,4,Mobile App,Yes,Wrong item
+670,197,8,Sweet Treats,Desserts,Ice Cream,24-06-2026,1:38:00 AM,Mumbai,Kothrud,2,349,15,35,35,663,Upi,Preparing,Failed,42,6,4,Mobile App,No,Missing item
+671,87,5,Dragon Wok,Chinese,Fried Rice,06-10-2026,3:23:00 AM,Nashik,Hinjewadi,1,149,0,25,7,181,Credit Card,Delivered,Failed,43,3,3,Mobile App,Yes,Late delivery
+672,14,9,Roll Express,Street Food,Frankie,18-09-2026,5:45:00 AM,Mumbai,Viman Nagar,1,99,15,35,5,124,Wallet,Cancelled,Late,15,6,4,Website,Yes,Cold food
+673,375,5,Dragon Wok,Chinese,Hakka Noodles,26-02-2026,4:05:00 AM,Nashik,Hinjewadi,1,249,10,25,12,262,Credit Card,Delivered,Failed,23,1,5,Website,Yes,Missing item
+674,20,6,Taco Town,Mexican,Nachos,22-05-2026,3:28:00 PM,Pune,Dharampeth,2,349,20,50,35,643,Debit Card,Delivered,On Time,59,7,4,Phone,Yes,None
+675,96,4,Pizza Point,Italian,Garlic Bread,03-12-2026,8:00:00 PM,Nashik,Kothrud,1,179,20,20,9,172,Credit Card,Delivered,Failed,24,1,4,Phone,Yes,None
+676,195,7,Dosa Corner,South Indian,Idli Sambar,02-04-2026,4:44:00 PM,Aurangabad,Andheri,2,179,20,20,18,324,Cash,Delivered,Failed,59,6,4,Mobile App,No,Late delivery
+677,58,5,Dragon Wok,Chinese,Fried Rice,06-09-2026,4:43:00 PM,Nagpur,College Road,3,249,15,25,37,697,Debit Card,Delivered,On Time,33,6,2,Website,Yes,Late delivery
+678,251,8,Sweet Treats,Desserts,Cheesecake,13-06-2026,10:32:00 PM,Aurangabad,Wakad,1,249,20,20,12,232,Upi,Cancelled,Late,45,3,5,Phone,Yes,Cold food
+679,28,1,Spice Hub,Indian,Chicken Biryani,15-06-2026,8:55:00 AM,Nagpur,Wakad,2,249,10,50,25,523,Debit Card,Delivered,Failed,40,7,4,Mobile App,No,Cold food
+680,313,7,Dosa Corner,South Indian,Uttapam,24-04-2026,7:32:00 PM,Mumbai,Dharampeth,3,349,0,50,52,1149,Upi,Delivered,Failed,75,1,5,Website,Yes,Wrong item
+681,203,6,Taco Town,Mexican,Burrito Bowl,02-02-2026,10:21:00 PM,Nashik,Kothrud,1,179,5,35,9,214,Debit Card,Delivered,Late,25,4,5,Mobile App,Yes,None
+682,118,1,Spice Hub,Indian,Veg Thali,01-11-2026,5:58:00 PM,Pune,Viman Nagar,1,249,25,30,12,229,Upi,Delivered,Late,33,6,4,Website,Yes,Wrong item
+683,78,2,Burger Barn,Fast Food,Classic Burger,02-09-2026,2:31:00 AM,Aurangabad,Thane West,2,249,0,0,25,523,Credit Card,Cancelled,Failed,49,7,5,Website,No,Cold food
+684,150,9,Roll Express,Street Food,Schezwan Roll,01-12-2026,10:18:00 AM,Pune,Wakad,1,179,0,25,9,213,Cash,Refunded,Failed,51,3,4,Website,No,Missing item
+685,56,9,Roll Express,Street Food,Schezwan Roll,05-06-2026,1:03:00 PM,Mumbai,Baner,1,299,20,30,15,284,Cash,Refunded,On Time,63,4,4,Website,No,Missing item
+686,251,2,Burger Barn,Indian,French Fries,06-09-2026,11:20:00 AM,Pune,Kothrud,1,499,0,0,25,524,Cash,Delivered,Failed,28,7,5,Website,Yes,None
+687,209,8,Sweet Treats,Desserts,Chocolate Cake,05-10-2026,2:03:00 PM,Nashik,Wakad,1,229,25,20,11,203,Wallet,Delivered,Late,59,5,4,Website,No,Late delivery
+688,7,6,Taco Town,Mexican,Burrito Bowl,25-08-2026,4:29:00 PM,Thane,Hinjewadi,2,129,0,30,13,301,Credit Card,Delivered,On Time,39,4,3,Mobile App,Yes,Cold food
+689,152,8,Sweet Treats,Desserts,Chocolate Cake,29-03-2026,9:22:00 PM,Nagpur,Viman Nagar,3,299,0,40,45,982,Debit Card,On The Way,Failed,41,3,4,Phone,No,Missing item
+690,129,3,Green Bowl,Healthy,Smoothie Bowl,14-03-2026,9:54:00 AM,Nagpur,Wakad,2,179,25,35,18,321,Debit Card,Refunded,Failed,38,6,4,Mobile App,Yes,Missing item
+691,97,8,Sweet Treats,Desserts,Brownie,01-06-2026,10:50:00 AM,Aurangabad,Hinjewadi,1,149,10,0,7,142,Wallet,Refunded,Late,15,3,4,Mobile App,Yes,Missing item
+692,146,8,Sweet Treats,Desserts,Cheesecake,22-03-2026,2:16:00 AM,Thane,Viman Nagar,1,349,0,25,17,391,Debit Card,Delivered,Failed,74,7,3,Website,No,Missing item
+693,65,9,Roll Express,Street Food,Schezwan Roll,14-04-2026,2:38:00 AM,Nashik,Viman Nagar,2,129,20,20,13,239,Wallet,Delivered,Late,31,4,4,Mobile App,Yes,None
+694,40,4,Pizza Point,Italian,Margherita Pizza,21-04-2026,3:07:00 AM,Mumbai,Dharampeth,4,99,0,20,80,1696,Cash,Delivered,Late,70,6,1,Website,No,Wrong item
+695,268,9,Roll Express,Street Food,Frankie,03-02-2026,8:13:00 AM,Thane,Hinjewadi,2,249,25,30,25,428,Wallet,Cancelled,On Time,37,2,4,Phone,No,Late delivery
+696,92,7,Dosa Corner,South Indian,Masala Dosa,15-08-2026,4:43:00 PM,Nashik,College Road,2,199,20,0,20,338,Debit Card,Delivered,Failed,42,4,5,Mobile App,Yes,Cold food
+697,189,6,Taco Town,Mexican,Chicken Wrap,04-02-2026,12:21:00 AM,Thane,Baner,1,229,15,20,11,226,Wallet,Delivered,Late,34,1,4,Phone,No,Cold food
+698,368,7,Dosa Corner,South Indian,Vada,23-01-2026,11:44:00 PM,Thane,College Road,2,199,20,0,20,338,Cash,Refunded,On Time,67,4,1,Phone,Yes,None
+699,215,6,Taco Town,Mexican,Veg Tacos,15-01-2026,8:55:00 PM,Pune,College Road,3,149,20,40,22,420,Cash,Delivered,Late,69,1,3,Phone,No,Late delivery
+700,188,10,Cafe Aroma,Cafe,Cappuccino,01-09-2026,11:21:00 AM,Aurangabad,Thane West,3,229,20,20,34,604,Cash,On The Way,Failed,52,6,5,Mobile App,Yes,Late delivery
+701,89,9,Roll Express,Street Food,Paneer Roll,17-03-2026,9:06:00 AM,Nashik,Viman Nagar,0,299,0,25,15,339,Wallet,Delivered,Late,59,1,4,Website,No,Missing item
+702,11,2,Burger Barn,Fast Food,French Fries,26-08-2026,3:00:00 AM,Pune,Wakad,1,129,0,40,6,175,Debit Card,Delivered,Late,35,1,4,Phone,Yes,Wrong item
+703,97,4,Pizza Point,Italian,Farmhouse Pizza,03-09-2026,10:35:00 AM,Mumbai,Kothrud,1,199,0,25,10,234,Debit Card,Delivered,Late,35,6,4,Website,No,None
+704,19,8,Sweet Treats,Desserts,Cheesecake,07-01-2026,7:45:00 PM,Mumbai,Dharampeth,1,499,15,30,25,479,Wallet,Preparing,On Time,58,6,5,Website,No,Wrong item
+705,108,4,Pizza Point,Italian,Farmhouse Pizza,25-06-2026,11:52:00 PM,Mumbai,College Road,4,349,25,40,70,1157,Debit Card,Cancelled,On Time,20,1,4,Phone,Yes,Cold food
+706,54,3,Green Bowl,Healthy,Protein Bowl,28-08-2026,8:01:00 PM,Pune,Kothrud,1,399,10,40,20,419,Cash,Delivered,Late,17,3,4,Website,Yes,Late delivery
+707,295,6,Taco Town,Mexican,Nachos,06-06-2026,5:33:00 AM,Aurangabad,Thane West,1,149,25,0,7,119,Cash,Delivered,Late,54,3,4,Phone,No,Missing item
+708,216,6,Taco Town,Mexican,Nachos,09-05-2026,11:09:00 PM,Nashik,Thane West,1,99,0,50,5,154,Wallet,On The Way,On Time,74,2,4,Phone,Yes,Wrong item
+709,28,10,Cafe Aroma,Cafe,Cappuccino,26-09-2026,6:46:00 AM,Nashik,Kothrud,4,399,25,20,80,1297,Debit Card,Delivered,Late,36,4,5,Mobile App,No,None
+710,126,3,Green Bowl,Healthy,Grilled Salad,10-06-2026,5:52:00 AM,Aurangabad,Dharampeth,1,129,0,20,6,155,Debit Card,On The Way,On Time,42,4,2,Mobile App,No,None
+711,50,8,Sweet Treats,Desserts,Cheesecake,21-07-2026,11:51:00 PM,Mumbai,Andheri,1,299,20,30,15,284,Credit Card,Preparing,Late,60,7,3,Website,No,Cold food
+712,312,10,Cafe Aroma,Cafe,Cold Coffee,21-07-2026,6:13:00 PM,Mumbai,Andheri,1,299,20,40,15,294,Debit Card,Refunded,Late,16,5,3,Mobile App,No,None
+713,218,4,Pizza Point,Italian,Pasta Alfredo,03-12-2026,5:03:00 PM,Nashik,Viman Nagar,1,179,5,30,9,209,Cash,Delivered,Failed,39,7,5,Website,Yes,Wrong item
+714,376,7,Dosa Corner,South Indian,Masala Dosa,04-02-2026,5:34:00 AM,Aurangabad,Thane West,1,349,25,0,17,279,Upi,Delivered,On Time,20,3,4,Mobile App,No,Cold food
+715,325,1,Spice Hub,Indian,Paneer Tikka,09-06-2026,10:19:00 PM,Thane,College Road,4,249,10,50,50,996,Wallet,Delivered,Late,42,7,4,Website,No,Missing item
+716,173,6,Taco Town,Mexican,Chicken Wrap,27-02-2026,6:06:00 AM,Mumbai,Dharampeth,5,349,25,30,87,1426,Wallet,On The Way,Failed,20,7,3,Website,No,None
+717,130,8,Sweet Treats,Desserts,Cheesecake,25-05-2026,1:21:00 AM,Nashik,Viman Nagar,1,299,10,25,15,309,Upi,Delivered,Failed,53,3,5,Mobile App,Yes,Wrong item
+718,379,7,Dosa Corner,South Indian,Vada,01-09-2026,3:14:00 PM,Mumbai,Kothrud,1,499,0,35,25,559,Upi,Delivered,Failed,61,1,1,Mobile App,Yes,Cold food
+719,269,7,Dosa Corner,South Indian,Vada,21-05-2026,11:47:00 AM,Pune,Hinjewadi,2,399,0,50,80,1726,Debit Card,On The Way,Late,74,1,5,Mobile App,Yes,Cold food
+720,370,9,Roll Express,Street Food,Paneer Roll,02-10-2026,11:31:00 AM,Nagpur,Hinjewadi,4,199,10,30,40,786,Credit Card,Delivered,Failed,75,3,5,Website,Yes,None
+721,344,6,Taco Town,Mexican,Veg Tacos,31-08-2026,7:20:00 AM,Thane,Thane West,2,249,5,40,25,538,Credit Card,Delivered,On Time,26,9,4,Website,Yes,Cold food
+722,114,4,Pizza Point,Italian,Pasta Alfredo,01-10-2026,2:08:00 PM,Pune,Andheri,2,199,110,30,20,428,Credit Card,Delivered,On Time,55,5,4,Website,No,Missing item
+723,78,7,Dosa Corner,South Indian,Vada,18-06-2026,6:28:00 PM,Aurangabad,College Road,1,349,0,25,17,391,Credit Card,Delivered,Failed,37,6,5,Mobile App,No,Wrong item
+724,383,7,Dosa Corner,Indian,Uttapam,17-01-2026,10:33:00 PM,Nashik,Viman Nagar,3,129,20,30,19,359,Debit Card,Delivered,Late,37,6,2,Website,Yes,Late delivery
+725,252,10,Cafe Aroma,Cafe,Cold Coffee,27-03-2026,9:18:00 PM,Nagpur,Dharampeth,1,249,10,50,12,287,Credit Card,Delivered,Late,33,9,4,Mobile App,Yes,Cold food
+726,282,4,Pizza Point,Italian,Garlic Bread,19-04-2026,3:46:00 AM,Nashik,Wakad,2,149,25,20,15,258,Cash,Cancelled,Failed,62,3,5,Website,No,None
+727,231,6,Taco Town,Mexican,Burrito Bowl,15-09-2026,6:16:00 PM,Mumbai,Thane West,2,179,25,30,18,316,Debit Card,Delivered,On Time,44,5,4,Website,No,Late delivery
+728,313,2,Burger Barn,Fast Food,Classic Burger,16-07-2026,7:48:00 PM,Thane,Thane West,2,249,10,20,25,493,Upi,Delivered,Late,54,5,3,Mobile App,Yes,Missing item
+729,83,8,Sweet Treats,Desserts,Cheesecake,16-02-2026,12:38:00 PM,Nashik,Wakad,1,399,25,40,20,359,Credit Card,Delivered,Late,47,6,5,Mobile App,No,Late delivery
+730,91,5,Dragon Wok,Chinese,Vada,02-03-2026,1:03:00 AM,Thane,Hinjewadi,1,299,10,20,15,0,Wallet,Delivered,Late,43,7,5,Mobile App,Yes,Cold food
+731,214,2,Burger Barn,Fast Food,Chicken Burger,01-04-2026,1:06:00 AM,Aurangabad,Dharampeth,2,249,25,35,25,433,Upi,Refunded,Failed,70,7,4,Phone,Yes,Cold food
+732,226,8,Sweet Treats,Desserts,Cheesecake,31-01-2026,9:59:00 AM,Pune,Hinjewadi,3,99,5,30,15,327,Credit Card,Cancelled,Late,47,7,5,Phone,Yes,Late delivery
+733,356,6,Taco Town,Mexican,Veg Tacos,31-07-2026,10:24:00 PM,Nagpur,College Road,1,179,25,30,9,173,Credit Card,Delivered,Late,21,3,4,Website,No,Wrong item
+734,190,8,Sweet Treats,Desserts,Ice Cream,13-05-2026,7:23:00 PM,Aurangabad,Viman Nagar,1,99,25,20,5,99,Debit Card,On The Way,Failed,33,2,1,Phone,No,Cold food
+735,117,8,Sweet Treats,Desserts,Chocolate Cake,31-05-2026,5:16:00 AM,Mumbai,Viman Nagar,2,149,0,35,15,348,Credit Card,Delivered,Failed,39,1,4,Website,No,Missing item
+736,268,9,Roll Express,Street Food,Frankie,27-07-2026,4:16:00 PM,Nagpur,College Road,2,149,5,40,15,338,Credit Card,Delivered,Failed,69,4,4,Mobile App,No,Cold food
+737,62,1,Spice Hub,Indian,Veg Thali,02-03-2026,11:41:00 AM,Nashik,College Road,1,179,0,20,9,208,Cash,Delivered,Late,64,6,5,Mobile App,Yes,Late delivery
+738,276,6,Taco Town,Mexican,Veg Tacos,17-01-2026,1:36:00 PM,Pune,College Road,2,229,10,0,23,412,Wallet,Delivered,Failed,49,2,5,Mobile App,No,Late delivery
+739,98,4,Pizza Point,Italian,Margherita Pizza,27-04-2026,11:32:00 PM,Mumbai,Dharampeth,2,149,0,35,15,348,Debit Card,Delivered,On Time,32,2,2,Mobile App,Yes,Missing item
+740,227,10,Cafe Aroma,Cafe,Cappuccino,09-02-2026,3:50:00 PM,Nagpur,Wakad,1,99,5,50,5,149,Upi,Delivered,Failed,27,5,4,Mobile App,No,Wrong item
+741,326,10,Cafe Aroma,Cafe,Pasta,01-05-2026,7:51:00 PM,Pune,Viman Nagar,1,129,20,30,6,140,Cash,Cancelled,Failed,27,3,4,Website,Yes,Wrong item
+742,348,9,Roll Express,Street Food,Frankie,09-05-2026,5:33:00 PM,Aurangabad,College Road,1,499,5,25,25,524,Upi,On The Way,On Time,30,4,4,Mobile App,No,Missing item
+743,327,8,Sweet Treats,Desserts,Brownie,09-11-2026,5:34:00 AM,Mumbai,Hinjewadi,1,249,20,25,12,237,Credit Card,Delivered,On Time,70,3,4,Phone,No,Wrong item
+744,393,9,Roll Express,Street Food,Schezwan Roll,30-08-2026,3:30:00 AM,Mumbai,Kothrud,2,399,0,35,40,873,Wallet,Delivered,Failed,35,2,3,Website,No,Missing item
+745,373,7,Dosa Corner,South Indian,Uttapam,18-05-2026,7:48:00 AM,Aurangabad,Andheri,4,299,25,50,60,1007,Cash,Delivered,Late,24,4,4,Phone,No,Cold food
+746,10,1,Spice Hub,Indian,Veg Thali,26-07-2026,1:53:00 AM,Mumbai,Viman Nagar,4,229,20,50,46,829,Debit Card,Delivered,Late,44,1,5,Website,No,Cold food
+747,371,6,Taco Town,Mexican,Nachos,13-04-2026,7:20:00 AM,Aurangabad,College Road,2,299,25,25,30,503,Upi,Delivered,Failed,30,4,3,Phone,No,Late delivery
+748,57,5,Dragon Wok,Chinese,Spring Rolls,07-12-2026,2:01:00 AM,Mumbai,Hinjewadi,1,499,5,25,25,524,Debit Card,Delivered,Failed,43,4,5,Mobile App,Yes,Missing item
+749,272,5,Dragon Wok,Chinese,Fried Rice,13-04-2026,7:10:00 PM,Aurangabad,Baner,1,179,5,35,9,214,Credit Card,Delivered,On Time,57,7,4,Phone,No,Wrong item
+750,133,8,Sweet Treats,Desserts,Ice Cream,20-04-2026,6:17:00 AM,Thane,Baner,1,179,10,25,9,195,Credit Card,Delivered,On Time,58,6,5,Website,No,Cold food
+751,168,8,Sweet Treats,Desserts,Vada,25-01-2026,6:02:00 PM,Nashik,Andheri,1,349,5,0,17,349,Upi,Delivered,Failed,17,1,5,Phone,Yes,Missing item
+752,393,2,Burger Barn,Fast Food,Combo Meal,30-09-2026,5:24:00 AM,Nashik,College Road,3,129,15,30,19,378,Cash,Delivered,Failed,27,2,5,Phone,No,None
+753,200,3,Green Bowl,Healthy,Quinoa Bowl,23-06-2026,3:29:00 PM,Pune,Wakad,2,249,0,30,25,553,Debit Card,Delivered,Late,15,2,5,Website,Yes,Missing item
+754,367,6,Taco Town,Mexican,Burrito Bowl,30-09-2026,3:37:00 PM,Mumbai,Kothrud,2,179,25,50,18,336,Credit Card,Delivered,Late,37,2,5,Mobile App,Yes,Missing item
+755,104,10,Cafe Aroma,Cafe,Sandwich,21-01-2026,4:20:00 AM,Mumbai,Thane West,2,129,5,50,13,308,Debit Card,Delivered,On Time,29,9,5,Website,Yes,Late delivery
+756,395,8,Sweet Treats,Desserts,Cheesecake,03-05-2026,12:48:00 PM,Thane,Hinjewadi,1,179,10,0,9,170,Cash,Delivered,On Time,40,5,3,Phone,Yes,Late delivery
+757,260,4,Pizza Point,Italian,Farmhouse Pizza,03-03-2026,4:41:00 PM,Nagpur,Viman Nagar,2,229,20,25,23,414,Wallet,Delivered,On Time,28,9,3,Mobile App,Yes,Cold food
+758,118,7,Dosa Corner,South Indian,Masala Dosa,24-07-2026,3:24:00 AM,Aurangabad,Thane West,1,199,25,0,10,159,Cash,Delivered,On Time,69,3,5,Phone,No,None
+759,32,3,Green Bowl,Indian,Grilled Salad,05-08-2026,6:03:00 AM,Aurangabad,Viman Nagar,2,149,15,20,15,288,Debit Card,Delivered,Failed,45,4,5,Mobile App,No,Late delivery
+760,16,3,Green Bowl,Healthy,Smoothie Bowl,23-09-2026,5:10:00 AM,Mumbai,Viman Nagar,2,499,0,25,50,1073,Cash,On The Way,Failed,22,3,5,Website,No,None
+761,194,1,Spice Hub,Indian,Veg Thali,10-10-2026,12:58:00 AM,Mumbai,Hinjewadi,3,99,20,50,15,302,Upi,Delivered,Late,41,2,2,Mobile App,No,None
+762,160,2,Burger Barn,Fast Food,Combo Meal,09-01-2026,3:51:00 PM,Nagpur,Viman Nagar,5,349,10,20,87,1678,Credit Card,On The Way,Late,66,6,5,Phone,No,Missing item
+763,74,2,Burger Barn,Fast Food,French Fries,09-02-2026,4:49:00 PM,Aurangabad,Hinjewadi,2,399,0,20,40,858,Upi,Delivered,Failed,23,4,5,Website,Yes,Late delivery
+764,265,4,Pizza Point,Italian,Farmhouse Pizza,05-09-2026,6:18:00 AM,Mumbai,Andheri,2,199,5,40,20,438,Cash,Refunded,Late,57,6,4,Mobile App,Yes,Cold food
+765,6,1,Spice Hub,Indian,Butter Chicken,04-12-2026,6:13:00 AM,Nagpur,Andheri,1,499,0,50,25,574,Credit Card,Cancelled,Late,25,7,4,Phone,No,Cold food
+766,173,4,Pizza Point,Italian,Farmhouse Pizza,21-08-2026,9:12:00 PM,Mumbai,Viman Nagar,1,299,0,40,15,354,Debit Card,Delivered,Late,64,7,4,Phone,No,None
+767,117,6,Taco Town,Mexican,Nachos,23-09-2026,8:58:00 AM,Pune,Hinjewadi,1,229,10,40,11,258,Wallet,Delivered,Failed,49,3,3,Mobile App,No,Wrong item
+768,262,8,Sweet Treats,Desserts,Brownie,08-12-2026,6:53:00 PM,Mumbai,Wakad,5,129,25,35,32,551,Upi,Delivered,On Time,67,6,5,Phone,No,Missing item
+769,272,10,Cafe Aroma,Cafe,Cold Coffee,19-03-2026,7:12:00 PM,Nashik,Kothrud,3,349,0,50,52,1149,Upi,Delivered,Failed,49,2,3,Phone,Yes,Late delivery
+770,240,9,Roll Express,Street Food,Frankie,08-06-2026,6:54:00 AM,Mumbai,Viman Nagar,1,249,5,30,12,279,Upi,On The Way,On Time,41,3,5,Phone,No,Late delivery
+771,125,10,Cafe Aroma,Cafe,Pasta,02-04-2026,2:01:00 AM,Mumbai,Thane West,2,149,0,30,15,343,Cash,Preparing,Failed,63,2,5,Mobile App,No,None
+772,228,4,Pizza Point,Italian,Pasta Alfredo,22-05-2026,4:47:00 AM,Aurangabad,Viman Nagar,3,129,20,40,19,369,Debit Card,Delivered,On Time,58,6,3,Mobile App,No,Missing item
+773,37,2,Pizza Point,Fast Food,Chicken Burger,30-08-2026,7:55:00 AM,Nashik,Baner,2,199,25,0,20,318,Cash,Delivered,Late,54,1,4,Phone,No,Cold food
+774,375,10,Cafe Aroma,Cafe,Sandwich,28-03-2026,11:36:00 PM,Mumbai,College Road,3,299,25,25,45,743,Cash,Delivered,Late,21,1,2,Phone,Yes,Wrong item
+775,52,5,Dragon Wok,Chinese,Spring Rolls,05-09-2026,9:51:00 PM,Mumbai,College Road,2,249,20,50,25,473,Credit Card,Delivered,Failed,37,4,2,Phone,No,None
+776,330,8,Sweet Treats,Desserts,Chocolate Cake,07-12-2026,8:42:00 PM,Thane,Hinjewadi,2,499,10,0,50,948,Upi,Delivered,On Time,52,3,5,Phone,No,Cold food
+777,322,1,Spice Hub,Indian,Butter Chicken,27-06-2026,10:05:00 PM,Aurangabad,Baner,3,299,15,50,45,857,Credit Card,Delivered,Failed,75,2,4,Mobile App,No,None
+778,128,5,Dragon Wok,Chinese,Fried Rice,31-07-2026,12:58:00 AM,Nagpur,Baner,2,199,5,50,20,448,Debit Card,Delivered,Late,37,6,5,Phone,No,Late delivery
+779,46,4,Pizza Point,Italian,Farmhouse Pizza,10-08-2026,10:07:00 PM,Nashik,Dharampeth,1,249,25,25,12,224,Credit Card,Cancelled,Late,26,7,5,Website,Yes,None
+780,180,7,Dosa Corner,South Indian,Uttapam,06-10-2026,9:13:00 PM,Nagpur,Andheri,1,149,25,30,7,149,Credit Card,Delivered,On Time,69,3,5,Mobile App,Yes,Late delivery
+781,357,10,Cafe Aroma,Cafe,Cappuccino,06-08-2026,5:16:00 PM,Mumbai,Hinjewadi,2,349,5,50,35,748,Upi,Delivered,Failed,26,5,4,Phone,No,Wrong item
+782,151,3,Green Bowl,Healthy,Quinoa Bowl,24-06-2026,6:11:00 PM,Nashik,Wakad,1,149,10,0,7,142,Cash,Preparing,On Time,5,2,5,Phone,Yes,Wrong item
+783,7,1,Spice Hub,Indian,Chicken Biryani,09-11-2026,7:39:00 AM,Mumbai,Baner,3,179,0,20,27,584,Wallet,Delivered,Late,66,7,3,Website,No,Missing item
+784,199,9,Roll Express,Street Food,Frankie,04-09-2026,2:04:00 PM,Aurangabad,Andheri,1,349,15,30,17,344,Debit Card,Delivered,Late,71,3,5,Website,Yes,Wrong item
+785,276,9,Roll Express,Street Food,Chicken Roll,07-02-2026,2:37:00 AM,Pune,Dharampeth,4,149,5,50,30,646,Cash,Preparing,Failed,59,3,3,Mobile App,Yes,Wrong item
+786,190,9,Roll Express,Street Food,Paneer Roll,25-04-2026,3:52:00 PM,Thane,College Road,1,99,10,35,5,129,Wallet,Delivered,Failed,52,1,4,Website,No,Late delivery
+787,307,2,Burger Barn,Fast Food,Combo Meal,07-01-2026,2:13:00 AM,Nagpur,Kothrud,4,199,15,25,40,741,Cash,On The Way,On Time,61,6,1,Website,No,Missing item
+788,4,5,Dragon Wok,Chinese,Hakka Noodles,19-06-2026,7:56:00 AM,Aurangabad,Andheri,2,349,10,20,35,683,Wallet,Cancelled,On Time,58,7,4,Mobile App,Yes,Missing item
+789,333,7,Dosa Corner,South Indian,Vada,24-03-2026,6:38:00 AM,Aurangabad,Hinjewadi,1,399,25,50,20,369,Debit Card,Refunded,On Time,68,1,3,Website,No,Cold food
+790,130,7,Dosa Corner,South Indian,Vada,31-08-2026,4:43:00 AM,Pune,Kothrud,3,149,0,25,22,494,Debit Card,Delivered,Late,60,2,4,Mobile App,No,None
+791,49,6,Taco Town,Mexican,Burrito Bowl,20-08-2026,3:12:00 AM,Pune,Dharampeth,2,99,15,0,10,178,Upi,Refunded,On Time,18,3,5,Website,No,None
+792,177,10,Pizza Point,Cafe,Cappuccino,07-11-2026,2:22:00 AM,Aurangabad,Kothrud,4,179,20,35,36,644,Wallet,Delivered,Late,49,5,3,Mobile App,No,Late delivery
+793,150,9,Roll Express,Street Food,Paneer Roll,18-03-2026,3:11:00 PM,Nashik,Kothrud,1,99,15,50,5,139,Wallet,On The Way,Failed,66,2,5,Mobile App,No,Late delivery
+794,60,10,Cafe Aroma,Cafe,Cappuccino,21-03-2026,8:55:00 PM,Nashik,Wakad,4,299,20,35,60,1052,Debit Card,Preparing,On Time,65,2,4,Website,Yes,Cold food
+795,190,1,Spice Hub,Indian,Paneer Tikka,07-03-2026,2:00:00 AM,Thane,Hinjewadi,4,299,25,50,60,1007,Debit Card,On The Way,Failed,60,5,5,Phone,No,Missing item
+796,252,4,Pizza Point,Italian,Margherita Pizza,25-05-2026,10:56:00 AM,Nagpur,Hinjewadi,1,179,5,40,9,219,Debit Card,Delivered,Failed,42,4,4,Phone,No,Wrong item
+797,301,8,Sweet Treats,Desserts,Brownie,28-05-2026,11:20:00 PM,Aurangabad,Andheri,2,349,25,0,35,558,Upi,Delivered,Failed,20,1,4,Mobile App,No,Cold food
+798,261,4,Pizza Point,Italian,Farmhouse Pizza,30-06-2026,6:21:00 PM,Aurangabad,Baner,1,99,25,30,25,429,Credit Card,Cancelled,On Time,48,4,5,Mobile App,Yes,Wrong item
+799,353,2,Burger Barn,Fast Food,Classic Burger,15-04-2026,4:54:00 PM,Nashik,Baner,1,499,15,0,25,449,Credit Card,Delivered,Failed,39,7,3,Website,Yes,Cold food
+800,217,4,Pizza Point,Italian,Farmhouse Pizza,07-10-2026,1:43:00 PM,Mumbai,Viman Nagar,1,149,15,20,7,154,Cash,Delivered,Failed,31,1,5,Website,No,Cold food
+801,66,5,Dragon Wok,Chinese,Manchurian,04-08-2026,4:39:00 PM,Pune,Hinjewadi,1,99,20,40,5,124,Upi,Delivered,On Time,59,7,5,Website,Yes,Late delivery
+802,147,9,Roll Express,Street Food,Frankie,17-06-2026,5:42:00 AM,Thane,Viman Nagar,4,199,20,40,40,717,Upi,On The Way,On Time,40,4,4,Mobile App,Yes,Missing item
+803,199,8,Sweet Treats,Desserts,Brownie,13-04-2026,4:20:00 AM,Pune,Hinjewadi,2,99,10,30,10,218,Credit Card,Delivered,Late,29,5,1,Website,No,Late delivery
+804,79,8,Sweet Treats,Desserts,Ice Cream,10-10-2026,10:37:00 PM,Nashik,Kothrud,4,179,25,20,36,593,Debit Card,Cancelled,Late,17,2,4,Phone,Yes,Cold food
+805,13,7,Dosa Corner,South Indian,Vada,20-03-2026,9:57:00 AM,Pune,Wakad,2,179,0,40,18,416,Wallet,Delivered,Failed,57,3,5,Phone,Yes,Late delivery
+806,371,9,Roll Express,Street Food,Frankie,06-12-2026,1:56:00 AM,Nashik,Baner,1,0,10,35,6,158,Credit Card,Delivered,On Time,54,6,5,Mobile App,Yes,Cold food
+807,38,1,Spice Hub,Indian,Vada,30-01-2026,1:13:00 PM,Aurangabad,College Road,2,129,25,20,13,226,Wallet,Cancelled,Failed,17,4,4,Website,No,Cold food
+808,185,4,Pizza Point,Italian,Pasta Alfredo,09-09-2026,8:54:00 PM,Mumbai,Viman Nagar,1,499,10,30,25,504,Credit Card,On The Way,Late,24,3,4,Mobile App,No,None
+809,321,7,Dosa Corner,South Indian,Uttapam,06-03-2026,4:54:00 AM,Mumbai,Thane West,1,249,20,35,12,247,Cash,On The Way,Late,40,4,3,Phone,No,Cold food
+810,365,7,Dosa Corner,South Indian,Idli Sambar,26-08-2026,12:24:00 PM,Thane,Wakad,1,499,10,20,25,494,Wallet,Cancelled,Late,28,4,3,Phone,No,Wrong item
+811,397,5,Dragon Wok,Chinese,Spring Rolls,20-04-2026,1:24:00 PM,Pune,Wakad,1,129,15,40,6,156,Credit Card,Delivered,Late,72,5,5,Mobile App,No,Missing item
+812,349,7,Pizza Point,South Indian,Idli Sambar,04-03-2026,3:07:00 PM,Aurangabad,Thane West,1,179,10,35,9,205,Wallet,Delivered,On Time,32,2,5,Website,No,Cold food
+813,34,4,Pizza Point,Italian,Margherita Pizza,03-08-2026,4:36:00 PM,Pune,Baner,1,399,15,40,20,399,Upi,Delivered,Late,17,7,5,Mobile App,No,Wrong item
+814,229,4,Pizza Point,Italian,Garlic Bread,19-03-2026,7:16:00 AM,Nashik,Kothrud,1,129,5,35,6,164,Debit Card,On The Way,Late,52,1,5,Phone,Yes,Late delivery
+815,144,3,Green Bowl,Healthy,Grilled Salad,08-01-2026,4:02:00 AM,Pune,Kothrud,2,399,10,20,40,778,Cash,Delivered,On Time,55,7,4,Mobile App,Yes,Cold food
+816,300,8,Sweet Treats,Desserts,Vada,14-07-2026,4:16:00 PM,Nagpur,Baner,1,99,15,40,5,129,Cash,Refunded,Failed,38,5,5,Website,No,None
+817,343,6,Taco Town,Mexican,Burrito Bowl,02-05-2026,6:02:00 AM,Aurangabad,Andheri,1,199,20,30,10,199,Debit Card,On The Way,Failed,22,7,5,Mobile App,No,Missing item
+818,267,8,Sweet Treats,Desserts,Chocolate Cake,01-09-2026,9:13:00 PM,Nagpur,Andheri,3,249,0,25,37,809,Credit Card,On The Way,On Time,27,6,4,Mobile App,No,Wrong item
+819,320,8,Sweet Treats,Desserts,Chocolate Cake,08-10-2026,11:31:00 AM,Aurangabad,Kharadi,1,499,10,40,25,514,Debit Card,Delivered,Late,50,2,1,Website,No,Cold food
+820,363,1,Spice Hub,Indian,Chicken Biryani,19-05-2026,11:47:00 PM,Mumbai,Andheri,1,229,25,35,11,218,Debit Card,On The Way,Failed,65,2,4,Website,No,Wrong item
+821,66,2,Burger Barn,Fast Food,Classic Burger,19-08-2026,10:55:00 PM,Pune,Hinjewadi,1,499,5,50,25,549,Credit Card,Delivered,Late,22,1,1,Mobile App,Yes,None
+822,236,2,Burger Barn,Fast Food,Chicken Burger,01-05-2026,12:27:00 AM,Aurangabad,Hinjewadi,2,229,25,35,23,401,Wallet,Delivered,On Time,52,1,5,Phone,Yes,Late delivery
+823,368,2,Burger Barn,Fast Food,Classic Burger,04-06-2026,3:07:00 AM,Nagpur,Andheri,2,129,0,30,13,301,Wallet,Cancelled,On Time,29,4,3,Mobile App,No,Missing item
+824,41,3,Green Bowl,Healthy,Grilled Salad,29-08-2026,9:49:00 AM,Mumbai,Viman Nagar,2,399,25,50,40,688,Credit Card,Delivered,Failed,26,5,4,Mobile App,Yes,None
+825,212,4,Pizza Point,Italian,Farmhouse Pizza,04-06-2026,10:58:00 AM,Mumbai,Thane West,2,179,0,30,18,406,Debit Card,Delivered,Late,52,9,4,Mobile App,Yes,Wrong item
+826,41,5,Dragon Wok,Chinese,Spring Rolls,24-03-2026,2:12:00 AM,Pune,Hinjewadi,1,299,5,40,15,339,Debit Card,Delivered,Failed,63,7,5,Website,Yes,Missing item
+827,382,5,Dragon Wok,Chinese,Manchurian,13-06-2026,3:23:00 PM,Mumbai,Kothrud,1,299,5,30,15,329,Upi,Delivered,Failed,46,3,4,Website,No,Cold food
+828,13,6,Taco Town,Mexican,Burrito Bowl,26-07-2026,3:49:00 PM,Nashik,Thane West,3,299,10,20,45,872,Credit Card,Delivered,Late,63,9,4,Mobile App,No,Late delivery
+829,190,3,Green Bowl,Healthy,Grilled Salad,04-05-2026,7:24:00 AM,Nashik,Dharampeth,1,249,10,20,12,257,Debit Card,Delivered,On Time,27,2,1,Website,No,Cold food
+830,312,7,Dosa Corner,South Indian,Uttapam,23-03-2026,4:38:00 PM,Mumbai,Wakad,4,99,5,0,20,396,Wallet,Delivered,Late,35,7,0,Mobile App,No,Cold food
+831,67,1,Spice Hub,Indian,Chicken Biryani,06-07-2026,9:33:00 PM,Nashik,Andheri,1,499,5,40,25,539,Credit Card,Delivered,Late,54,5,3,Website,Yes,None
+832,244,8,Sweet Treats,Desserts,Ice Cream,10-06-2026,2:14:00 PM,Thane,Andheri,1,229,20,20,11,215,Wallet,On The Way,Late,72,6,4,Mobile App,Yes,Wrong item
+833,49,10,Cafe Aroma,Cafe,Pasta,28-04-2026,8:14:00 PM,Mumbai,Andheri,2,179,10,35,18,375,Upi,Delivered,Failed,16,4,4,Website,No,None
+834,127,8,Sweet Treats,Desserts,Brownie,19-07-2026,6:35:00 AM,Aurangabad,Baner,3,199,20,20,30,527,Debit Card,Delivered,Late,64,9,2,Phone,No,Missing item
+835,306,3,Green Bowl,Healthy,Quinoa Bowl,20-05-2026,10:55:00 AM,Nashik,Baner,1,229,15,35,11,241,Credit Card,Delivered,Failed,66,7,5,Phone,No,Late delivery
+836,334,7,Dosa Corner,South Indian,Vada,08-05-2026,11:54:00 PM,Pune,Andheri,3,99,5,25,15,322,Cash,Delivered,On Time,33,9,1,Phone,No,Missing item
+837,84,3,Green Bowl,Healthy,Grilled Salad,16-08-2026,10:43:00 AM,Nashik,Baner,1,199,10,25,10,214,Upi,Delivered,On Time,53,7,4,Website,No,Wrong item
+838,390,3,Green Bowl,Healthy,Quinoa Bowl,06-11-2026,12:48:00 PM,Aurangabad,Viman Nagar,2,499,10,40,50,988,Debit Card,Delivered,Failed,26,7,4,Phone,Yes,Missing item
+839,121,1,Spice Hub,Indian,Paneer Tikka,03-09-2026,4:57:00 PM,Nashik,Andheri,1,129,0,20,6,155,Debit Card,Delivered,On Time,25,4,5,Website,Yes,Cold food
+840,107,7,Dosa Corner,South Indian,Vada,10-07-2026,2:07:00 AM,Mumbai,Hinjewadi,2,499,25,30,50,828,Debit Card,Delivered,On Time,50,2,5,Mobile App,Yes,None
+841,388,4,Pizza Point,Italian,Garlic Bread,09-03-2026,1:26:00 AM,Pune,Dharampeth,1,179,0,50,9,238,Debit Card,Delivered,Late,35,1,4,Phone,No,Missing item
+842,298,2,Burger Barn,Fast Food,Chicken Burger,21-01-2026,6:49:00 AM,Thane,Kothrud,2,179,0,35,18,411,Cash,Delivered,On Time,37,2,5,Phone,Yes,Missing item
+843,101,5,Dragon Wok,Chinese,Fried Rice,17-05-2026,6:59:00 PM,Nashik,Thane West,1,249,0,50,12,311,Upi,Delivered,Failed,53,3,4,Website,Yes,Cold food
+844,106,10,Cafe Aroma,Cafe,Cold Coffee,20-09-2026,1:50:00 PM,Thane,Viman Nagar,1,129,0,30,6,165,Credit Card,Preparing,Failed,62,7,5,Website,No,Cold food
+845,93,1,Spice Hub,Indian,Chicken Biryani,28-04-2026,7:20:00 PM,Mumbai,College Road,3,199,0,35,30,662,Cash,Delivered,Failed,15,3,3,Website,No,Missing item
+846,55,3,Green Bowl,Healthy,Quinoa Bowl,09-09-2026,4:23:00 PM,Pune,Kharadi,2,199,25,40,20,358,Upi,On The Way,Late,30,1,2,Website,No,Cold food
+847,39,10,Cafe Aroma,Cafe,Sandwich,23-03-2026,3:19:00 AM,Nagpur,Kharadi,1,179,20,20,9,172,Debit Card,Refunded,On Time,62,1,5,Website,Yes,Wrong item
+848,8,8,Sweet Treats,Desserts,Chocolate Cake,15-04-2026,4:06:00 AM,Pune,Wakad,0,499,25,0,100,1597,Cash,On The Way,Failed,74,6,4,Phone,No,Wrong item
+849,255,1,Spice Hub,Indian,Butter Chicken,09-03-2026,2:09:00 AM,Nagpur,Thane West,2,149,0,0,15,313,Credit Card,Delivered,On Time,39,5,1,Mobile App,Yes,Wrong item
+850,230,5,Dragon Wok,Chinese,Hakka Noodles,09-03-2026,6:55:00 AM,Aurangabad,Baner,3,99,20,25,15,277,Wallet,Refunded,Late,27,5,3,Phone,No,Late delivery
+851,191,1,Spice Hub,Indian,Veg Thali,27-05-2026,12:25:00 PM,Nashik,Andheri,1,229,10,50,11,268,Cash,Delivered,On Time,25,5,4,Website,Yes,Cold food
+852,130,6,Taco Town,Mexican,Burrito Bowl,30-05-2026,5:02:00 AM,Nashik,Andheri,3,299,20,35,45,797,Cash,Delivered,Late,42,7,2,Phone,Yes,None
+853,294,6,Taco Town,Mexican,Burrito Bowl,17-09-2026,9:20:00 PM,Mumbai,Thane West,1,229,15,40,11,246,Upi,Preparing,Late,25,1,5,Phone,Yes,Missing item
+854,251,2,Burger Barn,Fast Food,Classic Burger,01-03-2026,8:41:00 AM,Nashik,Andheri,4,499,0,40,100,2136,Wallet,Delivered,Late,60,5,5,Phone,No,Late delivery
+855,386,10,Cafe Aroma,Cafe,Cold Coffee,29-06-2026,1:55:00 PM,Aurangabad,Baner,2,129,0,40,13,311,Wallet,Delivered,On Time,24,4,5,Mobile App,Yes,Wrong item
+856,16,4,Pizza Point,Italian,Farmhouse Pizza,27-07-2026,10:20:00 AM,Pune,Wakad,3,349,20,0,52,890,Credit Card,Refunded,Failed,27,1,1,Mobile App,No,Cold food
+857,156,2,Burger Barn,Fast Food,Combo Meal,08-05-2026,12:12:00 PM,Thane,College Road,2,99,20,35,10,203,Wallet,Delivered,Failed,39,9,0,Phone,No,None
+858,217,8,Sweet Treats,Desserts,Ice Cream,13-06-2026,11:59:00 AM,Aurangabad,College Road,1,299,25,50,15,289,Upi,Delivered,Late,49,1,5,Website,Yes,Cold food
+859,241,5,Dragon Wok,Chinese,Hakka Noodles,10-06-2026,3:08:00 AM,Nashik,Viman Nagar,1,499,0,30,25,554,Wallet,Delivered,Failed,36,7,3,Website,Yes,Missing item
+860,36,7,Dosa Corner,South Indian,Idli Sambar,18-02-2026,12:21:00 AM,Nagpur,Viman Nagar,2,399,25,40,40,678,Wallet,Cancelled,Late,74,7,4,Phone,Yes,Wrong item
+861,170,10,Cafe Aroma,Cafe,Pasta,02-03-2026,11:49:00 PM,Pune,Kothrud,2,149,10,25,15,308,Upi,On The Way,On Time,17,4,4,Website,Yes,None
+862,118,7,Dosa Corner,South Indian,Vada,04-01-2026,12:51:00 PM,Aurangabad,Hinjewadi,1,149,0,25,7,181,Upi,On The Way,On Time,52,2,2,Mobile App,Yes,Cold food
+863,18,8,Sweet Treats,Desserts,Ice Cream,07-07-2026,11:51:00 PM,Nagpur,Dharampeth,1,349,20,25,17,322,Cash,Delivered,On Time,21,1,4,Mobile App,No,Wrong item
+864,101,8,Sweet Treats,Desserts,Cheesecake,25-07-2026,5:18:00 PM,Aurangabad,Dharampeth,4,149,0,0,30,626,Debit Card,Delivered,Failed,51,3,3,Website,Yes,Late delivery
+865,190,10,Cafe Aroma,Cafe,Sandwich,31-07-2026,3:57:00 AM,Pune,Dharampeth,2,179,0,20,18,396,Upi,Delivered,On Time,62,5,5,Phone,No,Missing item
+866,340,9,Roll Express,Street Food,Schezwan Roll,01-05-2026,10:21:00 AM,Nagpur,College Road,3,149,5,20,22,467,Credit Card,On The Way,On Time,66,2,3,Website,Yes,Late delivery
+867,127,3,Green Bowl,Healthy,Smoothie Bowl,19-09-2026,4:57:00 AM,Aurangabad,Andheri,3,129,10,35,19,403,Credit Card,Refunded,Late,19,4,4,Mobile App,No,None
+868,66,6,Taco Town,Mexican,Nachos,22-07-2026,12:56:00 AM,Thane,Dharampeth,1,229,10,30,11,248,Cash,Delivered,Failed,70,7,3,Phone,Yes,Late delivery
+869,361,10,Cafe Aroma,Cafe,Cold Coffee,24-09-2026,9:49:00 AM,Aurangabad,Baner,1,129,10,35,6,158,Debit Card,Delivered,Late,19,4,4,Website,No,Wrong item
+870,353,5,Dragon Wok,Chinese,Manchurian,10-02-2026,8:39:00 PM,Nagpur,Andheri,1,199,25,30,10,189,Upi,Delivered,Failed,39,4,5,Website,Yes,Wrong item
+871,157,5,Dragon Wok,Chinese,Manchurian,19-05-2026,9:51:00 AM,Nashik,Dharampeth,2,179,5,25,18,383,Cash,On The Way,Late,51,3,3,Phone,No,Late delivery
+872,237,10,Cafe Aroma,Cafe,Cold Coffee,13-03-2026,11:29:00 PM,Pune,Viman Nagar,1,499,20,25,25,449,Cash,Cancelled,On Time,50,5,4,Phone,No,Late delivery
+873,37,8,Sweet Treats,Desserts,Ice Cream,07-11-2026,8:23:00 AM,Pune,Thane West,1,199,15,30,10,209,Wallet,Delivered,Late,24,1,4,Mobile App,Yes,Wrong item
+874,219,8,Sweet Treats,Desserts,Cheesecake,21-08-2026,6:47:00 PM,Thane,Hinjewadi,2,199,15,35,20,393,Cash,Delivered,Late,32,4,2,Website,Yes,Late delivery
+875,138,3,Green Bowl,Healthy,Grilled Salad,03-04-2026,12:20:00 PM,Pune,Thane West,2,99,0,50,10,258,Credit Card,Delivered,On Time,21,6,4,Phone,Yes,None
+876,385,2,Burger Barn,Fast Food,Chicken Burger,22-06-2026,9:18:00 PM,Thane,Andheri,2,199,10,20,20,398,Credit Card,Delivered,On Time,54,1,5,Phone,No,Late delivery
+877,139,3,Green Bowl,Healthy,Smoothie Bowl,16-07-2026,6:56:00 AM,Pune,Hinjewadi,2,99,0,0,10,208,Credit Card,Delivered,Late,54,2,5,Mobile App,No,Missing item
+878,190,3,Green Bowl,Healthy,Smoothie Bowl,30-03-2026,7:31:00 AM,Mumbai,Wakad,1,99,0,40,5,144,Upi,Delivered,On Time,52,4,5,Phone,No,Cold food
+879,224,3,Green Bowl,Healthy,Protein Bowl,16-07-2026,8:59:00 PM,Nashik,Baner,2,99,15,50,10,228,Cash,Delivered,Failed,71,5,5,Website,No,Missing item
+880,107,4,Pizza Point,Italian,Pasta Alfredo,07-10-2026,4:55:00 AM,Nashik,Andheri,2,399,25,40,40,678,Cash,Delivered,Late,25,2,5,Phone,No,Late delivery
+881,12,7,Dosa Corner,South Indian,Vada,29-08-2026,12:49:00 AM,Thane,Andheri,2,399,0,40,40,878,Debit Card,Delivered,On-Time,43,1,5,Website,No,Cold food
+882,87,7,Dosa Corner,South Indian,Idli Sambar,15-02-2026,2:55:00 PM,Thane,Dharampeth,1,179,5,25,9,204,Wallet,On The Way,Failed,31,7,4,Mobile App,Yes,Cold food
+883,269,6,Taco Town,Mexican,Chicken Wrap,25-01-2026,7:48:00 AM,Nagpur,Kothrud,1,149,0,35,7,191,Debit Card,Delivered,On Time,18,7,4,Website,No,Late delivery
+884,380,4,Pizza Point,Indian,Pasta Alfredo,29-07-2026,10:38:00 AM,Nashik,Dharampeth,1,129,0,50,6,185,Cash,Delivered,Late,18,2,4,Mobile App,Yes,Late delivery
+885,284,10,Pizza Point,Cafe,Sandwich,02-09-2026,2:17:00 AM,Aurangabad,Kothrud,0,199,25,50,20,368,Credit Card,Delivered,Failed,22,2,5,Mobile App,Yes,Wrong item
+886,80,3,Green Bowl,Healthy,Grilled Salad,20-05-2026,5:31:00 PM,Mumbai,Andheri,3,349,15,0,52,942,Wallet,Delivered,Late,25,4,2,Mobile App,No,Late delivery
+887,251,2,Burger Barn,Fast Food,Combo Meal,05-08-2026,5:31:00 AM,Thane,Dharampeth,2,99,0,30,10,238,Cash,Delivered,Failed,33,4,4,Phone,No,Missing item
+888,106,10,Cafe Aroma,Cafe,Vada,27-07-2026,8:34:00 AM,Thane,Andheri,2,249,0,35,25,558,Debit Card,On The Way,On Time,23,5,5,Website,No,Cold food
+889,76,5,Dragon Wok,Chinese,Spring Rolls,07-11-2026,12:48:00 AM,Thane,Kothrud,1,179,25,0,9,143,Debit Card,Delivered,Late,64,2,5,Mobile App,Yes,Late delivery
+890,126,8,Sweet Treats,Desserts,Brownie,05-10-2026,4:36:00 PM,Aurangabad,Kharadi,1,299,10,20,15,319,Debit Card,Delivered,Late,41,1,5,Website,No,Cold food
+891,35,7,Dosa Corner,South Indian,Uttapam,02-09-2026,8:25:00 PM,Nashik,Wakad,1,349,15,30,17,344,Debit Card,Delivered,Failed,70,2,5,Mobile App,Yes,Late delivery
+892,314,9,Roll Express,Street Food,Schezwan Roll,19-05-2026,2:02:00 AM,Nashik,Andheri,1,179,20,35,9,187,Debit Card,Delivered,Late,43,1,4,Phone,Yes,Cold food
+893,79,8,Sweet Treats,Desserts,Cheesecake,08-10-2026,5:32:00 PM,Nashik,College Road,1,349,20,40,17,337,Debit Card,Delivered,On Time,19,2,5,Mobile App,Yes,Missing item
+894,100,7,Dosa Corner,South Indian,Vada,22-05-2026,1:27:00 PM,Mumbai,Thane West,1,99,5,0,5,99,Wallet,Refunded,Failed,27,3,4,Mobile App,Yes,None
+895,253,3,Green Bowl,Healthy,Quinoa Bowl,20-01-2026,9:03:00 AM,Pune,College Road,2,129,0,30,13,301,Debit Card,On The Way,Failed,25,6,5,Website,No,Wrong item
+896,267,10,Cafe Aroma,Cafe,Sandwich,10-08-2026,11:17:00 AM,Thane,Wakad,2,229,15,20,23,432,Credit Card,Delivered,On Time,68,4,5,Website,No,Wrong item
+897,76,9,Roll Express,Street Food,Chicken Roll,06-03-2026,5:01:00 PM,Mumbai,Wakad,4,249,0,35,50,1081,Cash,Delivered,On Time,70,1,4,Phone,No,Cold food
+898,34,7,Dosa Corner,South Indian,Uttapam,08-03-2026,7:20:00 PM,Pune,Thane West,1,129,0,20,6,155,Cash,Delivered,Late,75,2,5,Website,No,None
+899,121,6,Taco Town,Mexican,Chicken Wrap,07-09-2026,4:02:00 AM,Mumbai,Kharadi,1,299,10,30,15,314,Debit Card,Delivered,On Time,40,5,4,Website,No,None
+900,358,2,Burger Barn,Fast Food,French Fries,02-12-2026,2:48:00 AM,Pune,Baner,0,99,0,35,15,347,Cash,Delivered,On Time,72,1,2,Mobile App,No,Wrong item
+901,21,6,Taco Town,Mexican,Veg Tacos,14-02-2026,1:22:00 AM,Mumbai,Kothrud,1,199,5,0,10,199,Cash,Delivered,Late,52,1,2,Website,No,Missing item
+902,359,9,Roll Express,Street Food,Paneer Roll,02-06-2026,8:54:00 PM,Nagpur,Wakad,1,129,10,35,6,158,Debit Card,On The Way,On Time,25,4,5,Website,Yes,Cold food
+903,159,8,Sweet Treats,Desserts,Ice Cream,07-03-2026,5:22:00 PM,Mumbai,Wakad,1,499,20,50,25,474,Cash,Delivered,On Time,66,6,5,Mobile App,Yes,None
+904,353,1,Spice Hub,Indian,Chicken Biryani,03-02-2026,5:02:00 AM,Pune,Wakad,1,299,0,20,15,334,Cash,Cancelled,Late,33,4,5,Mobile App,No,Late delivery
+905,130,8,Sweet Treats,Desserts,Cheesecake,18-01-2026,12:25:00 PM,Mumbai,Kharadi,1,179,5,0,9,179,Cash,Delivered,Failed,68,4,5,Phone,No,Cold food
+906,129,3,Green Bowl,Healthy,Smoothie Bowl,17-06-2026,2:24:00 PM,Pune,College Road,2,399,25,40,40,678,Debit Card,Delivered,On Time,70,1,5,Mobile App,Yes,Missing item
+907,176,10,Cafe Aroma,Cafe,Sandwich,09-11-2026,9:29:00 AM,Nashik,Baner,3,149,10,0,22,425,Upi,Cancelled,Late,55,7,2,Phone,Yes,Late delivery
+908,314,3,Green Bowl,Healthy,Grilled Salad,20-06-2026,11:13:00 PM,Nagpur,Baner,2,349,5,35,35,733,Cash,Delivered,Failed,48,5,5,Phone,No,Missing item
+909,214,8,Sweet Treats,Desserts,Cheesecake,23-01-2026,9:42:00 AM,Thane,Wakad,1,249,15,40,12,264,Debit Card,Refunded,Failed,19,2,4,Website,No,Wrong item
+910,231,1,Spice Hub,Indian,Veg Thali,28-04-2026,10:48:00 PM,Nagpur,Baner,3,199,10,25,30,592,Cash,Delivered,On Time,29,1,2,Website,No,None
+911,60,9,Roll Express,Street Food,Chicken Roll,06-06-2026,8:29:00 PM,Nagpur,Dharampeth,2,299,15,20,30,558,Debit Card,Delivered,On Time,50,5,4,Phone,Yes,None
+912,190,7,Dosa Corner,South Indian,Uttapam,02-10-2026,11:13:00 AM,Aurangabad,Viman Nagar,2,299,0,0,30,628,Cash,Delivered,On Time,62,4,5,Mobile App,Yes,Wrong item
+913,2,2,Burger Barn,Fast Food,French Fries,28-05-2026,10:33:00 AM,Pune,Viman Nagar,5,349,20,0,87,1483,Credit Card,Delivered,On Time,24,7,5,Website,No,None
+914,48,9,Roll Express,Street Food,Frankie,10-01-2026,3:52:00 PM,Mumbai,Thane West,2,299,20,35,30,543,Credit Card,Delivered,Failed,20,3,4,Phone,Yes,Missing item
+915,388,2,Burger Barn,Indian,Chicken Burger,02-02-2026,5:32:00 AM,Pune,Andheri,1,0,15,50,7,184,Cash,Delivered,Late,27,1,4,Phone,No,Late delivery
+916,337,3,Green Bowl,Healthy,Smoothie Bowl,04-08-2026,9:11:00 PM,Thane,College Road,2,399,20,40,40,718,Cash,Delivered,Late,62,6,3,Website,Yes,None
+917,384,1,Spice Hub,Indian,Paneer Tikka,20-08-2026,6:25:00 AM,Nashik,College Road,1,229,0,40,11,280,Upi,On The Way,On Time,56,7,4,Mobile App,Yes,Missing item
+918,327,3,Green Bowl,Healthy,Protein Bowl,31-08-2026,4:52:00 PM,Mumbai,Viman Nagar,2,349,20,50,35,643,Wallet,Delivered,Late,54,3,5,Mobile App,Yes,None
+919,272,5,Dragon Wok,Chinese,Fried Rice,03-12-2026,11:45:00 PM,Pune,College Road,1,249,0,25,12,286,Debit Card,Delivered,Failed,41,3,5,Website,Yes,None
+920,49,5,Dragon Wok,Chinese,Fried Rice,17-06-2026,6:18:00 AM,Nashik,Andheri,2,149,15,35,15,303,Upi,Delivered,On Time,21,5,4,Mobile App,Yes,Late delivery
+921,282,1,Spice Hub,Indian,Chicken Biryani,22-05-2026,10:37:00 AM,Thane,Viman Nagar,3,349,25,35,52,873,Upi,On The Way,Late,20,7,5,Mobile App,No,Cold food
+922,245,2,Burger Barn,Fast Food,Classic Burger,20-06-2026,9:11:00 AM,Nagpur,Andheri,2,149,0,0,15,313,Cash,On The Way,Failed,52,1,1,Website,Yes,Missing item
+923,9,9,Roll Express,Street Food,Schezwan Roll,05-07-2026,2:47:00 AM,Mumbai,Kothrud,1,149,20,35,7,162,Credit Card,Cancelled,Failed,21,7,5,Phone,Yes,Cold food
+924,342,1,Spice Hub,Indian,Butter Chicken,25-09-2026,9:19:00 AM,Mumbai,Dharampeth,2,179,10,35,18,375,Debit Card,Delivered,Late,42,2,3,Website,No,Missing item
+925,59,5,Dragon Wok,Chinese,Spring Rolls,18-05-2026,8:30:00 AM,Thane,Wakad,2,129,20,30,13,249,Debit Card,Delivered,Failed,53,2,4,Phone,Yes,Missing item
+926,69,2,Burger Barn,Fast Food,French Fries,05-08-2026,4:31:00 AM,Nashik,Hinjewadi,2,179,0,40,18,416,Wallet,Delivered,On Time,19,6,5,Mobile App,Yes,None
+927,167,7,Dosa Corner,South Indian,Vada,24-02-2026,11:39:00 AM,Nagpur,Dharampeth,1,149,0,40,7,196,Debit Card,Delivered,Late,22,6,5,Mobile App,Yes,Late delivery
+928,130,7,Dosa Corner,South Indian,Masala Dosa,30-06-2026,6:25:00 AM,Nagpur,College Road,3,499,0,30,75,1602,Credit Card,Delivered,On Time,32,7,4,Mobile App,No,Missing item
+929,243,5,Dragon Wok,Chinese,Hakka Noodles,15-04-2026,2:06:00 PM,Thane,College Road,1,199,0,25,10,234,Debit Card,Delivered,Late,42,6,5,Mobile App,No,Late delivery
+930,331,5,Dragon Wok,Chinese,Spring Rolls,09-02-2026,1:19:00 PM,Nagpur,Wakad,1,299,0,30,15,344,Wallet,On The Way,Failed,16,6,5,Mobile App,Yes,Wrong item
+931,11,6,Taco Town,Mexican,Veg Tacos,25-09-2026,8:41:00 AM,Thane,Hinjewadi,2,199,25,40,20,358,Credit Card,Delivered,Late,34,3,5,Mobile App,Yes,Cold food
+932,1,9,Roll Express,Street Food,Schezwan Roll,01-02-2026,5:05:00 AM,Mumbai,Kothrud,4,229,25,40,46,773,Upi,Cancelled,Failed,41,3,4,Phone,No,Wrong item
+933,101,5,Dragon Wok,Chinese,Manchurian,10-06-2026,9:27:00 PM,Nashik,Baner,1,399,15,35,20,394,Debit Card,Delivered,Late,39,4,4,Mobile App,No,Cold food
+934,23,4,Pizza Point,Italian,Pasta Alfredo,08-09-2026,7:11:00 PM,Nagpur,Thane West,1,129,0,35,6,170,Wallet,On The Way,Failed,29,1,4,Mobile App,No,Late delivery
+935,190,4,Pizza Point,Italian,Garlic Bread,20-04-2026,7:27:00 AM,Mumbai,Hinjewadi,1,99,5,0,5,99,Debit Card,On The Way,On Time,41,5,3,Mobile App,Yes,Wrong item
+936,388,10,Cafe Aroma,Cafe,Cappuccino,10-02-2026,9:28:00 PM,Nagpur,Wakad,4,179,0,30,36,782,Cash,Delivered,Late,49,1,3,Mobile App,Yes,Missing item
+937,50,5,Dragon Wok,Chinese,Hakka Noodles,01-01-2026,2:34:00 PM,Aurangabad,Viman Nagar,2,229,25,30,23,396,Credit Card,Delivered,On Time,25,7,1,Mobile App,Yes,None
+938,17,3,Green Bowl,Healthy,Quinoa Bowl,04-11-2026,7:08:00 AM,Aurangabad,Wakad,1,199,10,0,10,189,Debit Card,Delivered,Failed,29,7,5,Website,No,Late delivery
+939,216,2,Burger Barn,Fast Food,Classic Burger,23-03-2026,4:10:00 PM,Pune,Kothrud,1,149,5,0,7,149,Credit Card,Delivered,On Time,58,2,5,Website,Yes,Cold food
+940,300,4,Pizza Point,Italian,Farmhouse Pizza,27-03-2026,9:05:00 AM,Nagpur,Kothrud,2,349,20,35,35,628,Wallet,On The Way,Failed,74,6,4,Phone,Yes,Cold food
+941,396,7,Dosa Corner,South Indian,Masala Dosa,30-03-2026,8:51:00 PM,Mumbai,Thane West,3,299,5,25,45,922,Debit Card,Delivered,Late,28,7,5,Phone,No,None
+942,287,10,Cafe Aroma,Cafe,Pasta,03-01-2026,11:42:00 PM,Nagpur,Kothrud,1,99,0,40,5,144,Upi,Cancelled,Failed,75,9,5,Phone,Yes,Late delivery
+943,276,4,Pizza Point,Italian,Margherita Pizza,26-01-2026,5:21:00 PM,Nashik,Viman Nagar,3,349,0,20,52,1119,Debit Card,Delivered,Failed,20,2,4,Mobile App,Yes,Cold food
+944,37,8,Sweet Treats,Desserts,Cheesecake,16-04-2026,4:46:00 AM,Aurangabad,Dharampeth,3,179,20,40,27,496,Upi,Delivered,Failed,24,7,5,Website,No,Late delivery
+945,371,5,Dragon Wok,Chinese,Hakka Noodles,22-06-2026,1:01:00 AM,Pune,Andheri,1,99,25,0,5,79,Credit Card,Cancelled,Failed,59,7,1,Phone,Yes,None
+946,310,4,Pizza Point,Italian,Margherita Pizza,09-04-2026,3:21:00 AM,Aurangabad,Kothrud,1,349,20,25,17,322,Debit Card,Delivered,Late,55,4,5,Phone,Yes,Missing item
+947,148,5,Dragon Wok,Chinese,Spring Rolls,30-05-2026,8:54:00 AM,Thane,Hinjewadi,1,349,25,20,17,299,Credit Card,Delivered,On Time,51,7,4,Website,Yes,Wrong item
+948,126,7,Dosa Corner,South Indian,Vada,29-08-2026,1:22:00 AM,Nashik,Andheri,2,299,0,0,30,628,Upi,Delivered,Late,15,6,5,Phone,No,Missing item
+949,165,3,Green Bowl,Healthy,Protein Bowl,27-07-2026,12:53:00 PM,Aurangabad,Baner,2,179,10,20,18,360,Debit Card,Cancelled,Late,47,7,3,Mobile App,No,None
+950,236,9,Roll Express,Street Food,Frankie,21-01-2026,9:20:00 PM,Pune,Dharampeth,1,249,0,20,12,281,Credit Card,Delivered,On Time,69,1,5,Mobile App,No,None
+951,133,2,Burger Barn,Fast Food,French Fries,20-07-2026,8:37:00 AM,Thane,College Road,3,129,15,35,19,383,Cash,Cancelled,On Time,31,5,5,Mobile App,No,Late delivery
+952,152,9,Roll Express,Street Food,Chicken Roll,02-02-2026,1:38:00 PM,Thane,Viman Nagar,1,149,20,0,7,127,Cash,Delivered,Late,40,2,5,Mobile App,Yes,Cold food
+953,200,3,Green Bowl,Healthy,Protein Bowl,07-08-2026,6:02:00 PM,Aurangabad,Thane West,1,129,5,50,6,179,Credit Card,Delivered,Late,44,7,5,Website,No,None
+954,374,3,Green Bowl,Healthy,Quinoa Bowl,26-07-2026,7:49:00 AM,Aurangabad,Hinjewadi,2,229,5,35,23,493,Cash,Delivered,Late,33,3,3,Website,No,Wrong item
+955,358,9,Roll Express,Street Food,Chicken Roll,10-10-2026,5:14:00 PM,Pune,Andheri,4,99,25,20,20,337,Credit Card,Cancelled,Late,38,5,3,Phone,Yes,Wrong item
+956,182,1,Spice Hub,Indian,Veg Thali,29-05-2026,11:26:00 PM,Thane,Viman Nagar,2,199,0,20,20,438,Wallet,On The Way,Late,28,6,5,Mobile App,No,Late delivery
+957,279,3,Green Bowl,Healthy,Quinoa Bowl,22-02-2026,3:04:00 AM,Thane,Wakad,1,399,10,35,20,414,Credit Card,Delivered,Failed,71,1,5,Phone,Yes,Cold food
+958,190,4,Pizza Point,Italian,Garlic Bread,03-10-2026,1:49:00 PM,Nashik,Thane West,2,179,0,30,18,406,Upi,On The Way,Late,61,5,2,Website,Yes,None
+959,66,3,Green Bowl,Healthy,Quinoa Bowl,17-04-2026,12:54:00 AM,Mumbai,Thane West,5,99,15,0,25,446,Debit Card,Delivered,Late,41,6,3,Phone,No,Wrong item
+960,69,5,Dragon Wok,Chinese,Hakka Noodles,03-03-2026,2:10:00 PM,Pune,Viman Nagar,4,399,20,20,80,1377,Wallet,Delivered,Late,54,7,5,Mobile App,No,None
+961,209,9,Roll Express,Street Food,Chicken Roll,30-05-2026,7:42:00 AM,Mumbai,Kothrud,1,349,10,25,17,357,Credit Card,Preparing,Failed,52,5,3,Phone,Yes,None
+962,375,4,Pizza Point,Italian,Farmhouse Pizza,20-08-2026,9:23:00 AM,Mumbai,Dharampeth,1,249,0,0,12,261,Wallet,Delivered,Late,17,6,5,Mobile App,No,None
+963,60,6,Taco Town,Mexican,Burrito Bowl,05-02-2026,4:48:00 PM,Nagpur,Baner,4,249,10,50,50,996,Upi,Cancelled,On Time,48,7,5,Mobile App,Yes,Wrong item
+964,382,7,Dosa Corner,South Indian,Idli Sambar,23-07-2026,8:44:00 PM,Pune,Kothrud,1,99,10,20,5,114,Credit Card,Delivered,Late,19,3,4,Website,Yes,Cold food
+965,74,9,Roll Express,Street Food,Chicken Roll,04-04-2026,2:53:00 PM,Thane,Viman Nagar,2,299,20,50,30,558,Debit Card,Delivered,Failed,63,1,4,Mobile App,Yes,Wrong item
+966,282,9,Roll Express,Street Food,Chicken Roll,01-03-2026,6:00:00 PM,Nagpur,Baner,5,179,5,25,45,920,Credit Card,Delivered,On Time,5,6,5,Website,Yes,None
+967,298,2,Burger Barn,Fast Food,Classic Burger,07-09-2026,3:24:00 PM,Nashik,Viman Nagar,2,99,15,50,10,228,Wallet,Delivered,On Time,38,1,5,Phone,No,Wrong item
+968,193,10,Cafe Aroma,Cafe,Sandwich,26-03-2026,1:45:00 PM,Thane,College Road,2,399,15,40,40,758,Upi,Delivered,Failed,54,3,4,Mobile App,No,Missing item
+969,317,7,Dosa Corner,South Indian,Idli Sambar,05-08-2026,5:00:00 AM,Mumbai,Wakad,1,129,5,0,6,129,Upi,Cancelled,On Time,71,7,4,Mobile App,No,Late delivery
+970,204,7,Dosa Corner,South Indian,Masala Dosa,26-07-2026,7:14:00 PM,Nagpur,Thane West,2,99,10,35,10,223,Upi,Delivered,Failed,50,4,4,Mobile App,Yes,Wrong item
+971,267,9,Roll Express,Street Food,Chicken Roll,27-04-2026,5:44:00 PM,Aurangabad,Dharampeth,2,229,20,40,23,429,Upi,Delivered,Late,38,7,5,Mobile App,No,Cold food
+972,208,2,Burger Barn,Fast Food,Chicken Burger,14-03-2026,11:43:00 PM,Thane,Kothrud,2,249,5,0,25,498,Cash,Delivered,Failed,69,3,5,Mobile App,No,Missing item
+973,352,7,Dosa Corner,South Indian,Idli Sambar,26-06-2026,1:53:00 PM,Mumbai,Dharampeth,2,179,0,35,18,411,Debit Card,Delivered,Late,42,9,2,Mobile App,No,Late delivery
+974,21,5,Dragon Wok,Chinese,Hakka Noodles,24-07-2026,6:28:00 PM,Mumbai,College Road,1,399,25,50,20,369,Credit Card,Delivered,On Time,47,1,4,Phone,No,Missing item
+975,343,7,Dosa Corner,South Indian,Idli Sambar,19-07-2026,2:08:00 AM,Thane,Andheri,5,129,25,50,32,566,Upi,Delivered,On Time,27,1,2,Website,Yes,Missing item
+976,91,5,Dragon Wok,Chinese,Manchurian,02-11-2026,10:00:00 AM,Thane,College Road,2,129,25,40,13,246,Cash,Delivered,Failed,44,2,4,Mobile App,No,Late delivery
+977,230,5,Dragon Wok,Chinese,Manchurian,19-05-2026,12:34:00 AM,Aurangabad,Thane West,3,299,10,35,45,887,Cash,Delivered,Failed,25,2,2,Phone,Yes,Wrong item
+978,309,1,Spice Hub,Indian,Paneer Tikka,17-02-2026,4:47:00 PM,Nashik,Baner,2,299,10,0,30,568,Cash,Refunded,Failed,51,6,5,Phone,No,None
+979,190,4,Pizza Point,Italian,Garlic Bread,04-12-2026,6:55:00 AM,Pune,College Road,1,129,0,25,6,160,Wallet,Delivered,On Time,74,4,3,Mobile App,Yes,Late delivery
+980,343,2,Burger Barn,Fast Food,Chicken Burger,02-10-2026,8:34:00 PM,Mumbai,College Road,1,249,0,20,12,281,Cash,Cancelled,Failed,30,5,5,Website,No,None
+981,87,4,Pizza Point,Italian,Farmhouse Pizza,10-06-2026,3:16:00 PM,Pune,Kothrud,1,499,15,25,25,474,Cash,Delivered,Late,52,5,2,Mobile App,Yes,Cold food
+982,56,5,Dragon Wok,Chinese,Manchurian,26-05-2026,1:48:00 AM,Pune,College Road,1,179,20,25,9,177,Wallet,Preparing,On Time,40,9,4,Mobile App,Yes,Late delivery
+983,215,2,Burger Barn,Fast Food,French Fries,09-09-2026,8:06:00 PM,Thane,Dharampeth,2,149,0,40,15,353,Debit Card,Delivered,Failed,48,7,5,Website,No,Late delivery
+984,210,7,Dosa Corner,South Indian,Masala Dosa,29-04-2026,6:24:00 PM,Nashik,Wakad,1,129,25,35,6,138,Wallet,Delivered,Late,58,6,5,Mobile App,No,Missing item
+985,255,9,Roll Express,Street Food,Chicken Roll,08-08-2026,1:44:00 PM,Nagpur,Dharampeth,2,129,10,30,13,275,Credit Card,Cancelled,On Time,40,3,5,Mobile App,No,Missing item
+986,202,3,Green Bowl,Healthy,Protein Bowl,13-02-2026,10:29:00 PM,Pune,Andheri,3,149,0,40,22,509,Wallet,Delivered,Late,58,1,3,Phone,No,Cold food
+987,234,10,Cafe Aroma,Cafe,Cappuccino,18-03-2026,2:29:00 AM,Thane,Dharampeth,2,149,0,35,15,348,Debit Card,On The Way,On Time,51,4,4,Phone,No,Missing item
+988,374,1,Spice Hub,Indian,Vada,23-03-2026,4:19:00 AM,Aurangabad,Dharampeth,3,99,25,25,15,263,Cash,Cancelled,Failed,75,5,5,Phone,No,Missing item
+989,332,5,Dragon Wok,Chinese,Hakka Noodles,03-08-2026,10:10:00 AM,Nashik,Andheri,3,229,25,40,34,590,Cash,Delivered,Failed,50,5,5,Phone,No,None
+990,394,8,Sweet Treats,Desserts,Brownie,16-02-2026,12:11:00 PM,Pune,College Road,4,179,15,30,36,674,Debit Card,Delivered,Late,45,7,3,Mobile App,Yes,Cold food
+991,368,8,Sweet Treats,Desserts,Brownie,10-06-2026,4:48:00 PM,Mumbai,Andheri,1,149,25,35,7,154,Wallet,Delivered,Failed,42,2,4,Website,Yes,Missing item
+992,138,6,Taco Town,Mexican,Veg Tacos,26-09-2026,12:01:00 AM,Aurangabad,Andheri,1,149,20,40,7,167,Cash,Cancelled,Late,38,6,2,Phone,No,Cold food
+993,192,10,Cafe Aroma,Cafe,Sandwich,20-01-2026,1:02:00 AM,Nashik,Kothrud,2,149,5,35,15,333,Wallet,Delivered,Late,62,4,4,Phone,No,Late delivery
+994,295,3,Green Bowl,Healthy,Protein Bowl,30-06-2026,8:52:00 PM,Nagpur,Wakad,1,499,0,40,25,564,Credit Card,Refunded,Failed,58,5,4,Mobile App,No,Cold food
+995,248,3,Green Bowl,Healthy,Grilled Salad,14-05-2026,2:43:00 AM,Nashik,Thane West,2,229,0,35,23,516,Credit Card,Cancelled,Failed,61,2,5,Website,Yes,Late delivery
+996,287,6,Taco Town,Mexican,Nachos,29-09-2026,8:45:00 PM,Nashik,Andheri,3,229,0,20,34,741,Upi,On The Way,Failed,75,4,4,Phone,No,Cold food
+997,100,9,Roll Express,Street Food,Frankie,16-06-2026,12:32:00 AM,Aurangabad,Hinjewadi,2,299,25,40,30,518,Wallet,Delivered,Failed,31,1,3,Mobile App,No,Missing item
+998,187,8,Sweet Treats,Desserts,Brownie,26-03-2026,1:36:00 AM,Nagpur,Viman Nagar,1,229,10,20,11,226,Upi,Delivered,Late,17,3,2,Website,Yes,Wrong item
